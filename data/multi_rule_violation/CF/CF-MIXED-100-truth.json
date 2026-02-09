@@ -1,0 +1,2019 @@
+{
+  "metadata": {
+    "task": "cf_mixed_evaluation",
+    "total_companies": 100,
+    "clean_companies": 20,
+    "anomalous_companies": 80,
+    "description": "Mixed dataset: 20% clean, 80% anomalous for balanced evaluation",
+    "random_seed": 42
+  },
+  "ground_truth": {
+    "Dell Technologies \u2014 February 3, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $13.03 |",
+          "insert_index": 20,
+          "amount": 13.03
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Investing Activities",
+          "removed_line_index": 16
+        }
+      ]
+    },
+    "Seagate Technology \u2014 July 2, 2021": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Eli Lilly \u2014 2023": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Dell \u2014 February 2, 2024": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 22
+        },
+        {
+          "error": "CF03",
+          "line_index": 31,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Resources",
+          "original_line": "|  |  | Change in cash, cash equivalents, and restricted cash | -1,387 |",
+          "modified_line": "|  |  | Change in resources, resources equivalents, and restricted resources | -1,387 |"
+        }
+      ]
+    },
+    "Electronic Arts \u2014 Year Ended March 31, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $1.55 |",
+          "insert_index": 26,
+          "amount": 1.55
+        },
+        {
+          "error": "CF03",
+          "line_index": 23,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Net Assets",
+          "original_line": "| Financing Activities |  | Effect of foreign exchange on cash and cash equivalents | -41 |",
+          "modified_line": "| Financing Activities |  | Effect of foreign exchange on net assets and net assets equivalents | -41 |"
+        }
+      ]
+    },
+    "Baxter International \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 46,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Treasury",
+          "original_line": "| Financing Activities |  | Cash, cash equivalents and restricted cash | 1,722 |",
+          "modified_line": "| Financing Activities |  | Treasury, treasury equivalents and restricted treasury | 1,722 |"
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Operating Activities",
+          "removed_line_index": 4
+        }
+      ]
+    },
+    "Robinhood \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Investing Activities",
+          "removed_line_index": 22
+        },
+        {
+          "error": "CF03",
+          "line_index": 41,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Treasury",
+          "original_line": "| Financing Activities |  | Cash, cash equivalents, segregated cash, and restricted cash, beginning of the period | 10,270 |",
+          "modified_line": "| Financing Activities |  | Treasury, treasury equivalents, segregated treasury, and restricted treasury, beginning of the period | 10,270 |"
+        }
+      ]
+    },
+    "Procter and Gamble \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 28,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Net Assets",
+          "original_line": "| Financing Activities |  | EFFECT OF EXCHANGE RATE CHANGES ON CASH, CASH EQUIVALENTS AND RESTRICTED CASH | 101 |",
+          "modified_line": "| Financing Activities |  | EFFECT OF EXCHANGE RATE CHANGES ON CASH, CASH EQUIVALENTS AND RESTRICTED CASH | 101 |"
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $9.15 |",
+          "insert_index": 15,
+          "amount": 9.15
+        }
+      ]
+    },
+    "NIO \u2014 2021 RMB": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 53,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Working Capital",
+          "original_line": "| Financing Activities |  | Net increase/(decrease) in cash, cash equivalents and restricted cash | -28,251,862 |",
+          "modified_line": "| Financing Activities |  | Net increase/(decrease) in working capital, working capital equivalents and restricted working capital | -28,251,862 |"
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $0.85 |",
+          "insert_index": 18,
+          "amount": 0.85
+        }
+      ]
+    },
+    "AMD \u2014 December 31, 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $8.04 |",
+          "insert_index": 15,
+          "amount": 8.04
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Investing Activities",
+          "removed_line_index": 22
+        }
+      ]
+    },
+    "Etsy \u2014 As of December 31, 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 9,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Net Capital",
+          "original_line": "|  | Ending balance: | Total cash and cash equivalents, and restricted cash | 926,619 |",
+          "modified_line": "|  | Ending balance: | Total net capital and net capital equivalents, and restricted cash | 926,619 |"
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $2.84 |",
+          "insert_index": 6,
+          "amount": 2.84
+        }
+      ]
+    },
+    "FedEx \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $7.83 |",
+          "insert_index": 2,
+          "amount": 7.83
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 23
+        }
+      ]
+    },
+    "Lucid Motors \u2014 Year Ended December 31, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $9.17 |",
+          "insert_index": 16,
+          "amount": 9.17
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Investing Activities",
+          "removed_line_index": 26
+        }
+      ]
+    },
+    "NXP Semiconductors \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $12.84 |",
+          "insert_index": 7,
+          "amount": 12.84
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 38
+        }
+      ]
+    },
+    "Delta Air Lines \u2014 Year Ended December 31, 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 30,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Financial Position",
+          "original_line": "| Financing Activities |  | Cash, cash equivalents and restricted cash at end of period | 3,473 |",
+          "modified_line": "| Financing Activities |  | Financial Position, financial position equivalents and restricted financial position at end of period | 3,473 |"
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Operating Activities",
+          "removed_line_index": 4
+        }
+      ]
+    },
+    "Luckin Coffee \u2014 2022 RMB": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $12.13 |",
+          "insert_index": 18,
+          "amount": 12.13
+        },
+        {
+          "error": "CF03",
+          "line_index": 49,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Working Capital",
+          "original_line": "| Investing Activities | Changes in reconciliation of cash and cash equivalents and restricted cash: | Cash and cash equivalents | 3,534,404 |",
+          "modified_line": "| Investing Activities | Changes in reconciliation of cash and cash equivalents and restricted cash: | Working Capital and working capital equivalents | 3,534,404 |"
+        }
+      ]
+    },
+    "Eli Lilly \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $5.87 |",
+          "insert_index": 26,
+          "amount": 5.87
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Investing Activities",
+          "removed_line_index": 16
+        }
+      ]
+    },
+    "Bank of America \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $0.92 |",
+          "insert_index": 20,
+          "amount": 0.92
+        },
+        {
+          "error": "CF03",
+          "line_index": 38,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Financial Position",
+          "original_line": "| Financing Activities |  | Cash and cash equivalents at January 1 | 230,203 |",
+          "modified_line": "| Financing Activities |  | Financial Position and financial position equivalents at January 1 | 230,203 |"
+        }
+      ]
+    },
+    "Oracle \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $12.16 |",
+          "insert_index": 17,
+          "amount": 12.16
+        },
+        {
+          "error": "CF03",
+          "line_index": 28,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Working Capital",
+          "original_line": "| Financing Activities |  | Effect of exchange rate changes on cash and cash equivalents | -348 |",
+          "modified_line": "| Financing Activities |  | Effect of exchange rate changes on working capital and working capital equivalents | -348 |"
+        }
+      ]
+    },
+    "General Electric \u2014 2023": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Berkshire Hathaway \u2014 Year Ended December 31, 2022": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Target \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $11.56 |",
+          "insert_index": 21,
+          "amount": 11.56
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Operating Activities",
+          "removed_line_index": 4
+        }
+      ]
+    },
+    "Procter and Gamble \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Operating Activities",
+          "removed_line_index": 5
+        },
+        {
+          "error": "CF03",
+          "line_index": 4,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Resources",
+          "original_line": "|  |  | CASH, CASH EQUIVALENTS AND RESTRICTED CASH, BEGINNING OF YEAR | 10,288 |",
+          "modified_line": "|  |  | CASH, CASH EQUIVALENTS AND RESTRICTED CASH, BEGINNING OF YEAR | 10,288 |"
+        }
+      ]
+    },
+    "Netflix \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 29,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Treasury",
+          "original_line": "| Financing Activities |  | Cash, cash equivalents and restricted cash, beginning of year | 8,238,870 |",
+          "modified_line": "| Financing Activities |  | Treasury, treasury equivalents and restricted treasury, beginning of year | 8,238,870 |"
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $7.24 |",
+          "insert_index": 29,
+          "amount": 7.24
+        }
+      ]
+    },
+    "Adobe \u2014 December 1, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 28,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Financial Position",
+          "original_line": "| Financing Activities |  | Effect of foreign currency exchange rates on cash and cash equivalents | 9 |",
+          "modified_line": "| Financing Activities |  | Effect of foreign currency exchange rates on financial position and financial position equivalents | 9 |"
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Operating Activities",
+          "removed_line_index": 4
+        }
+      ]
+    },
+    "Whirlpool \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Operating Activities",
+          "removed_line_index": 4
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $8.32 |",
+          "insert_index": 2,
+          "amount": 8.32
+        }
+      ]
+    },
+    "Palantir \u2014 Years Ended December 31, 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 31,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Capital",
+          "original_line": "| Financing Activities |  | Net increase (decrease) in cash, cash equivalents, and restricted cash | 260,313 |",
+          "modified_line": "| Financing Activities |  | Net increase (decrease) in capital, capital equivalents, and restricted capital | 260,313 |"
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Operating Activities",
+          "removed_line_index": 4
+        }
+      ]
+    },
+    "Caterpillar \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 38,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Working Capital",
+          "original_line": "| Financing Activities |  | Cash, cash equivalents and restricted cash at end of period | 6,985 |",
+          "modified_line": "| Financing Activities |  | Working Capital, working capital equivalents and restricted working capital at end of period | 6,985 |"
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 30
+        }
+      ]
+    },
+    "Netflix \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 23
+        },
+        {
+          "error": "CF03",
+          "line_index": 27,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Net Assets",
+          "original_line": "| Financing Activities |  | Net increase (decrease) in cash, cash equivalents and restricted cash | -884,529 |",
+          "modified_line": "| Financing Activities |  | Net increase (decrease) in net assets, net assets equivalents and restricted net assets | -884,529 |"
+        }
+      ]
+    },
+    "ON Semiconductor \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $13.57 |",
+          "insert_index": 37,
+          "amount": 13.57
+        },
+        {
+          "error": "CF03",
+          "line_index": 43,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Resources",
+          "original_line": "| Financing Activities |  | Net increase (decrease) in cash, cash equivalents and restricted cash | 296.2 |",
+          "modified_line": "| Financing Activities |  | Net increase (decrease) in resources, resources equivalents and restricted resources | 296.2 |"
+        }
+      ]
+    },
+    "Caterpillar \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Investing Activities",
+          "removed_line_index": 19
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $13.54 |",
+          "insert_index": 5,
+          "amount": 13.54
+        }
+      ]
+    },
+    "Honda \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $1.85 |",
+          "insert_index": 10,
+          "amount": 1.85
+        },
+        {
+          "error": "CF03",
+          "line_index": 39,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Resources",
+          "original_line": "| Financing Activities |  | Cash and cash equivalents and restricted cash at end of year | 2,250 |",
+          "modified_line": "| Financing Activities |  | Resources and resources equivalents and restricted cash at end of year | 2,250 |"
+        }
+      ]
+    },
+    "Toyota \u2014 For the year ended March 31, 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 38,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Net Capital",
+          "original_line": "| Financing Activities |  | Net increase (decrease) in cash and cash equivalents | 1,012,798 |",
+          "modified_line": "| Financing Activities |  | Net increase (decrease) in net capital and net capital equivalents | 1,012,798 |"
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 30
+        }
+      ]
+    },
+    "Cisco Systems \u2014 July 29, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 28
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $1.03 |",
+          "insert_index": 8,
+          "amount": 1.03
+        }
+      ]
+    },
+    "Delta Air Lines \u2014 Year Ended December 31, 2023": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Kellogg_s \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Operating Activities",
+          "removed_line_index": 4
+        },
+        {
+          "error": "CF03",
+          "line_index": 29,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Working Capital",
+          "original_line": "| Financing Activities |  | Increase (decrease) in cash and cash equivalents | \u2014 |",
+          "modified_line": "| Financing Activities |  | Increase (decrease) in working capital and working capital equivalents | \u2014 |"
+        }
+      ]
+    },
+    "Broadcom \u2014 October 29, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $12.4 |",
+          "insert_index": 30,
+          "amount": 12.4
+        },
+        {
+          "error": "CF03",
+          "line_index": 32,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Capital",
+          "original_line": "| Financing Activities |  | Net change in cash and cash equivalents | 1,773 |",
+          "modified_line": "| Financing Activities |  | Net change in capital and capital equivalents | 1,773 |"
+        }
+      ]
+    },
+    "NVIDIA \u2014 January 29, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $14.23 |",
+          "insert_index": 8,
+          "amount": 14.23
+        },
+        {
+          "error": "CF03",
+          "line_index": 33,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Net Assets",
+          "original_line": "| Financing Activities |  | Cash and cash equivalents at beginning of period | 1,990 |",
+          "modified_line": "| Financing Activities |  | Net Assets and net assets equivalents at beginning of period | 1,990 |"
+        }
+      ]
+    },
+    "Dell \u2014 January 28, 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $9.89 |",
+          "insert_index": 32,
+          "amount": 9.89
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 22
+        }
+      ]
+    },
+    "Roku \u2014 2023": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Dell Technologies \u2014 January 28, 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 23
+        },
+        {
+          "error": "CF03",
+          "line_index": 32,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Funds",
+          "original_line": "|  |  | Change in cash, cash equivalents, and restricted cash | -5,102 |",
+          "modified_line": "|  |  | Change in funds, funds equivalents, and restricted funds | -5,102 |"
+        }
+      ]
+    },
+    "Luckin Coffee \u2014 2023 RMB": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $6.05 |",
+          "insert_index": 5,
+          "amount": 6.05
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Investing Activities",
+          "removed_line_index": 29
+        }
+      ]
+    },
+    "Target \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 18
+        },
+        {
+          "error": "CF03",
+          "line_index": 25,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Funds",
+          "original_line": "| Financing Activities |  | Cash and cash equivalents at end of period | 5,911 |",
+          "modified_line": "| Financing Activities |  | Funds and funds equivalents at end of period | 5,911 |"
+        }
+      ]
+    },
+    "HP \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $7.96 |",
+          "insert_index": 20,
+          "amount": 7.96
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 25
+        }
+      ]
+    },
+    "AbbVie \u2014 2023": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Netflix \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Operating Activities",
+          "removed_line_index": 4
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $6.79 |",
+          "insert_index": 14,
+          "amount": 6.79
+        }
+      ]
+    },
+    "Goldman Sachs \u2014 Year Ended December 2023": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Merck \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Investing Activities",
+          "removed_line_index": 22
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $5.3 |",
+          "insert_index": 32,
+          "amount": 5.3
+        }
+      ]
+    },
+    "Disney \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 24
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $6.91 |",
+          "insert_index": 20,
+          "amount": 6.91
+        }
+      ]
+    },
+    "Marriott \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $0.7 |",
+          "insert_index": 20,
+          "amount": 0.7
+        },
+        {
+          "error": "CF03",
+          "line_index": 30,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Treasury",
+          "original_line": "| Financing Activities |  | (DECREASE) INCREASE IN CASH, CASH EQUIVALENTS, AND RESTRICTED CASH | -896 |",
+          "modified_line": "| Financing Activities |  | (DECREASE) INCREASE IN CASH, CASH EQUIVALENTS, AND RESTRICTED CASH | -896 |"
+        }
+      ]
+    },
+    "Etsy \u2014 2023": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Chevron \u2014 Year ended December 31, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 29,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Net Assets",
+          "original_line": "| Financing Activities |  | Net Change in Cash, Cash Equivalents and Restricted Cash | 9,846 |",
+          "modified_line": "| Financing Activities |  | Net Change in Net Assets, Net Assets Equivalents and Restricted Net Assets | 9,846 |"
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $7.54 |",
+          "insert_index": 9,
+          "amount": 7.54
+        }
+      ]
+    },
+    "Visa \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 26
+        },
+        {
+          "error": "CF03",
+          "line_index": 23,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Capital",
+          "original_line": "| Investing Activities | Investment securities: | Acquisitions, net of cash and restricted cash acquired | -75 |",
+          "modified_line": "| Investing Activities | Investment securities: | Acquisitions, net of capital and restricted capital acquired | -75 |"
+        }
+      ]
+    },
+    "Coca-Cola \u2014 2020": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Allstate \u2014 Years Ended December 31, 2021": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Applied Materials \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 30,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Financial Position",
+          "original_line": "| Financing Activities |  | Cash, cash equivalents and restricted cash equivalents \u2014 end of period | 6,233 |",
+          "modified_line": "| Financing Activities |  | Financial Position, financial position equivalents and restricted financial position equivalents \u2014 end of period | 6,233 |"
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $6.02 |",
+          "insert_index": 21,
+          "amount": 6.02
+        }
+      ]
+    },
+    "NVIDIA \u2014 January 31, 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 33,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Net Capital",
+          "original_line": "| Financing Activities |  | Cash and cash equivalents at end of period | 847 |",
+          "modified_line": "| Financing Activities |  | Net Capital and net capital equivalents at end of period | 847 |"
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Investing Activities",
+          "removed_line_index": 17
+        }
+      ]
+    },
+    "Baxter International \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 32
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $10.35 |",
+          "insert_index": 28,
+          "amount": 10.35
+        }
+      ]
+    },
+    "Chevron \u2014 Year ended December 31, 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Investing Activities",
+          "removed_line_index": 17
+        },
+        {
+          "error": "CF03",
+          "line_index": 30,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Net Capital",
+          "original_line": "| Financing Activities |  | Cash, Cash Equivalents and Restricted Cash at December 31 | 6,795 |",
+          "modified_line": "| Financing Activities |  | Net Capital, Net Capital Equivalents and Restricted Net Capital at December 31 | 6,795 |"
+        }
+      ]
+    },
+    "Merck \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $13.62 |",
+          "insert_index": 40,
+          "amount": 13.62
+        },
+        {
+          "error": "CF03",
+          "line_index": 43,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Net Assets",
+          "original_line": "| Financing Activities |  | Effect of Exchange Rate Changes on Cash, Cash Equivalents and Restricted Cash | 4,139 |",
+          "modified_line": "| Financing Activities |  | Effect of Exchange Rate Changes on Net Assets, Net Assets Equivalents and Restricted Net Assets | 4,139 |"
+        }
+      ]
+    },
+    "Zoom Video Communications \u2014 Year Ended January 31, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 30
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $14.94 |",
+          "insert_index": 36,
+          "amount": 14.94
+        }
+      ]
+    },
+    "McDonald_s \u2014 2020": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 21
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $3.71 |",
+          "insert_index": 22,
+          "amount": 3.71
+        }
+      ]
+    },
+    "Home Depot \u2014 Fiscal 2021": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Coca-Cola \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Investing Activities",
+          "removed_line_index": 14
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $5.14 |",
+          "insert_index": 20,
+          "amount": 5.14
+        }
+      ]
+    },
+    "Dell \u2014 February 3, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 33,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Funds",
+          "original_line": "|  |  | Cash, cash equivalents, and restricted cash at beginning of the period | 10,082 |",
+          "modified_line": "|  |  | Funds, funds equivalents, and restricted funds at beginning of the period | 10,082 |"
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $9.48 |",
+          "insert_index": 23,
+          "amount": 9.48
+        }
+      ]
+    },
+    "Coca-Cola \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 27,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Working Capital",
+          "original_line": "| Financing Activities |  | Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents | \u2014 |",
+          "modified_line": "| Financing Activities |  | Working Capital, Working Capital Equivalents, Restricted Working Capital and Restricted Working Capital Equivalents | \u2014 |"
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Operating Activities",
+          "removed_line_index": 4
+        }
+      ]
+    },
+    "Seagate Technology \u2014 June 30, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $2.53 |",
+          "insert_index": 8,
+          "amount": 2.53
+        },
+        {
+          "error": "CF03",
+          "line_index": 28,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Treasury",
+          "original_line": "| Financing Activities |  | Cash, cash equivalents and restricted cash at the beginning of the year | 617 |",
+          "modified_line": "| Financing Activities |  | Treasury, treasury equivalents and restricted treasury at the beginning of the year | 617 |"
+        }
+      ]
+    },
+    "ExxonMobil \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $4.8 |",
+          "insert_index": 14,
+          "amount": 4.8
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Operating Activities",
+          "removed_line_index": 4
+        }
+      ]
+    },
+    "Meta Platforms \u2014 2023": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "DuPont \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 39,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Capital",
+          "original_line": "| Financing Activities |  | (Decrease) increase in cash, cash equivalents and restricted cash | -6,699 |",
+          "modified_line": "| Financing Activities |  | (Decrease) increase in capital, capital equivalents and restricted capital | -6,699 |"
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $10.94 |",
+          "insert_index": 34,
+          "amount": 10.94
+        }
+      ]
+    },
+    "IBM \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $12.97 |",
+          "insert_index": 30,
+          "amount": 12.97
+        },
+        {
+          "error": "CF03",
+          "line_index": 34,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Funds",
+          "original_line": "| Financing Activities |  | Cash, cash equivalents and restricted cash at January 1 | 13,675 |",
+          "modified_line": "| Financing Activities |  | Funds, funds equivalents and restricted funds at January 1 | 13,675 |"
+        }
+      ]
+    },
+    "JD.com \u2014 Other Subsidiaries": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 15,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Treasury",
+          "original_line": "| Financing Activities |  | Net increase/(decrease) in cash, cash equivalents and restricted cash | -12,634 |",
+          "modified_line": "| Financing Activities |  | Net increase/(decrease) in treasury, treasury equivalents and restricted treasury | -12,634 |"
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 10
+        }
+      ]
+    },
+    "Box \u2014 Year Ended January 31, 2023": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Robinhood \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Investing Activities",
+          "removed_line_index": 22
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $12.85 |",
+          "insert_index": 8,
+          "amount": 12.85
+        }
+      ]
+    },
+    "ON Semiconductor \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 29
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $2.58 |",
+          "insert_index": 32,
+          "amount": 2.58
+        }
+      ]
+    },
+    "General Motors \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $6.85 |",
+          "insert_index": 19,
+          "amount": 6.85
+        },
+        {
+          "error": "CF03",
+          "line_index": 30,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Resources",
+          "original_line": "| Financing Activities |  | Cash, cash equivalents and restricted cash at end of period | 21,917 |",
+          "modified_line": "| Financing Activities |  | Resources, resources equivalents and restricted resources at end of period | 21,917 |"
+        }
+      ]
+    },
+    "ATandT \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $10.6 |",
+          "insert_index": 38,
+          "amount": 10.6
+        },
+        {
+          "error": "CF03",
+          "line_index": 43,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Working Capital",
+          "original_line": "| Financing Activities |  | Cash and cash equivalents and restricted cash beginning of year | 3,793 |",
+          "modified_line": "| Financing Activities |  | Working Capital and working capital equivalents and restricted cash beginning of year | 3,793 |"
+        }
+      ]
+    },
+    "ATandT \u2014 2022": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Best Buy \u2014 January 29, 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 30,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Working Capital",
+          "original_line": "| Financing Activities |  | Cash, cash equivalents and restricted cash at beginning of period | 5,625 |",
+          "modified_line": "| Financing Activities |  | Working Capital, working capital equivalents and restricted working capital at beginning of period | 5,625 |"
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $13.95 |",
+          "insert_index": 17,
+          "amount": 13.95
+        }
+      ]
+    },
+    "NIO \u2014 2023 USD": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $6.29 |",
+          "insert_index": 12,
+          "amount": 6.29
+        },
+        {
+          "error": "CF03",
+          "line_index": 53,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Resources",
+          "original_line": "| Financing Activities |  | Effect of exchange rate changes on cash, cash equivalents and restricted cash | 28,362 |",
+          "modified_line": "| Financing Activities |  | Effect of exchange rate changes on resources, resources equivalents and restricted resources | 28,362 |"
+        }
+      ]
+    },
+    "Boston Scientific \u2014 Year Ended December 31, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $13.07 |",
+          "insert_index": 14,
+          "amount": 13.07
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Operating Activities",
+          "removed_line_index": 4
+        }
+      ]
+    },
+    "Cisco Systems \u2014 July 31, 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $13.04 |",
+          "insert_index": 2,
+          "amount": 13.04
+        },
+        {
+          "error": "CF03",
+          "line_index": 40,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Treasury",
+          "original_line": "| Financing Activities |  | Cash, cash equivalents, restricted cash and restricted cash equivalents, end of fiscal year | 9,942 |",
+          "modified_line": "| Financing Activities |  | Treasury, treasury equivalents, restricted treasury and restricted cash equivalents, end of fiscal year | 9,942 |"
+        }
+      ]
+    },
+    "Morgan Stanley \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $3.39 |",
+          "insert_index": 27,
+          "amount": 3.39
+        },
+        {
+          "error": "CF03",
+          "line_index": 36,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Resources",
+          "original_line": "| Financing Activities |  | Cash and cash equivalents, at end of period | 127,725 |",
+          "modified_line": "| Financing Activities |  | Resources and resources equivalents, at end of period | 127,725 |"
+        }
+      ]
+    },
+    "3M \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 33,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Net Capital",
+          "original_line": "| Financing Activities |  | Net increase (decrease) in cash and cash equivalents | 70 |",
+          "modified_line": "| Financing Activities |  | Net increase (decrease) in net capital and net capital equivalents | 70 |"
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Operating Activities",
+          "removed_line_index": 4
+        }
+      ]
+    },
+    "UnitedHealth Group \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $8.13 |",
+          "insert_index": 32,
+          "amount": 8.13
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Operating Activities",
+          "removed_line_index": 4
+        }
+      ]
+    },
+    "Seagate Technology \u2014 July 1, 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $13.18 |",
+          "insert_index": 5,
+          "amount": 13.18
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Investing Activities",
+          "removed_line_index": 16
+        }
+      ]
+    },
+    "UnitedHealth Group \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $11.83 |",
+          "insert_index": 19,
+          "amount": 11.83
+        },
+        {
+          "error": "CF03",
+          "line_index": 33,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Net Assets",
+          "original_line": "| Financing Activities |  | Cash and cash equivalents, beginning of period | 16,921 |",
+          "modified_line": "| Financing Activities |  | Net Assets and net assets equivalents, beginning of period | 16,921 |"
+        }
+      ]
+    },
+    "NIO \u2014 2022 RMB": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Lyft \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF02",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "CF03",
+          "line_index": 37,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Net Capital",
+          "original_line": "| Financing Activities |  | Net increase (decrease) in cash, cash equivalents and restricted cash and cash equivalents | 391,822 |",
+          "modified_line": "| Financing Activities |  | Net increase (decrease) in cash, cash equivalents and restricted net capital and net capital equivalents | 391,822 |"
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $5.26 |",
+          "insert_index": 2,
+          "amount": 5.26
+        }
+      ]
+    },
+    "Berkshire Hathaway \u2014 Year Ended December 31, 2023": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "General Electric \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $3.7 |",
+          "insert_index": 41,
+          "amount": 3.7
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Operating Activities",
+          "removed_line_index": 4
+        }
+      ]
+    },
+    "Amazon \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Investing Activities",
+          "removed_line_index": 16
+        },
+        {
+          "error": "CF03",
+          "line_index": 4,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Treasury",
+          "original_line": "|  |  | CASH, CASH EQUIVALENTS, AND RESTRICTED CASH, BEGINNING OF PERIOD | 36,477 |",
+          "modified_line": "|  |  | CASH, CASH EQUIVALENTS, AND RESTRICTED CASH, BEGINNING OF PERIOD | 36,477 |"
+        }
+      ]
+    },
+    "Visa \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $9.51 |",
+          "insert_index": 18,
+          "amount": 9.51
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Operating Activities",
+          "removed_line_index": 4
+        }
+      ]
+    },
+    "Broadcom \u2014 October 31, 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Operating Activities",
+          "removed_line_index": 4
+        },
+        {
+          "error": "CF03",
+          "line_index": 31,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Financial Position",
+          "original_line": "| Financing Activities |  | Cash and cash equivalents at beginning of period | 7,618 |",
+          "modified_line": "| Financing Activities |  | Financial Position and financial position equivalents at beginning of period | 7,618 |"
+        }
+      ]
+    },
+    "Corsair Gaming \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $12.85 |",
+          "insert_index": 37,
+          "amount": 12.85
+        },
+        {
+          "error": "CF01",
+          "removed_section": "Investing Activities",
+          "removed_line_index": 17
+        }
+      ]
+    },
+    "Best Buy \u2014 January 28, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 23
+        },
+        {
+          "error": "CF03",
+          "line_index": 29,
+          "original_term": "Cash/cash equivalents",
+          "replacement_term": "Funds",
+          "original_line": "| Financing Activities |  | Cash, cash equivalents and restricted cash at beginning of period | 3,205 |",
+          "modified_line": "| Financing Activities |  | Funds, funds equivalents and restricted funds at beginning of period | 3,205 |"
+        }
+      ]
+    },
+    "Asana \u2014 Year Ended January 31, 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "CF01",
+        "CF02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "CF01",
+          "removed_section": "Financing Activities",
+          "removed_line_index": 25
+        },
+        {
+          "error": "CF02",
+          "inserted_line": "| Cash Flow Metrics |  | Cash Flow per Share (non-GAAP) | $6.31 |",
+          "insert_index": 5,
+          "amount": 6.31
+        }
+      ]
+    }
+  }
+}

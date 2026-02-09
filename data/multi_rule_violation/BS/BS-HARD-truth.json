@@ -1,0 +1,2115 @@
+{
+  "metadata": {
+    "task": "hard_multi_error",
+    "total_companies": 189,
+    "error_combinations": {
+      "H-01": [
+        "BS02",
+        "BS03"
+      ],
+      "H-02": [
+        "BS02",
+        "BS04"
+      ],
+      "H-03": [
+        "BS03",
+        "BS04"
+      ],
+      "H-04": [
+        "BS01",
+        "BS02"
+      ],
+      "H-05": [
+        "BS01",
+        "BS03"
+      ],
+      "H-06": [
+        "BS01",
+        "BS04"
+      ]
+    },
+    "description": "Each company has 2 errors from predefined combinations (improved reliability)",
+    "total_in_file": 212
+  },
+  "ground_truth": {
+    "MasterCard \u2014 December 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Funds'"
+      ]
+    },
+    "MasterCard \u2014 December 31, 2022": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'Capital Surplus'"
+      ]
+    },
+    "FedEx \u2014 May 31, 2023": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Working Capital'",
+        "BS04: Renamed 'Retained Earnings' to 'General Reserve'"
+      ]
+    },
+    "FedEx \u2014 May 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 20365 to 19,808",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Intel \u2014 Dec 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 50407 to 49,468",
+        "BS03: Replaced 'Cash' with 'Capital'"
+      ]
+    },
+    "Intel \u2014 Dec 25, 2021": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 58558 to 58,198",
+        "BS04: Renamed 'Retained Earnings' to 'Capital Surplus'"
+      ]
+    },
+    "Tesla \u2014 December 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "Tesla \u2014 December 31, 2022": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'General Reserve'"
+      ]
+    },
+    "Berkshire Hathaway \u2014 December 31, 2023": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Funds'",
+        "BS04: Renamed 'Retained Earnings' to 'Profit Reserve'"
+      ]
+    },
+    "Berkshire Hathaway \u2014 December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total assets' from 948465 to 950,193",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Delta Air Lines \u2014 December 31, 2023": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 10269 to 10,594",
+        "BS03: Replaced 'Cash' with 'Working Capital'"
+      ]
+    },
+    "Delta Air Lines \u2014 December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 13011 to 12,898",
+        "BS04: Renamed 'Retained Earnings' to 'Earnings Reserve'"
+      ]
+    },
+    "Qualcomm \u2014 September 24, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Capital'"
+      ]
+    },
+    "Qualcomm \u2014 September 25, 2022": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'Accumulated Capital'"
+      ]
+    },
+    "Procter and Gamble \u2014 2023": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Working Capital'",
+        "BS04: Renamed 'Retained Earnings' to 'General Reserve'"
+      ]
+    },
+    "Procter and Gamble \u2014 2022": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total inventories' from 6924 to 7,244",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Zoom Video Communications \u2014 As of January 31, 2023": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 6356412 to 6,355,475",
+        "BS03: Replaced 'Cash' with 'Capital'"
+      ]
+    },
+    "Zoom Video Communications \u2014 As of January 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 6183807 to 6,184,699",
+        "BS04: Renamed 'Retained Earnings' to 'Accumulated Capital'"
+      ]
+    },
+    "Whirlpool \u2014 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Working Capital'"
+      ]
+    },
+    "Whirlpool \u2014 2022": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'Capital Surplus'"
+      ]
+    },
+    "Kellogg_s \u2014 2023": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Capital'",
+        "BS04: Renamed 'Retained Earnings' to 'Profit Reserve'"
+      ]
+    },
+    "Kellogg_s \u2014 2022": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total assets' from 1436 to 1,543",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "NVIDIA \u2014 January 29, 2023": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 23073 to 23,495",
+        "BS03: Replaced 'Cash' with 'Working Capital'"
+      ]
+    },
+    "NVIDIA \u2014 January 30, 2022": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 28829 to 26,365",
+        "BS04: Renamed 'Retained Earnings' to 'Earnings Reserve'"
+      ]
+    },
+    "General Motors \u2014 December 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Funds'"
+      ]
+    },
+    "General Motors \u2014 December 31, 2022": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'Capital Surplus'"
+      ]
+    },
+    "HP \u2014 As of October 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 19736 to 19,473",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "AbbVie \u2014 2022": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 28463 to 30,420",
+        "BS04: Renamed 'Retained Earnings' to 'General Reserve'"
+      ]
+    },
+    "Box \u2014 January 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Working Capital'"
+      ]
+    },
+    "Box \u2014 January 31, 2022": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "Seagate Technology \u2014 June 30, 2023": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Resources'",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "Seagate Technology \u2014 July 1, 2022": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 4033 to 3,797",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Chevron \u2014 2023": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total inventories' from 8612 to 7,889",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "Chevron \u2014 2022": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total inventories' from 8247 to 8,514",
+        "BS04: Renamed 'Retained Earnings' to 'Reserve Fund'"
+      ]
+    },
+    "ATandT \u2014 December 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Working Capital'"
+      ]
+    },
+    "NXP Semiconductors \u2014 As of December 31, 2023": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Resources'",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "NXP Semiconductors \u2014 As of December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 6935 to 6,503",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Microsoft \u2014 June 30, 2024": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 159734 to 157,758",
+        "BS03: Replaced 'Cash' with 'Working Capital'"
+      ]
+    },
+    "Microsoft \u2014 June 30, 2023": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 184257 to 187,643",
+        "BS04: Renamed 'Retained Earnings' to 'Capital Surplus'"
+      ]
+    },
+    "3M \u2014 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "3M \u2014 2022": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'Profit Reserve'"
+      ]
+    },
+    "DraftKings \u2014 December 31, 2023": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Working Capital'",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "DraftKings \u2014 December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 2084841 to 2,089,030",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Etsy \u2014 2023": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 1570446 to 1,566,588",
+        "BS03: Replaced 'Cash' with 'Working Capital'"
+      ]
+    },
+    "Etsy \u2014 2022": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 1513743 to 1,512,500",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "Caterpillar \u2014 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Working Capital'"
+      ]
+    },
+    "Costco \u2014 September 3, 2023": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Capital'",
+        "BS04: Renamed 'Retained Earnings' to 'Profit Reserve'"
+      ]
+    },
+    "Costco \u2014 August 28, 2022": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 32696 to 34,431",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Luckin Coffee \u2014 2022 RMB": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 6037054 to 6,035,158",
+        "BS03: Replaced 'Cash' with 'Capital'"
+      ]
+    },
+    "Luckin Coffee \u2014 2023 RMB": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 7599554 to 7,598,710",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "Luckin Coffee \u2014 2023 US$": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "Broadcom \u2014 October 29, 2023": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'Earnings Reserve'"
+      ]
+    },
+    "Broadcom \u2014 October 30, 2022": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Resources'",
+        "BS04: Renamed 'Retained Earnings' to 'Earnings Reserve'"
+      ]
+    },
+    "Bilibili \u2014 As of December 31, 2023": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total assets' from 33159067 to 33,155,509",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "AMD \u2014 December 30, 2023": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 16768 to 17,656",
+        "BS03: Replaced 'Cash' with 'Capital'"
+      ]
+    },
+    "AMD \u2014 December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 15019 to 16,202",
+        "BS04: Renamed 'Retained Earnings' to 'Profit Reserve'"
+      ]
+    },
+    "Salesforce \u2014 January 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Funds'"
+      ]
+    },
+    "Salesforce \u2014 January 31, 2022": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'Earnings Reserve'"
+      ]
+    },
+    "Texas Instruments \u2014 December 31, 2023": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Funds'",
+        "BS04: Renamed 'Retained Earnings' to 'Earnings Reserve'"
+      ]
+    },
+    "Texas Instruments \u2014 December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 14021 to 15,220",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Block \u2014 December 31, 2023": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 18857282 to 18,854,396",
+        "BS03: Replaced 'Cash' with 'Working Capital'"
+      ]
+    },
+    "Block \u2014 December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 15623405 to 15,619,744",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "NIO \u2014 As of December 31, 2022 RMB": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Funds'"
+      ]
+    },
+    "NIO \u2014 As of December 31, 2023 RMB": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "NIO \u2014 As of December 31, 2023 USD Note 2(e)": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Working Capital'",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "Goldman Sachs \u2014 As of December 2023": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total assets' from 1641594 to 1,640,031",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Goldman Sachs \u2014 As of December 2022": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total assets' from 1441799 to 1,439,255",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "Johnson and Johnson \u2014 2023": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'Profit Reserve'"
+      ]
+    },
+    "Johnson and Johnson \u2014 2022": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Working Capital'",
+        "BS04: Renamed 'Retained Earnings' to 'Reserve Fund'"
+      ]
+    },
+    "Coca-Cola \u2014 2022": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total Current Assets' from 22591 to 22,412",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Coca-Cola \u2014 2021": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total Current Assets' from 22545 to 24,131",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "Merck \u2014 2023": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 32168 to 31,831",
+        "BS04: Renamed 'Retained Earnings' to 'Profit Reserve'"
+      ]
+    },
+    "Merck \u2014 2022": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Funds'"
+      ]
+    },
+    "Logitech \u2014 March 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'Capital Surplus'"
+      ]
+    },
+    "Logitech \u2014 March 31, 2022": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Capital'",
+        "BS04: Renamed 'Retained Earnings' to 'Capital Surplus'"
+      ]
+    },
+    "Baxter International \u2014 2023": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 9600 to 8,722",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Baxter International \u2014 2022": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 8011 to 8,242",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "Boston Scientific \u2014 As of December 31, 2023": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 6514 to 6,885",
+        "BS04: Renamed 'Retained Earnings' to 'General Reserve'"
+      ]
+    },
+    "Boston Scientific \u2014 As of December 31, 2022": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "Home Depot \u2014 January 28, 2024": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'Earnings Reserve'"
+      ]
+    },
+    "Home Depot \u2014 January 29, 2023": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Working Capital'",
+        "BS04: Renamed 'Retained Earnings' to 'Reserve Fund'"
+      ]
+    },
+    "Visa \u2014 September 30, 2023": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 33532 to 36,383",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Visa \u2014 September 30, 2022": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 30205 to 32,099",
+        "BS03: Replaced 'Cash' with 'Funds'"
+      ]
+    },
+    "Alphabet (Google) \u2014 As of December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 164795 to 162,665",
+        "BS04: Renamed 'Retained Earnings' to 'Capital Surplus'"
+      ]
+    },
+    "Alphabet (Google) \u2014 As of December 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Working Capital'"
+      ]
+    },
+    "Microchip Technology \u2014 March 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'Capital Surplus'"
+      ]
+    },
+    "Microchip Technology \u2014 March 31, 2022": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Resources'",
+        "BS04: Renamed 'Retained Earnings' to 'Profit Reserve'"
+      ]
+    },
+    "Netflix \u2014 As of December 31, 2023": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 9918133 to 9,916,229",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Netflix \u2014 As of December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 9266473 to 9,265,792",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "Robinhood \u2014 December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 22917 to 22,541",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "Robinhood \u2014 December 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Funds'"
+      ]
+    },
+    "DuPont \u2014 December 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "DuPont \u2014 December 31, 2022": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Resources'",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "Walgreens Boots Alliance \u2014 2023": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 15503 to 16,973",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Walgreens Boots Alliance \u2014 2022": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 16902 to 16,364",
+        "BS03: Replaced 'Cash' with 'Capital'"
+      ]
+    },
+    "Peloton \u2014 June 30, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Capital'"
+      ]
+    },
+    "Palantir \u2014 As of December 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "Palantir \u2014 As of December 31, 2022": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Resources'",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "ExxonMobil \u2014 December 31, 2023": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 96609 to 97,503",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "ExxonMobil \u2014 December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 97631 to 100,633",
+        "BS03: Replaced 'Cash' with 'Capital'"
+      ]
+    },
+    "Honeywell International \u2014 December 31, 2023": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 23502 to 21,490",
+        "BS04: Renamed 'Retained Earnings' to 'Earnings Reserve'"
+      ]
+    },
+    "Honeywell International \u2014 December 31, 2022": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Funds'"
+      ]
+    },
+    "Boeing \u2014 December 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'Capital Surplus'"
+      ]
+    },
+    "Boeing \u2014 December 31, 2022": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Capital'",
+        "BS04: Renamed 'Retained Earnings' to 'Earnings Reserve'"
+      ]
+    },
+    "IBM \u2014 At December 31, 2023": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 32908 to 31,419",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "IBM \u2014 At December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 29118 to 28,000",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "Ford Motor \u2014 December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 116476 to 120,969",
+        "BS04: Renamed 'Retained Earnings' to 'General Reserve'"
+      ]
+    },
+    "Ford Motor \u2014 December 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Capital'"
+      ]
+    },
+    "Toyota \u2014 March 31, 2022": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'General Reserve'"
+      ]
+    },
+    "Toyota \u2014 March 31, 2023": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Working Capital'",
+        "BS04: Renamed 'Retained Earnings' to 'Reserve Fund'"
+      ]
+    },
+    "Walmart \u2014 As of January 31, 2023": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 75655 to 73,509",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Walmart \u2014 As of January 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 81070 to 77,340",
+        "BS03: Replaced 'Cash' with 'Funds'"
+      ]
+    },
+    "Amazon \u2014 December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 146791 to 142,263",
+        "BS04: Renamed 'Retained Earnings' to 'Capital Surplus'"
+      ]
+    },
+    "Amazon \u2014 December 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "Lucid Motors \u2014 December 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "Lucid Motors \u2014 December 31, 2022": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Capital'",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "JD.com \u2014 Parent": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total assets' from 249690 to 245,647",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "JD.com \u2014 Other Subsidiaries": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total assets' from 479540 to 476,155",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "JD.com \u2014 Consolidated Variable Interest Entities": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Working Capital'"
+      ]
+    },
+    "Cisco Systems \u2014 July 29, 2023": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 43348 to 39,262",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Cisco Systems \u2014 July 30, 2022": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 36717 to 37,594",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "Best Buy \u2014 February 3, 2024": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 7897 to 7,738",
+        "BS04: Renamed 'Retained Earnings' to 'Earnings Reserve'"
+      ]
+    },
+    "Best Buy \u2014 January 28, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Working Capital'"
+      ]
+    },
+    "Honda \u2014 March 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'Capital Surplus'"
+      ]
+    },
+    "Honda \u2014 March 31, 2022": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Funds'",
+        "BS04: Renamed 'Retained Earnings' to 'Profit Reserve'"
+      ]
+    },
+    "Honda \u2014 March 31, 2022 (Variable interest entities)": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total assets' from 9707 to 9,119",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Virgin Galactic \u2014 December 31, 2023": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 950829 to 950,264",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "Virgin Galactic \u2014 December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 1001614 to 1,000,953",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "Dell Technologies \u2014 February 3, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "Dell Technologies \u2014 January 28, 2022": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "Roku \u2014 As of December 31, 2023": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Funds'",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "Roku \u2014 As of December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 2964879 to 2,962,763",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Abbott Laboratories \u2014 December 31, 2023": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total inventories' from 6570 to 6,753",
+        "BS03: Replaced 'Cash' with 'Working Capital'"
+      ]
+    },
+    "UnitedHealth Group \u2014 December 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Working Capital'"
+      ]
+    },
+    "UnitedHealth Group \u2014 December 31, 2022": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'General Reserve'"
+      ]
+    },
+    "Corsair Gaming \u2014 December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 622793 to 623,965",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Snap \u2014 December 31, 2023": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 4975843 to 4,979,688",
+        "BS03: Replaced 'Cash' with 'Funds'"
+      ]
+    },
+    "Snap \u2014 December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 5256647 to 5,256,823",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "Uber \u2014 As of December 31, 2022": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Funds'"
+      ]
+    },
+    "Uber \u2014 As of December 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "Morgan Stanley \u2014 At December 31, 2023": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total assets' from 1193693 to 1,191,421",
+        "BS03: Replaced 'Cash' with 'Working Capital'"
+      ]
+    },
+    "Morgan Stanley \u2014 At December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total assets' from 1180231 to 1,179,568",
+        "BS04: Renamed 'Retained Earnings' to 'Accumulated Capital'"
+      ]
+    },
+    "Pfizer \u2014 As of December 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Working Capital'"
+      ]
+    },
+    "Pfizer \u2014 As of December 31, 2022": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'General Reserve'"
+      ]
+    },
+    "Li Auto \u2014 As of December 31, 2022 RMB": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Capital'",
+        "BS04: Renamed 'Retained Earnings' to 'Profit Reserve'"
+      ]
+    },
+    "Li Auto \u2014 As of December 31, 2023 RMB": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 114525584 to 114,523,006",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Li Auto \u2014 As of December 31, 2023 US$ Note 2(e)": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 16130591 to 16,135,234",
+        "BS03: Replaced 'Cash' with 'Funds'"
+      ]
+    },
+    "JPMorgan Chase \u2014 2023": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total assets' from 3875393 to 3,876,593",
+        "BS04: Renamed 'Retained Earnings' to 'Capital Surplus'"
+      ]
+    },
+    "Oracle \u2014 May 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "Oracle \u2014 May 31, 2022": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Resources'",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "Marriott \u2014 December 31, 2023": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 3311 to 3,139",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Dell \u2014 February 2, 2024": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 35947 to 38,862",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "Dell \u2014 February 3, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Capital'"
+      ]
+    },
+    "Lockheed Martin \u2014 December 31, 2023": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 20521 to 21,920",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Lockheed Martin \u2014 December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 20991 to 22,789",
+        "BS03: Replaced 'Cash' with 'Funds'"
+      ]
+    },
+    "Apple \u2014 September 30, 2023": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 143566 to 143,695",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "Apple \u2014 September 24, 2022": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Working Capital'"
+      ]
+    },
+    "PepsiCo \u2014 2023": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total Current Assets' from 26950 to 25,099",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "PepsiCo \u2014 2022": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total Current Assets' from 21539 to 20,981",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "Adobe \u2014 December 1, 2023": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 11084 to 10,426",
+        "BS04: Renamed 'Retained Earnings' to 'Accumulated Capital'"
+      ]
+    },
+    "Adobe \u2014 December 2, 2022": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "McDonald_s \u2014 December 31, 2022": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'Reserve Fund'"
+      ]
+    },
+    "Pinduoduo \u2014 2022 RMB": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 216617876 to 216,620,501",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Pinduoduo \u2014 2023 RMB": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 294750472 to 294,750,898",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "Pinduoduo \u2014 2023 US$": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 41514735 to 41,512,591",
+        "BS04: Renamed 'Retained Earnings' to 'Accumulated Capital'"
+      ]
+    },
+    "Applied Materials \u2014 October 29, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Capital'"
+      ]
+    },
+    "Applied Materials \u2014 October 30, 2022": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'Profit Reserve'"
+      ]
+    },
+    "Meta Platforms \u2014 December 31, 2023": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Resources'",
+        "BS04: Renamed 'Retained Earnings' to 'General Reserve'"
+      ]
+    },
+    "Meta Platforms \u2014 December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 59549 to 58,118",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "American Express \u2014 December 31, 2023": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total assets' from 261108 to 257,631",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "American Express \u2014 December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total assets' from 228354 to 231,175",
+        "BS04: Renamed 'Retained Earnings' to 'Earnings Reserve'"
+      ]
+    },
+    "Take-Two Interactive \u2014 March 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "Take-Two Interactive \u2014 March 31, 2022": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'Accumulated Capital'"
+      ]
+    },
+    "Target \u2014 February 3, 2024": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Resources'",
+        "BS04: Renamed 'Retained Earnings' to 'Earnings Reserve'"
+      ]
+    },
+    "Target \u2014 January 28, 2023": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 17846 to 18,167",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Bank of America \u2014 December 31, 2023": {
+      "errors": [
+        "BS01",
+        "BS03"
+      ],
+      "combination_id": "H-05",
+      "injection_details": [
+        "BS01: Modified 'Total debt securities' from 871407 to 871,824",
+        "BS03: Replaced 'Cash' with 'Resources'"
+      ]
+    },
+    "Bank of America \u2014 December 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total debt securities' from 862819 to 864,553",
+        "BS04: Renamed 'Retained Earnings' to 'Accumulated Capital'"
+      ]
+    },
+    "Eli Lilly \u2014 December 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Working Capital'"
+      ]
+    },
+    "Eli Lilly \u2014 December 31, 2022": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Retained Earnings' to 'General Reserve'"
+      ]
+    },
+    "Disney \u2014 September 30, 2023": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Resources'",
+        "BS04: Renamed 'Retained Earnings' to 'Capital Surplus'"
+      ]
+    },
+    "Disney \u2014 October 1, 2022": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 29098 to 26,295",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "General Electric \u2014 2022": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total assets' from 188851 to 189,519",
+        "BS04: Renamed 'Retained Earnings' to 'Accumulated Capital'"
+      ]
+    },
+    "Lyft \u2014 December 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Capital'"
+      ]
+    },
+    "Lyft \u2014 December 31, 2022": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    },
+    "Electronic Arts \u2014 March 31, 2023": {
+      "errors": [
+        "BS03",
+        "BS04"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        "BS03: Replaced 'Cash' with 'Working Capital'",
+        "BS04: Renamed 'Retained Earnings' to 'Capital Surplus'"
+      ]
+    },
+    "Electronic Arts \u2014 March 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS02"
+      ],
+      "combination_id": "H-04",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 4151 to 4,310",
+        "BS02: Removed Current_Assets classification"
+      ]
+    },
+    "Nike \u2014 May 31, 2022": {
+      "errors": [
+        "BS01",
+        "BS04"
+      ],
+      "combination_id": "H-06",
+      "injection_details": [
+        "BS01: Modified 'Total current assets' from 28213 to 28,757",
+        "BS04: Renamed 'Retained Earnings' to 'Accumulated Capital'"
+      ]
+    },
+    "Asana \u2014 As of January 31, 2023": {
+      "errors": [
+        "BS02",
+        "BS03"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS03: Replaced 'Cash' with 'Working Capital'"
+      ]
+    },
+    "Asana \u2014 As of January 31, 2022": {
+      "errors": [
+        "BS02",
+        "BS04"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        "BS02: Removed Current_Assets classification",
+        "BS04: Renamed 'Accumulated deficit' to 'Deficit Reserve'"
+      ]
+    }
+  }
+}

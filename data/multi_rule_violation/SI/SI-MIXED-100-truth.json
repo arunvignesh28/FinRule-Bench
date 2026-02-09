@@ -1,0 +1,1779 @@
+{
+  "metadata": {
+    "task": "si_mixed_evaluation",
+    "total_companies": 100,
+    "clean_companies": 20,
+    "anomalous_companies": 80,
+    "description": "Mixed dataset: 20% clean, 80% anomalous for balanced evaluation",
+    "random_seed": 42
+  },
+  "ground_truth": {
+    "Walmart \u2014 Fiscal Year Ended January 31, 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-06",
+      "injection_details": [
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 985 |",
+          "insert_index": 29,
+          "amount": 985
+        },
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 1831 |",
+          "insert_index": 30,
+          "amount": 1831
+        }
+      ]
+    },
+    "Tesla \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI01",
+        "SI02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 1807 |",
+          "insert_index": 43,
+          "amount": 1807
+        },
+        {
+          "error": "SI01",
+          "moved_line": "| Non-Operating Income (Expense) | Depreciation Expense | 1807 |",
+          "from_index": 43,
+          "to_index": 25,
+          "item_description": "Depreciation Expense"
+        }
+      ]
+    },
+    "ATandT \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-06",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 3286 |",
+          "insert_index": 21,
+          "amount": 3286
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 214 |",
+          "insert_index": 22,
+          "amount": 214
+        }
+      ]
+    },
+    "American Express \u2014 Year Ended December 31, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI04",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-10",
+      "injection_details": [
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 784 |",
+          "insert_index": 47,
+          "amount": 784
+        },
+        {
+          "error": "SI05",
+          "removed_line_index": 17,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense | |"
+        }
+      ]
+    },
+    "General Electric \u2014 2021": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Walgreens Boots Alliance \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI03",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-08",
+      "injection_details": [
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 783 |",
+          "insert_index": 36,
+          "amount": 783
+        },
+        {
+          "error": "SI03",
+          "removed_line_index": 33,
+          "removed_line": "| Earnings Per Share | Diluted | 865.9 |"
+        }
+      ]
+    },
+    "JPMorgan Chase \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-07",
+      "injection_details": [
+        {
+          "error": "SI05",
+          "removed_line_index": 17,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense | 81321 |"
+        },
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 3042 |",
+          "insert_index": 39,
+          "amount": 3042
+        }
+      ]
+    },
+    "Box \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-06",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 2296 |",
+          "insert_index": 26,
+          "amount": 2296
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 241 |",
+          "insert_index": 27,
+          "amount": 241
+        }
+      ]
+    },
+    "ON Semiconductor \u2014 2023": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Baxter International \u2014 2023": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Home Depot \u2014 Fiscal 2023": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Apple \u2014 Years ended September 30, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI03"
+      ],
+      "source": "hard",
+      "combination_id": "H-05",
+      "injection_details": [
+        {
+          "error": "SI03",
+          "removed_line_index": 22,
+          "removed_line": "| Earnings Per Share | Diluted | 6.13 |"
+        },
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 4388 |",
+          "insert_index": 26,
+          "amount": 4388
+        }
+      ]
+    },
+    "DraftKings \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI03",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-08",
+      "injection_details": [
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 159 |",
+          "insert_index": 22,
+          "amount": 159
+        },
+        {
+          "error": "SI03",
+          "removed_line_index": 19,
+          "removed_line": "| Earnings Per Share | Basic and diluted | -3.16 |"
+        }
+      ]
+    },
+    "Coca-Cola \u2014 Year Ended December 31, 2021": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Peloton \u2014 Fiscal Year Ended June 30, 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI01",
+        "SI03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SI03",
+          "removed_line_index": 32,
+          "removed_line": "| Earnings Per Share | Weighted-average Class A and Class B common shares outstanding, basic and diluted | 322368818 |"
+        },
+        {
+          "error": "SI01",
+          "moved_line": "| Non-Operating Income (Expense) | Foreign exchange (loss) gain | -31.8 |",
+          "from_index": 23,
+          "to_index": 19,
+          "item_description": "Foreign exchange (loss) gain"
+        }
+      ]
+    },
+    "Tesla \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI01",
+        "SI03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SI01",
+          "moved_line": "| Non-Operating Income (Expense) | Interest expense | -371 |",
+          "from_index": 28,
+          "to_index": 25,
+          "item_description": "Interest expense"
+        },
+        {
+          "error": "SI03",
+          "removed_line_index": 37,
+          "removed_line": "| Earnings Per Share | Diluted | 1.63 |"
+        }
+      ]
+    },
+    "Etsy \u2014 Year Ended December 31, 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI01",
+        "SI03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SI03",
+          "removed_line_index": 23,
+          "removed_line": "| Earnings Per Share | Diluted | 3.40 |"
+        },
+        {
+          "error": "SI01",
+          "moved_line": "| Non-Operating Income (Expense) | Interest and other income | 2137 |",
+          "from_index": 15,
+          "to_index": 12,
+          "item_description": "Interest and other income"
+        }
+      ]
+    },
+    "Pfizer \u2014 Year Ended December 31, 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI03"
+      ],
+      "source": "hard",
+      "combination_id": "H-05",
+      "injection_details": [
+        {
+          "error": "SI03",
+          "removed_line_index": 28,
+          "removed_line": "| Earnings Per Share | Weighted-average shares\u2014diluted | 5708 |"
+        },
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 2824 |",
+          "insert_index": 30,
+          "amount": 2824
+        }
+      ]
+    },
+    "MasterCard \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI01",
+        "SI03"
+      ],
+      "source": "hard",
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SI03",
+          "removed_line_index": 22,
+          "removed_line": "| Earnings Per Share | Diluted Earnings per Share | 10.22 |"
+        },
+        {
+          "error": "SI01",
+          "moved_line": "| Non-Operating Income (Expense) | Gains (losses) on equity investments, net | -145 |",
+          "from_index": 13,
+          "to_index": 10,
+          "item_description": "Gains (losses) on equity investments, net"
+        }
+      ]
+    },
+    "Amazon \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI03",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-09",
+      "injection_details": [
+        {
+          "error": "SI03",
+          "removed_line_index": 25,
+          "removed_line": "| Earnings Per Share | Diluted earnings per share | 2.90 |"
+        },
+        {
+          "error": "SI05",
+          "removed_line_index": 17,
+          "removed_line": "| Operating Expenses | Interest expense | -3182 |"
+        }
+      ]
+    },
+    "Merck \u2014 2022": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Dell \u2014 February 2, 2024": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-06",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 2498 |",
+          "insert_index": 31,
+          "amount": 2498
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 251 |",
+          "insert_index": 32,
+          "amount": 251
+        }
+      ]
+    },
+    "Bilibili \u2014 For the Year Ended December 31, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-06",
+      "injection_details": [
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 172 |",
+          "insert_index": 21,
+          "amount": 172
+        },
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 982 |",
+          "insert_index": 22,
+          "amount": 982
+        }
+      ]
+    },
+    "McDonald_s \u2014 2020": {
+      "has_anomaly": true,
+      "errors": [
+        "SI03",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-09",
+      "injection_details": [
+        {
+          "error": "SI05",
+          "removed_line_index": 19,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense-net of capitalized interest of $9.5, $6.8 and $6.0 | 1218.1 |"
+        },
+        {
+          "error": "SI03",
+          "removed_line_index": 24,
+          "removed_line": "| Earnings Per Share | Earnings per common share\u2013diluted | 6.31 |"
+        }
+      ]
+    },
+    "DuPont \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-06",
+      "injection_details": [
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 548 |",
+          "insert_index": 33,
+          "amount": 548
+        },
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 4950 |",
+          "insert_index": 34,
+          "amount": 4950
+        }
+      ]
+    },
+    "Uber \u2014 Year Ended December 31, 2022": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Robinhood \u2014 Year Ended December 31, 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI01",
+        "SI02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 1100 |",
+          "insert_index": 28,
+          "amount": 1100
+        },
+        {
+          "error": "SI01",
+          "moved_line": "| Non-Operating Income (Expense) | Depreciation Expense | 1100 |",
+          "from_index": 28,
+          "to_index": 14,
+          "item_description": "Depreciation Expense"
+        }
+      ]
+    },
+    "UnitedHealth Group \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-07",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 3071 |",
+          "insert_index": 30,
+          "amount": 3071
+        },
+        {
+          "error": "SI05",
+          "removed_line_index": 16,
+          "removed_line": "| Operating Expenses | Interest expense | -1660 |"
+        }
+      ]
+    },
+    "Johnson and Johnson \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI03",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-09",
+      "injection_details": [
+        {
+          "error": "SI05",
+          "removed_line_index": 12,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense, net of portion capitalized (Note 4) | 276 |"
+        },
+        {
+          "error": "SI03",
+          "removed_line_index": 22,
+          "removed_line": "| Earnings Per Share | Continuing operations - diluted | 6.14 |"
+        }
+      ]
+    },
+    "Delta Air Lines \u2014 Year Ended December 31, 2022": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "General Motors \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-07",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 3786 |",
+          "insert_index": 31,
+          "amount": 3786
+        },
+        {
+          "error": "SI05",
+          "removed_line_index": 15,
+          "removed_line": "| Non-Operating Income (Expense) | Automotive interest expense | 911 |"
+        }
+      ]
+    },
+    "Goldman Sachs \u2014 Year Ended December 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI01",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 354 |",
+          "insert_index": 40,
+          "amount": 354
+        },
+        {
+          "error": "SI01",
+          "moved_line": "| Non-Operating Income (Expense) | Interest expense | 21346 |",
+          "from_index": 13,
+          "to_index": 26,
+          "item_description": "Interest expense"
+        }
+      ]
+    },
+    "Pinduoduo \u2014 2022 RMB": {
+      "has_anomaly": true,
+      "errors": [
+        "SI01",
+        "SI02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SI01",
+          "moved_line": "| Non-Operating Income (Expense) | Other income, net | 2221358 |",
+          "from_index": 15,
+          "to_index": 10,
+          "item_description": "Other income, net"
+        },
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 660 |",
+          "insert_index": 25,
+          "amount": 660
+        }
+      ]
+    },
+    "NIO \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI04",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-10",
+      "injection_details": [
+        {
+          "error": "SI05",
+          "removed_line_index": 18,
+          "removed_line": "| Operating Expenses | Interest expenses | -1559270 |"
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 789 |",
+          "insert_index": 35,
+          "amount": 789
+        }
+      ]
+    },
+    "Bank of America \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI03",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-09",
+      "injection_details": [
+        {
+          "error": "SI03",
+          "removed_line_index": 32,
+          "removed_line": "| Earnings Per Share | Diluted earnings | 3.57 |"
+        },
+        {
+          "error": "SI05",
+          "removed_line_index": 7,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense | 4738 |"
+        }
+      ]
+    },
+    "FedEx \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI03"
+      ],
+      "source": "hard",
+      "combination_id": "H-05",
+      "injection_details": [
+        {
+          "error": "SI03",
+          "removed_line_index": 27,
+          "removed_line": "| Earnings Per Share | DILUTED EARNINGS PER COMMON SHARE | 14.23 |"
+        },
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 744 |",
+          "insert_index": 22,
+          "amount": 744
+        }
+      ]
+    },
+    "Lyft \u2014 Year Ended December 31, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI03",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-09",
+      "injection_details": [
+        {
+          "error": "SI05",
+          "removed_line_index": 14,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense | -26223 |"
+        },
+        {
+          "error": "SI03",
+          "removed_line_index": 18,
+          "removed_line": "| Earnings Per Share | Net loss per share, basic and diluted | -0.88 |"
+        }
+      ]
+    },
+    "Goldman Sachs \u2014 Year Ended December 2023": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "AMD \u2014 Year Ended December 30, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-07",
+      "injection_details": [
+        {
+          "error": "SI05",
+          "removed_line_index": 15,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense | -106 |"
+        },
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 1052 |",
+          "insert_index": 26,
+          "amount": 1052
+        }
+      ]
+    },
+    "NIO \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI01",
+        "SI02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 996 |",
+          "insert_index": 36,
+          "amount": 996
+        },
+        {
+          "error": "SI01",
+          "moved_line": "| Non-Operating Income (Expense) | Depreciation Expense | 996 |",
+          "from_index": 36,
+          "to_index": 15,
+          "item_description": "Depreciation Expense"
+        }
+      ]
+    },
+    "Amazon \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-07",
+      "injection_details": [
+        {
+          "error": "SI05",
+          "removed_line_index": 17,
+          "removed_line": "| Operating Expenses | Interest expense | -1809 |"
+        },
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 3877 |",
+          "insert_index": 29,
+          "amount": 3877
+        }
+      ]
+    },
+    "Netflix \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI04",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-10",
+      "injection_details": [
+        {
+          "error": "SI05",
+          "removed_line_index": 11,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense | -765620 |"
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 569 |",
+          "insert_index": 21,
+          "amount": 569
+        }
+      ]
+    },
+    "Box \u2014 2021": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Microchip Technology \u2014 Fiscal Year Ended March 31, 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-06",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 1572 |",
+          "insert_index": 28,
+          "amount": 1572
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 787 |",
+          "insert_index": 29,
+          "amount": 787
+        }
+      ]
+    },
+    "General Motors \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI03",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-08",
+      "injection_details": [
+        {
+          "error": "SI03",
+          "removed_line_index": 27,
+          "removed_line": "| Earnings Per Share | Diluted earnings per common share | 6.13 |"
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 167 |",
+          "insert_index": 30,
+          "amount": 167
+        }
+      ]
+    },
+    "JPMorgan Chase \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI03",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-08",
+      "injection_details": [
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 925 |",
+          "insert_index": 40,
+          "amount": 925
+        },
+        {
+          "error": "SI03",
+          "removed_line_index": 35,
+          "removed_line": "| Earnings Per Share | Diluted earnings per share | 12.09 |"
+        }
+      ]
+    },
+    "Cisco Systems \u2014 July 30, 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI03"
+      ],
+      "source": "hard",
+      "combination_id": "H-05",
+      "injection_details": [
+        {
+          "error": "SI03",
+          "removed_line_index": 27,
+          "removed_line": "| Earnings Per Share | Diluted | 2.82 |"
+        },
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 4270 |",
+          "insert_index": 31,
+          "amount": 4270
+        }
+      ]
+    },
+    "Uber \u2014 Year Ended December 31, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-06",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 1925 |",
+          "insert_index": 27,
+          "amount": 1925
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 730 |",
+          "insert_index": 28,
+          "amount": 730
+        }
+      ]
+    },
+    "Pinduoduo \u2014 2023 US$": {
+      "has_anomaly": true,
+      "errors": [
+        "SI01",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 460 |",
+          "insert_index": 25,
+          "amount": 460
+        },
+        {
+          "error": "SI01",
+          "moved_line": "| Non-Operating Income (Expense) | Foreign exchange gain/(loss) | -1320 |",
+          "from_index": 14,
+          "to_index": 10,
+          "item_description": "Foreign exchange gain/(loss)"
+        }
+      ]
+    },
+    "Lyft \u2014 Year Ended December 31, 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI04",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-10",
+      "injection_details": [
+        {
+          "error": "SI05",
+          "removed_line_index": 14,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense | -19735 |"
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 736 |",
+          "insert_index": 27,
+          "amount": 736
+        }
+      ]
+    },
+    "Tesla \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI04",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-10",
+      "injection_details": [
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 928 |",
+          "insert_index": 43,
+          "amount": 928
+        },
+        {
+          "error": "SI05",
+          "removed_line_index": 28,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense | -156 |"
+        }
+      ]
+    },
+    "Berkshire Hathaway \u2014 2022": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Delta Air Lines \u2014 Year Ended December 31, 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI03",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-08",
+      "injection_details": [
+        {
+          "error": "SI03",
+          "removed_line_index": 36,
+          "removed_line": "| Earnings Per Share | Diluted Earnings Per Share | 0.44 |"
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 649 |",
+          "insert_index": 38,
+          "amount": 649
+        }
+      ]
+    },
+    "ExxonMobil \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-07",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 916 |",
+          "insert_index": 29,
+          "amount": 916
+        },
+        {
+          "error": "SI05",
+          "removed_line_index": 17,
+          "removed_line": "| Revenue | Interest expense | 798 |"
+        }
+      ]
+    },
+    "NXP Semiconductors \u2014 For the year ended December 31, 2023": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Broadcom \u2014 October 31, 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI03"
+      ],
+      "source": "hard",
+      "combination_id": "H-05",
+      "injection_details": [
+        {
+          "error": "SI03",
+          "removed_line_index": 28,
+          "removed_line": "| Earnings Per Share | Diluted | 15.00 |"
+        },
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 2304 |",
+          "insert_index": 32,
+          "amount": 2304
+        }
+      ]
+    },
+    "Walmart \u2014 Fiscal Year Ended January 31, 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI03"
+      ],
+      "source": "hard",
+      "combination_id": "H-05",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 1766 |",
+          "insert_index": 29,
+          "amount": 1766
+        },
+        {
+          "error": "SI03",
+          "removed_line_index": 25,
+          "removed_line": "| Earnings Per Share | Diluted | 2805 |"
+        }
+      ]
+    },
+    "Bank of America \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-07",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 3605 |",
+          "insert_index": 37,
+          "amount": 3605
+        },
+        {
+          "error": "SI05",
+          "removed_line_index": 7,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense | 73331 |"
+        }
+      ]
+    },
+    "Eli Lilly \u2014 2023": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Best Buy \u2014 January 28, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI03",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-08",
+      "injection_details": [
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 775 |",
+          "insert_index": 24,
+          "amount": 775
+        },
+        {
+          "error": "SI03",
+          "removed_line_index": 19,
+          "removed_line": "| Earnings Per Share | Diluted earnings per share | 6.29 |"
+        }
+      ]
+    },
+    "Best Buy \u2014 January 29, 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI03",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-09",
+      "injection_details": [
+        {
+          "error": "SI05",
+          "removed_line_index": 13,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense | -25 |"
+        },
+        {
+          "error": "SI03",
+          "removed_line_index": 18,
+          "removed_line": "| Earnings Per Share | Diluted earnings per share | 9.84 |"
+        }
+      ]
+    },
+    "Microchip Technology \u2014 Fiscal Year Ended March 31, 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-07",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 4245 |",
+          "insert_index": 28,
+          "amount": 4245
+        },
+        {
+          "error": "SI05",
+          "removed_line_index": 15,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense | -356.9 |"
+        }
+      ]
+    },
+    "Berkshire Hathaway \u2014 2023": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Seagate Technology \u2014 Fiscal Year Ended July 2, 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI01",
+        "SI02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 3958 |",
+          "insert_index": 24,
+          "amount": 3958
+        },
+        {
+          "error": "SI01",
+          "moved_line": "| Non-Operating Income (Expense) | Depreciation Expense | 3958 |",
+          "from_index": 24,
+          "to_index": 12,
+          "item_description": "Depreciation Expense"
+        }
+      ]
+    },
+    "IBM \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-07",
+      "injection_details": [
+        {
+          "error": "SI05",
+          "removed_line_index": 21,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense | 1155 |"
+        },
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 3524 |",
+          "insert_index": 41,
+          "amount": 3524
+        }
+      ]
+    },
+    "Starbucks \u2014 Oct 3, 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI04",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-10",
+      "injection_details": [
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 550 |",
+          "insert_index": 33,
+          "amount": 550
+        },
+        {
+          "error": "SI05",
+          "removed_line_index": 21,
+          "removed_line": "| Revenue | Interest expense | -469.8 |"
+        }
+      ]
+    },
+    "Whirlpool \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI04",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-10",
+      "injection_details": [
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 818 |",
+          "insert_index": 31,
+          "amount": 818
+        },
+        {
+          "error": "SI05",
+          "removed_line_index": 17,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense | 175 |"
+        }
+      ]
+    },
+    "Applied Materials \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-06",
+      "injection_details": [
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 599 |",
+          "insert_index": 26,
+          "amount": 599
+        },
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 2297 |",
+          "insert_index": 27,
+          "amount": 2297
+        }
+      ]
+    },
+    "AbbVie \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI03"
+      ],
+      "source": "hard",
+      "combination_id": "H-05",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 3771 |",
+          "insert_index": 28,
+          "amount": 3771
+        },
+        {
+          "error": "SI03",
+          "removed_line_index": 23,
+          "removed_line": "| Net Income | Diluted earnings per share attributable to AbbVie Inc. | 6.45 |"
+        }
+      ]
+    },
+    "3M \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI03"
+      ],
+      "source": "hard",
+      "combination_id": "H-05",
+      "injection_details": [
+        {
+          "error": "SI03",
+          "removed_line_index": 22,
+          "removed_line": "| Earnings Per Share | Weighted average 3M common shares outstanding \u2014 diluted | 567.6 |"
+        },
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 3155 |",
+          "insert_index": 25,
+          "amount": 3155
+        }
+      ]
+    },
+    "Johnson and Johnson \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI04",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-10",
+      "injection_details": [
+        {
+          "error": "SI05",
+          "removed_line_index": 12,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense, net of portion capitalized (Note 4) | 183 |"
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 767 |",
+          "insert_index": 30,
+          "amount": 767
+        }
+      ]
+    },
+    "Chevron \u2014 Year ended December 31, 2022": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "Delta Air Lines \u2014 Year Ended December 31, 2023": {
+      "has_anomaly": false,
+      "errors": [],
+      "source": "clean",
+      "combination_id": null,
+      "injection_details": []
+    },
+    "McDonald_s \u2014 Years ended December 31, 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-07",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 3210 |",
+          "insert_index": 36,
+          "amount": 3210
+        },
+        {
+          "error": "SI05",
+          "removed_line_index": 24,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense-net of capitalized interest of $9.5, $6.8 and $6.0 | 1207.0 |"
+        }
+      ]
+    },
+    "Block \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI03",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-08",
+      "injection_details": [
+        {
+          "error": "SI03",
+          "removed_line_index": 32,
+          "removed_line": "| Earnings Per Share | Diluted | 0.33 |"
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 520 |",
+          "insert_index": 36,
+          "amount": 520
+        }
+      ]
+    },
+    "Nike \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI03"
+      ],
+      "source": "hard",
+      "combination_id": "H-05",
+      "injection_details": [
+        {
+          "error": "SI03",
+          "removed_line_index": 17,
+          "removed_line": "| Earnings Per Share | Diluted | 3.23 |"
+        },
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 1841 |",
+          "insert_index": 21,
+          "amount": 1841
+        }
+      ]
+    },
+    "Nike \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-07",
+      "injection_details": [
+        {
+          "error": "SI05",
+          "removed_line_index": 11,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense (income), net | 262 |"
+        },
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 3055 |",
+          "insert_index": 21,
+          "amount": 3055
+        }
+      ]
+    },
+    "Lucid Motors \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI04",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-10",
+      "injection_details": [
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 921 |",
+          "insert_index": 22,
+          "amount": 921
+        },
+        {
+          "error": "SI05",
+          "removed_line_index": 20,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense | -24915 |"
+        }
+      ]
+    },
+    "DuPont \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI03"
+      ],
+      "source": "hard",
+      "combination_id": "H-05",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 2834 |",
+          "insert_index": 33,
+          "amount": 2834
+        },
+        {
+          "error": "SI03",
+          "removed_line_index": 26,
+          "removed_line": "| Earnings Per Share | Earnings per common share from continuing operations - diluted | 2.02 |"
+        }
+      ]
+    },
+    "Apple \u2014 Years ended September 24, 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-06",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 2623 |",
+          "insert_index": 27,
+          "amount": 2623
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 869 |",
+          "insert_index": 28,
+          "amount": 869
+        }
+      ]
+    },
+    "3M \u2014 2021": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-06",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 659 |",
+          "insert_index": 26,
+          "amount": 659
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 214 |",
+          "insert_index": 27,
+          "amount": 214
+        }
+      ]
+    },
+    "Oracle \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI04",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-10",
+      "injection_details": [
+        {
+          "error": "SI05",
+          "removed_line_index": 21,
+          "removed_line": "| Operating Expenses | Interest expense | -3505 |"
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 125 |",
+          "insert_index": 31,
+          "amount": 125
+        }
+      ]
+    },
+    "Allstate \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI03"
+      ],
+      "source": "hard",
+      "combination_id": "H-05",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 1648 |",
+          "insert_index": 43,
+          "amount": 1648
+        },
+        {
+          "error": "SI03",
+          "removed_line_index": 40,
+          "removed_line": "| Earnings Per Share | Weighted average common shares - Diluted | 262.5 |"
+        }
+      ]
+    },
+    "Etsy \u2014 Year Ended December 31, 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI01",
+        "SI02"
+      ],
+      "source": "hard",
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SI01",
+          "moved_line": "| Non-Operating Income (Expense) | Interest expense | -14168 |",
+          "from_index": 14,
+          "to_index": 12,
+          "item_description": "Interest expense"
+        },
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 4863 |",
+          "insert_index": 18,
+          "amount": 4863
+        }
+      ]
+    },
+    "ExxonMobil \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-06",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 4640 |",
+          "insert_index": 29,
+          "amount": 4640
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 600 |",
+          "insert_index": 30,
+          "amount": 600
+        }
+      ]
+    },
+    "Ford Motor \u2014 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI04",
+        "SI05"
+      ],
+      "source": "hard",
+      "combination_id": "H-10",
+      "injection_details": [
+        {
+          "error": "SI05",
+          "removed_line_index": 15,
+          "removed_line": "| Non-Operating Income (Expense) | Interest expense on Company debt excluding Ford Credit | 1302 |"
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 415 |",
+          "insert_index": 29,
+          "amount": 415
+        }
+      ]
+    },
+    "ON Semiconductor \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI03",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-08",
+      "injection_details": [
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 411 |",
+          "insert_index": 40,
+          "amount": 411
+        },
+        {
+          "error": "SI03",
+          "removed_line_index": 26,
+          "removed_line": "| Earnings Per Share | Net income for diluted earnings per share of common stock (Note 10) | 1904.2 |"
+        }
+      ]
+    },
+    "Logitech \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI03",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-08",
+      "injection_details": [
+        {
+          "error": "SI03",
+          "removed_line_index": 24,
+          "removed_line": "| Earnings Per Share | Diluted | 3.78 |"
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 813 |",
+          "insert_index": 28,
+          "amount": 813
+        }
+      ]
+    },
+    "Starbucks \u2014 Oct 1, 2023": {
+      "has_anomaly": true,
+      "errors": [
+        "SI03",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-08",
+      "injection_details": [
+        {
+          "error": "SI03",
+          "removed_line_index": 28,
+          "removed_line": "| Earnings Per Share | Earnings per share \u2014 diluted | 3.58 |"
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 741 |",
+          "insert_index": 32,
+          "amount": 741
+        }
+      ]
+    },
+    "UnitedHealth Group \u2014 2022": {
+      "has_anomaly": true,
+      "errors": [
+        "SI02",
+        "SI04"
+      ],
+      "source": "hard",
+      "combination_id": "H-06",
+      "injection_details": [
+        {
+          "error": "SI02",
+          "inserted_line": "| Non-Operating Income (Expense) | Depreciation Expense | 1073 |",
+          "insert_index": 30,
+          "amount": 1073
+        },
+        {
+          "error": "SI04",
+          "inserted_line": "| Non-Operating Income (Expense) | Miscellaneous other income | 780 |",
+          "insert_index": 31,
+          "amount": 780
+        }
+      ]
+    }
+  }
+}

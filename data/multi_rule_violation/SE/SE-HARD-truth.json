@@ -1,0 +1,1947 @@
+{
+  "metadata": {
+    "task": "se_multi_error_hard",
+    "total_companies": 93,
+    "error_combinations": {
+      "H-01": [
+        "SE01",
+        "SE02"
+      ],
+      "H-02": [
+        "SE01",
+        "SE03"
+      ],
+      "H-03": [
+        "SE02",
+        "SE03"
+      ]
+    },
+    "description": "Statement of Equity with 2 errors each",
+    "skipped_companies": 193
+  },
+  "ground_truth": {
+    "MasterCard \u2014 Balance at December 31, 2021": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 8,
+          "removed_line": "| Other comprehensive income (loss) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | (444) | (444) | \u2014 | (444) |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 5,
+          "column_index": 10,
+          "original_value": "9,930",
+          "new_value": "9,732",
+          "change": -198
+        }
+      ]
+    },
+    "MasterCard \u2014 Balance at December 31, 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 8,
+          "removed_line": "| Other comprehensive income (loss) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 154 | 154 | \u2014 | 154 |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | \u2014 | 11,195 | \u2014 | 11,195 | \u2014 | 11,195 |"
+        }
+      ]
+    },
+    "3M Company \u2014 Balance at December 31, 2021": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income (loss), net of tax | 69 | \u2014 | \u2014 | \u2014 | 77 | (8) |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 12,
+          "column_index": 4,
+          "original_value": "47,951",
+          "new_value": "47,680",
+          "change": -271
+        }
+      ]
+    },
+    "3M Company \u2014 Balance at December 31, 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income (loss), net of tax | (105) | \u2014 | \u2014 | \u2014 | (105) | \u2014 |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | (6,979) | \u2014 | (6,945) | \u2014 | \u2014 | 16 |"
+        }
+      ]
+    },
+    "AMD \u2014 Balance at December 31, 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 11,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | 1,320 | \u2014 | 1,320 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 11,
+          "removed_line": "| Other comprehensive income (loss) | \u2014 | \u2014 | \u2014 | \u2014 | (38) | (38) |"
+        }
+      ]
+    },
+    "AT&T \u2014 Balance at 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 12,
+          "removed_line": "| Net income (loss) attributable to AT&T | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | (8,524) | \u2014 | \u2014 | \u2014 | \u2014 | (8,524) |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 13,
+          "removed_line": "| Other comprehensive income (loss) attributable to AT&T | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | (763) | \u2014 | (763) |"
+        }
+      ]
+    },
+    "AbbVie \u2014 Balance at December 31, 2020": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income, net of tax | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 218 | \u2014 | 218 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 10,
+          "column_index": 2,
+          "original_value": "1,768",
+          "new_value": "1,410",
+          "change": -358
+        }
+      ]
+    },
+    "Apple Inc. \u2014 Balance at September 25, 2021": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 11,
+          "removed_line": "| Other comprehensive income/(loss) | \u2014 | \u2014 | 569 | 569 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 6,
+          "column_index": 5,
+          "original_value": "(6,778)",
+          "new_value": "(7,072)",
+          "change": 294
+        }
+      ]
+    },
+    "Apple Inc. \u2014 Balance at September 24, 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 10,
+          "removed_line": "| Net income | \u2014 | 99,803 | \u2014 | 99,803 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 10,
+          "removed_line": "| Other comprehensive income/(loss) | \u2014 | \u2014 | (11,272) | (11,272) |"
+        }
+      ]
+    },
+    "Apple Inc. \u2014 Balance at September 30, 2023": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 10,
+          "removed_line": "| Net income | \u2014 | 96,995 | \u2014 | 96,995 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 10,
+          "column_index": 4,
+          "original_value": "(343)",
+          "new_value": "(49)",
+          "change": -392
+        }
+      ]
+    },
+    "Amazon.com, Inc. \u2014 Balance as of January 1, 2021": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 8,
+          "column_index": 7,
+          "original_value": "85,915",
+          "new_value": "85,619",
+          "change": -296
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income (loss) | \u2014 | \u2014 | \u2014 | \u2014 | (1,196) | \u2014 | (1,196) |"
+        }
+      ]
+    },
+    "Amazon.com, Inc. \u2014 Balance as of December 31, 2022": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 30,425 | 30,425 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 4,
+          "column_index": 3,
+          "original_value": "108",
+          "new_value": "(311)",
+          "change": -419
+        }
+      ]
+    },
+    "Alphabet Inc. \u2014 Balance as of December 31, 2020": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 11,
+          "removed_line": "| Other comprehensive income (loss) | 0 | 0 | (2,256) | 0 | (2,256) |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 10,
+          "column_index": 6,
+          "original_value": "76,033",
+          "new_value": "75,803",
+          "change": -230
+        }
+      ]
+    },
+    "Alphabet Inc. \u2014 Balance as of December 31, 2021": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 11,
+          "removed_line": "| Other comprehensive income (loss) | 0 | 0 | (5,980) | 0 | (5,980) |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 10,
+          "removed_line": "| Net income | 0 | 0 | 0 | 59,972 | 59,972 |"
+        }
+      ]
+    },
+    "Alphabet Inc. \u2014 Balance as of December 31, 2022": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 5,
+          "column_index": 4,
+          "original_value": "0",
+          "new_value": "(420)",
+          "change": -420
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 9,
+          "removed_line": "| Net income | 0 | 0 | 0 | 73,795 | 73,795 |"
+        }
+      ]
+    },
+    "Adobe Inc. \u2014 Balance at December 3, 2021": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | 4,756 | \u2014 | \u2014 | \u2014 | 4,756 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 5,
+          "removed_line": "| Other comprehensive income (loss), net of taxes | \u2014 | \u2014 | \u2014 | \u2014 | (156) | \u2014 | \u2014 | (156) |"
+        }
+      ]
+    },
+    "Adobe Inc. \u2014 Balance at December 2, 2022": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | 5,428 | \u2014 | \u2014 | \u2014 | 5,428 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 10,
+          "column_index": 5,
+          "original_value": "33,346",
+          "new_value": "33,568",
+          "change": 222
+        }
+      ]
+    },
+    "Applied Materials, Inc. \u2014 Balance at October 25, 2020": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 9,
+          "column_index": 9,
+          "original_value": "(3)",
+          "new_value": "(367)",
+          "change": 364
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | 5,888 | \u2014 | \u2014 | \u2014 | 5,888 |"
+        }
+      ]
+    },
+    "Applied Materials, Inc. \u2014 Balance at October 30, 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income (loss), net of tax | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | (15) | (15) |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | 6,856 | \u2014 | \u2014 | \u2014 | 6,856 |"
+        }
+      ]
+    },
+    "Berkshire Hathaway Inc. \u2014 Balance at December 31, 2021": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income, net | \u2014 | 3,071 | \u2014 | \u2014 | (61) | 3,010 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 6,
+          "column_index": 7,
+          "original_value": "(8,031)",
+          "new_value": "(8,379)",
+          "change": 348
+        }
+      ]
+    },
+    "Baxter International Inc. \u2014 Balance as of December 31, 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income (loss) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 2,656 | \u2014 | 2,656 | 7 | 2,663 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 5,
+          "removed_line": "| Other comprehensive income (loss) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 279 | 279 | (3) | 276 |"
+        }
+      ]
+    },
+    "Bank of America Corporation \u2014 Balance at December 31, 2020": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | 31,978 | \u2014 | 31,978 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 10,
+          "column_index": 7,
+          "original_value": "(6,575)",
+          "new_value": "(6,848)",
+          "change": 273
+        }
+      ]
+    },
+    "The Boeing Company \u2014 Balance at December 31, 2021": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income, net of tax of ($22) | \u2014 | \u2014 | \u2014 | \u2014 | 2,109 | \u2014 | 2,109 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 4,
+          "column_index": 3,
+          "original_value": "9,052",
+          "new_value": "8,553",
+          "change": -499
+        }
+      ]
+    },
+    "Block, Inc. \u2014 Balance at December 31, 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 9,
+          "removed_line": "| Change in other comprehensive income | \u2014 | \u2014 | 144,781 | \u2014 | \u2014 | 144,781 |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 6,
+          "removed_line": "| Net income (loss) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 |"
+        }
+      ]
+    },
+    "Boston Scientific Corporation \u2014 Balance at Year Ended December 31, 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 9,
+          "removed_line": "| Changes in other comprehensive income (loss), net of tax: | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 7,
+          "removed_line": "| Net income (loss) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 608 | \u2014 | \u2014 | 608 | 608 |"
+        }
+      ]
+    },
+    "Box \u2014 Balance as of January 31, 2022": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 12,
+          "column_index": 6,
+          "original_value": "818,996",
+          "new_value": "818,600",
+          "change": -396
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 11,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 26,783 | 26,783 |"
+        }
+      ]
+    },
+    "Broadcom Inc. \u2014 Balance as of October 31, 2021": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 11,495 | \u2014 | 11,495 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 5,
+          "removed_line": "| Other comprehensive income | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 62 | 62 |"
+        }
+      ]
+    },
+    "Chevron Corporation \u2014 Balance at December 31, 2020": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 10,
+          "removed_line": "| Other comprehensive income | \u2014 | \u2014 | 1,723 | \u2014 | 1,723 | \u2014 | 1,723 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 8,
+          "column_index": 3,
+          "original_value": "(10,179)",
+          "new_value": "(9,957)",
+          "change": -222
+        }
+      ]
+    },
+    "Chevron Corporation \u2014 Balance at December 31, 2021": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 9,
+          "removed_line": "| Other comprehensive income | \u2014 | \u2014 | 1,091 | \u2014 | 1,091 | \u2014 | 1,091 |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 6,
+          "removed_line": "| Net income (loss) | \u2014 | 35,465 | \u2014 | \u2014 | 35,465 | 143 | 35,608 |"
+        }
+      ]
+    },
+    "The Coca-Cola Company \u2014 Year Ended December 31, 2021": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 6,
+          "removed_line": "| Net income (loss) | \u2014 | \u2014 | \u2014 | 9,771 | \u2014 | \u2014 | 9,771 | 33 | 9,804 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 9,
+          "removed_line": "| Net other comprehensive income (loss) | \u2014 | \u2014 | \u2014 | \u2014 | 271 | \u2014 | 271 | (132) | 139 |"
+        }
+      ]
+    },
+    "The Coca-Cola Company \u2014 Year Ended December 31, 2022": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income (loss) | \u2014 | \u2014 | \u2014 | 9,542 | \u2014 | \u2014 | 9,542 | 29 | 9,571 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 10,
+          "column_index": 10,
+          "original_value": "(50)",
+          "new_value": "(154)",
+          "change": 104
+        }
+      ]
+    },
+    "Cisco Systems, Inc. \u2014 BALANCE AT JULY 31, 2021": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income (loss) | \u2014 | \u2014 | \u2014 | (1,205) | (1,205) |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | 11,812 | \u2014 | 11,812 |"
+        }
+      ]
+    },
+    "Costco Wholesale Corporation \u2014 BALANCE AT AUGUST 28, 2022": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 6,
+          "column_index": 5,
+          "original_value": "24",
+          "new_value": "(386)",
+          "change": -410
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | \u2014 | 6,292 | 6,292 | \u2014 | 6,292 |"
+        }
+      ]
+    },
+    "Dell Technologies Inc. \u2014 Balances as of January 28, 2022": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income (loss) | \u2014 | \u2014 | \u2014 | \u2014 | 2,442 | \u2014 | 2,442 | (20) | 2,422 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 4,
+          "column_index": 8,
+          "original_value": "(1,685)",
+          "new_value": "(1,287)",
+          "change": -398
+        }
+      ]
+    },
+    "DuPont de Nemours, Inc. \u2014 Balance at December 31, 2022": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 8,
+          "column_index": 8,
+          "original_value": "27",
+          "new_value": "(78)",
+          "change": -105
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | 423 | \u2014 | \u2014 | 39 | 462 |"
+        }
+      ]
+    },
+    "Delta Air Lines, Inc. \u2014 Balance at January 1, 2021": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | 280 | \u2014 | \u2014 | \u2014 | 280 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 10,
+          "removed_line": "| Other comprehensive income | \u2014 | \u2014 | \u2014 | \u2014 | 1,329 | \u2014 | \u2014 | 1,329 |"
+        }
+      ]
+    },
+    "Eli Lilly and Company \u2014 Balance at January 1, 2021": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | 5,581.7 | \u2014 | \u2014 | \u2014 | \u2014 | 3.4 | 5,585.1 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 9,
+          "column_index": 8,
+          "original_value": "(24)",
+          "new_value": "(136)",
+          "change": -160
+        }
+      ]
+    },
+    "Etsy, Inc. \u2014 Balance as of December 31, 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 12,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | 307,568 | \u2014 | 307,568 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 11,
+          "removed_line": "| Other comprehensive income | \u2014 | \u2014 | \u2014 | \u2014 | 46,747 | 46,747 |"
+        }
+      ]
+    },
+    "Ford Motor Company \u2014 Balance at December 31, 2020": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income/(loss) | \u2014 | \u2014 | 17,937 | \u2014 | \u2014 | 17,937 | (27) | 17,910 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 9,
+          "column_index": 3,
+          "original_value": "22,611",
+          "new_value": "22,154",
+          "change": -457
+        }
+      ]
+    },
+    "Ford Motor Company \u2014 Balance at December 31, 2021": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 4,
+          "column_index": 4,
+          "original_value": "35,769",
+          "new_value": "36,213",
+          "change": 444
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income/(loss), net of tax | \u2014 | \u2014 | \u2014 | (1,000) | \u2014 | (1,000) | (4) | (1,004) |"
+        }
+      ]
+    },
+    "Ford Motor Company \u2014 Balance at December 31, 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income/(loss), net of tax | \u2014 | \u2014 | \u2014 | 297 | \u2014 | 297 | 1 | 298 |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income/(loss) | \u2014 | \u2014 | 4,347 | \u2014 | \u2014 | 4,347 | (18) | 4,329 |"
+        }
+      ]
+    },
+    "FedEx Corporation \u2014 Balance at May 31, 2020": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | 5,231 | \u2014 | \u2014 | 5,231 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 8,
+          "column_index": 7,
+          "original_value": "24,168",
+          "new_value": "23,705",
+          "change": -463
+        }
+      ]
+    },
+    "ExxonMobil Corporation \u2014 Balance as of December 31, 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 9,
+          "removed_line": "| Other comprehensive income | \u2014 | \u2014 | 1,281 | \u2014 | 1,281 | 261 | 1,542 |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 7,
+          "removed_line": "| Net income (loss) for the year | \u2014 | 36,010 | \u2014 | \u2014 | 36,010 | 1,344 | 37,354 |"
+        }
+      ]
+    },
+    "Honeywell International Inc. \u2014 Years Ended December 31, 2023": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 23,
+          "removed_line": "| Accumulated other comprehensive income (loss) - Ending balance | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | (4,135) | \u2014 | \u2014 |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 25,
+          "removed_line": "| Net income attributable to noncontrolling interest | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 14 | \u2014 |"
+        }
+      ]
+    },
+    "HP Inc. \u2014 Balance October 31, 2021": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income, net of taxes | \u2014 | \u2014 | \u2014 | \u2014 | 530 | 530 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 6,
+          "column_index": 7,
+          "original_value": "3,662",
+          "new_value": "3,194",
+          "change": -468
+        }
+      ]
+    },
+    "General Motors Company \u2014 Balance at December 31, 2021": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 12,
+          "column_index": 7,
+          "original_value": "(208)",
+          "new_value": "(684)",
+          "change": 476
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income (loss) | \u2014 | \u2014 | \u2014 | 1,368 | (31) | 1,337 | \u2014 |"
+        }
+      ]
+    },
+    "General Motors Company \u2014 Balance at December 31, 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income (loss) | \u2014 | \u2014 | \u2014 | (2,346) | (9) | (2,355) | \u2014 |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income (loss) | \u2014 | \u2014 | 10,127 | \u2014 | (287) | 9,840 | \u2014 |"
+        }
+      ]
+    },
+    "Honda Motor Co., Ltd. \u2014 Balance at March 31, 2020": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 4,
+          "column_index": 4,
+          "original_value": "(175)",
+          "new_value": "(17)",
+          "change": -158
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 6,
+          "removed_line": "| Net income | 2,033 | 1,912 | \u2014 | \u2014 | 121 |"
+        }
+      ]
+    },
+    "Honda Motor Co., Ltd. \u2014 Balance at March 31, 2021": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 5,
+          "column_index": 6,
+          "original_value": "134",
+          "new_value": "(353)",
+          "change": -487
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income | 11 | \u2014 | 6 | \u2014 | 5 |"
+        }
+      ]
+    },
+    "International Business Machines Corporation \u2014 Equity, January 1, 2022": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 11,
+          "column_index": 6,
+          "original_value": "(104)",
+          "new_value": "(164)",
+          "change": -268
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 7,
+          "removed_line": "| Other comprehensive income/(loss) | \u2014 | \u2014 | \u2014 | 6,494 | 6,494 | \u2014 | 6,494 |"
+        }
+      ]
+    },
+    "International Business Machines Corporation \u2014 Equity, January 1, 2023": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 6,
+          "removed_line": "| Net income | \u2014 | 7,502 | \u2014 | \u2014 | 7,502 | \u2014 | 7,502 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income/(loss) | \u2014 | \u2014 | \u2014 | (2,021) | (2,021) | \u2014 | (2,021) |"
+        }
+      ]
+    },
+    "Intel Corporation \u2014 Balance as of December 28, 2019": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 6,
+          "column_index": 5,
+          "original_value": "20,899",
+          "new_value": "21,008",
+          "change": 109
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 6,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | 21,008 | \u2014 | 20,899 |"
+        }
+      ]
+    },
+    "Intel Corporation \u2014 Balance as of December 25, 2021": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 7,
+          "removed_line": "| Other comprehensive income (loss) | \u2014 | \u2014 | 318 | \u2014 | \u2014 | 318 |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 6,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | 8,014 | 3 | 8,017 |"
+        }
+      ]
+    },
+    "JPMorgan Chase & Co. \u2014 Year ended December 31, 2023": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 7,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | 49,552 | \u2014 | \u2014 | \u2014 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 10,
+          "removed_line": "| Other comprehensive income/(loss), after-tax | \u2014 | \u2014 | \u2014 | \u2014 | 6,898 | \u2014 | \u2014 |"
+        }
+      ]
+    },
+    "Kellogg Company \u2014 Balance, January 2, 2021": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 8,
+          "column_index": 7,
+          "original_value": "(37)",
+          "new_value": "(475)",
+          "change": 438
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income (loss) | \u2014 | \u2014 | 162 | \u2014 | \u2014 | \u2014 | 162 |"
+        }
+      ]
+    },
+    "Kellogg Company \u2014 Balance, December 31, 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income (loss) | \u2014 | \u2014 | 95 | \u2014 | 15 | \u2014 | 110 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 9,
+          "removed_line": "| Other comprehensive income (loss) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 3 | 3 |"
+        }
+      ]
+    },
+    "Lockheed Martin Corporation \u2014 Balance at December 31, 2022": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 7,
+          "column_index": 8,
+          "original_value": "(6,000)",
+          "new_value": "(5,547)",
+          "change": -453
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income, net of tax | \u2014 | \u2014 | \u2014 | (780) | (780) | \u2014 | (780) |"
+        }
+      ]
+    },
+    "Morgan Stanley \u2014 Year 2023": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 7,
+          "removed_line": "| Net income applicable to Morgan Stanley | \u2014 | \u2014 | \u2014 | 9,087 | \u2014 | \u2014 | \u2014 | \u2014 | 143 | \u2014 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 11,
+          "removed_line": "| Net change in Accumulated other comprehensive income (loss) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | (168) | \u2014 | \u2014 | (111) | \u2014 |"
+        }
+      ]
+    },
+    "Microchip Technology Incorporated \u2014 Balance at March 31, 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 7,
+          "removed_line": "| Other comprehensive income | \u2014 | \u2014 | \u2014 | \u2014 | 16.5 | \u2014 | 16.5 |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 6,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 2,237.7 | 2,237.7 |"
+        }
+      ]
+    },
+    "Meta Platforms, Inc. \u2014 Balances at December 31, 2020": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 10,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | \u2014 | 39,370 | 39,370 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 6,
+          "column_index": 7,
+          "original_value": "(5,515)",
+          "new_value": "(5,404)",
+          "change": -111
+        }
+      ]
+    },
+    "Meta Platforms, Inc. \u2014 Balances at December 31, 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 10,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | \u2014 | 39,098 | 39,098 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 9,
+          "removed_line": "| Other comprehensive income | \u2014 | \u2014 | \u2014 | 1,375 | \u2014 | 1,375 |"
+        }
+      ]
+    },
+    "Marriott International, Inc. \u2014 Balance at December 31, 2020": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 6,
+          "column_index": 3,
+          "original_value": "(207)",
+          "new_value": "(164)",
+          "change": -371
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | 1,099 | \u2014 | \u2014 | 1,099 | \u2014 | \u2014 |"
+        }
+      ]
+    },
+    "Marriott International, Inc. \u2014 Balance at December 31, 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income | \u2014 | 82 | \u2014 | \u2014 | \u2014 | \u2014 | 82 |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | 3,083 | \u2014 | \u2014 | 3,083 | \u2014 | \u2014 |"
+        }
+      ]
+    },
+    "Mastercard Incorporated \u2014 Balance at December 31, 2021": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 8,
+          "removed_line": "| Other comprehensive income (loss) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | (444) | (444) | \u2014 | (444) |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 7,
+          "column_index": 10,
+          "original_value": "(3)",
+          "new_value": "(267)",
+          "change": -270
+        }
+      ]
+    },
+    "Mastercard Incorporated \u2014 Balance at December 31, 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | \u2014 | 11,195 | \u2014 | 11,195 | \u2014 | 11,195 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 7,
+          "removed_line": "| Other comprehensive income (loss) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 154 | 154 | \u2014 | 154 |"
+        }
+      ]
+    },
+    "McDonald's Corporation \u2014 Balance at December 31, 2021": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income (loss), net of tax | \u2014 | \u2014 | \u2014 | \u2014 | (118.7) | 55.5 | 150.3 | \u2014 | \u2014 | 87.1 |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | 6,177.4 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 6,177.4 |"
+        }
+      ]
+    },
+    "Microsoft Corporation \u2014 Year Ended June 30, 2023": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 8,
+          "column_index": 2,
+          "original_value": "(2)",
+          "new_value": "(351)",
+          "change": -353
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 11,
+          "removed_line": "| Other comprehensive income (loss) | \u2014 | \u2014 | (1,665) | \u2014 |"
+        }
+      ]
+    },
+    "Microsoft Corporation \u2014 Year Ended June 30, 2024": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 11,
+          "removed_line": "| Other comprehensive income (loss) | \u2014 | \u2014 | 753 | \u2014 |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 9,
+          "removed_line": "| Net income | \u2014 | 88,136 | \u2014 | \u2014 |"
+        }
+      ]
+    },
+    "Nike, Inc. \u2014 Balance at May 31, 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 11,
+          "removed_line": "| Other comprehensive income (loss) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | (87) | \u2014 | (87) |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 10,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 5,070 | 5,070 |"
+        }
+      ]
+    },
+    "NXP Semiconductors N.V. \u2014 Balance as of January 1, 2021": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income (loss) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 1,871 | 1,871 | 35 | 1,906 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 9,
+          "column_index": 7,
+          "original_value": "(606)",
+          "new_value": "(1,015)",
+          "change": 409
+        }
+      ]
+    },
+    "NXP Semiconductors N.V. \u2014 Balance as of December 31, 2021": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income | \u2014 | \u2014 | \u2014 | \u2014 | 28 | \u2014 | 28 | \u2014 | 28 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 4,
+          "column_index": 5,
+          "original_value": "(1,932)",
+          "new_value": "(2,327)",
+          "change": 395
+        }
+      ]
+    },
+    "NXP Semiconductors N.V. \u2014 Balance as of December 31, 2022": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income (loss) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 2,797 | 2,797 | 25 | 2,822 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 5,
+          "removed_line": "| Other comprehensive income | \u2014 | \u2014 | \u2014 | \u2014 | 14 | \u2014 | 14 | \u2014 | 14 |"
+        }
+      ]
+    },
+    "NVIDIA Corporation \u2014 Balances, January 26, 2020": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 4,332 | 4,332 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 11,
+          "column_index": 2,
+          "original_value": "2,479",
+          "new_value": "2,157",
+          "change": -322
+        }
+      ]
+    },
+    "Pfizer Inc. \u2014 Balance, December 31, 2021": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income/(loss), net of tax | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | (2,407) | (2,407) | (15) | (2,422) |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 31,372 | \u2014 | 31,372 | 35 | 31,407 |"
+        }
+      ]
+    },
+    "Palantir Technologies Inc. \u2014 Balance as of December 31, 2022": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 10,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | \u2014 | 209,825 | 209,825 | 7,550 | 217,375 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 10,
+          "column_index": 2,
+          "original_value": "2,200,128",
+          "new_value": "2,200,464",
+          "change": 336
+        }
+      ]
+    },
+    "Oracle Corporation \u2014 Balances as of May 31, 2020": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 8,
+          "column_index": 6,
+          "original_value": "(21,000)",
+          "new_value": "(20,639)",
+          "change": -361
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 12,
+          "removed_line": "| Other comprehensive income, net | \u2014 | \u2014 | \u2014 | 541 | 541 | 2 | 543 |"
+        }
+      ]
+    },
+    "Oracle Corporation \u2014 Balances as of May 31, 2022": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 12,
+          "column_index": 3,
+          "original_value": "(18)",
+          "new_value": "(314)",
+          "change": 296
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 14,
+          "removed_line": "| Net income | \u2014 | \u2014 | 8,503 | \u2014 | 8,503 | 165 | 8,668 |"
+        }
+      ]
+    },
+    "Qualcomm Incorporated \u2014 Year Ended September 24, 2023": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 10,
+          "removed_line": "| Net income | \u2014 | 7,232 | \u2014 | \u2014 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 11,
+          "removed_line": "| Other comprehensive income (loss) | \u2014 | \u2014 | 380 | \u2014 |"
+        }
+      ]
+    },
+    "PDD Holdings Inc. \u2014 Balance as of January 1, 2023": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 15,
+          "column_index": 7,
+          "original_value": "665,328",
+          "new_value": "665,625",
+          "change": 297
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 60,026,544 | 60,026,544 |"
+        }
+      ]
+    },
+    "Seagate Technology Holdings PLC \u2014 Balance at, July 3, 2020": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 4,
+          "column_index": 6,
+          "original_value": "(4,904)",
+          "new_value": "(5,077)",
+          "change": 173
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income | \u2014 | \u2014 | \u2014 | 25 | \u2014 | 25 |"
+        }
+      ]
+    },
+    "Seagate Technology Holdings PLC \u2014 Balance at, July 2, 2021": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | \u2014 | 1,649 | 1,649 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 5,
+          "removed_line": "| Other comprehensive income | \u2014 | \u2014 | \u2014 | 77 | \u2014 | 77 |"
+        }
+      ]
+    },
+    "Salesforce, Inc. \u2014 Balance at January 31, 2020": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 6,
+          "column_index": 9,
+          "original_value": "2,190",
+          "new_value": "2,567",
+          "change": 377
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 7,
+          "removed_line": "| Other comprehensive income, net of tax | 0 | 0 | 0 | 0 | 0 | 51 | 0 | 51 |"
+        }
+      ]
+    },
+    "Salesforce, Inc. \u2014 Balance at January 31, 2022": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 9,
+          "removed_line": "| Net income | 0 | 0 | 0 | 0 | 0 | 0 | 208 | 208 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 4,
+          "column_index": 2,
+          "original_value": "989",
+          "new_value": "574",
+          "change": -415
+        }
+      ]
+    },
+    "Texas Instruments \u2014 Balance at December 31, 2020": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | 7,769 | \u2014 | \u2014 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 9,
+          "removed_line": "| Other comprehensive income (loss), net of taxes | \u2014 | \u2014 | \u2014 | \u2014 | 203 |"
+        }
+      ]
+    },
+    "Toyota Motor Corporation \u2014 Balance at April 1, 2022": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE01",
+          "line_index": 5,
+          "column_index": 4,
+          "original_value": "2,451,318",
+          "new_value": "2,450,933",
+          "change": -385
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | 2,450,933 | \u2014 | \u2014 | 2,451,318 | 41,650 | 2,492,967 |"
+        }
+      ]
+    },
+    "Visa Inc. \u2014 Balance at September 30, 2020": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income (loss) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 82 | 82 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 4,
+          "column_index": 5,
+          "original_value": "16,721",
+          "new_value": "16,284",
+          "change": -437
+        }
+      ]
+    },
+    "Visa Inc. \u2014 Balance at September 30, 2021": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | 14,957 | \u2014 | 14,957 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 5,
+          "removed_line": "| Other comprehensive income (loss) | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | (2,805) | (2,805) |"
+        }
+      ]
+    },
+    "Zoom Video Communications, Inc. \u2014 Balance at January 31, 2020": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 11,
+          "removed_line": "| Other comprehensive income | \u2014 | \u2014 | \u2014 | 30 | \u2014 | 30 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 7,
+          "column_index": 7,
+          "original_value": "1",
+          "new_value": "(174)",
+          "change": -175
+        }
+      ]
+    },
+    "Zoom Video Communications, Inc. \u2014 Balance at January 31, 2021": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 10,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | \u2014 | 1,375,639 | 1,375,639 |"
+        },
+        {
+          "error": "SE03",
+          "removed_line_index": 9,
+          "removed_line": "| Other comprehensive income | \u2014 | \u2014 | \u2014 | (18,741) | \u2014 | (18,741) |"
+        }
+      ]
+    },
+    "Zoom Video Communications, Inc. \u2014 Balance at January 31, 2022": {
+      "errors": [
+        "SE01",
+        "SE02"
+      ],
+      "combination_id": "H-01",
+      "injection_details": [
+        {
+          "error": "SE02",
+          "removed_line_index": 11,
+          "removed_line": "| Net income | \u2014 | \u2014 | \u2014 | \u2014 | 103,711 | 103,711 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 4,
+          "column_index": 3,
+          "original_value": "299",
+          "new_value": "651",
+          "change": 352
+        }
+      ]
+    },
+    "Whirlpool Corporation \u2014 Balance at December 31, 2020": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income (loss) | \u2014 | 454 | \u2014 | \u2014 | \u2014 | 454 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 7,
+          "column_index": 5,
+          "original_value": "1",
+          "new_value": "(156)",
+          "change": -157
+        }
+      ]
+    },
+    "Walmart Inc. \u2014 Balance at February 1, 2020": {
+      "errors": [
+        "SE01",
+        "SE03"
+      ],
+      "combination_id": "H-02",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income (loss), net of income taxes | \u2014 | \u2014 | \u2014 | \u2014 | 1,039 | 1,039 | (213) | 826 |"
+        },
+        {
+          "error": "SE01",
+          "line_index": 7,
+          "column_index": 9,
+          "original_value": "(2,658)",
+          "new_value": "(2,278)",
+          "change": -380
+        }
+      ]
+    },
+    "Walmart Inc. \u2014 Balance at January 31, 2021": {
+      "errors": [
+        "SE02",
+        "SE03"
+      ],
+      "combination_id": "H-03",
+      "injection_details": [
+        {
+          "error": "SE03",
+          "removed_line_index": 6,
+          "removed_line": "| Other comprehensive income (loss), net of income taxes | \u2014 | \u2014 | \u2014 | \u2014 | 3,000 | 3,000 | (230) | 2,770 |"
+        },
+        {
+          "error": "SE02",
+          "removed_line_index": 5,
+          "removed_line": "| Consolidated net income | \u2014 | \u2014 | \u2014 | 13,673 | \u2014 | 13,673 | 267 | 13,940 |"
+        }
+      ]
+    }
+  }
+}

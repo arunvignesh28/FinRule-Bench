@@ -1,0 +1,511 @@
+company,rule,result,message
+3M,SI-01,FAIL,Original other-income section not found
+AMD,SI-01,FAIL,Injected operating-expenses section not found
+ATandT,SI-01,FAIL,Original other-income section not found
+AbbVie,SI-01,FAIL,Original other-income section not found
+Abbott Laboratories,SI-01,FAIL,Original other-income section not found
+Adobe,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+Allstate,SI-01,FAIL,Original other-income section not found
+Alphabet (Google),SI-01,FAIL,Injected operating-expenses section not found
+Amazon,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+American Express,SI-01,FAIL,Original other-income section not found
+Apple,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+Applied Materials,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+Asana,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+Bank of America,SI-01,FAIL,Injected operating-expenses section not found
+Baxter International,SI-01,FAIL,Original other-income section not found
+Berkshire Hathaway,SI-01,FAIL,No numeric non-operating line found in original other-income section
+Best Buy,SI-01,FAIL,Injected operating-expenses section not found
+Bilibili,SI-01,FAIL,Original other-income section not found
+Block,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+Boeing,SI-01,FAIL,Injected operating-expenses section not found
+Boston Scientific,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+Box,SI-01,FAIL,Original other-income section not found
+Broadcom,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+Caterpillar,SI-01,FAIL,Injected operating-expenses section not found
+Chevron,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+Cisco Systems,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+Coca-Cola,SI-01,FAIL,Injected operating-expenses section not found
+Corsair Gaming,SI-01,FAIL,Original other-income section not found
+Costco,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+Dell,SI-01,FAIL,Original other-income section not found
+Dell Technologies,SI-01,FAIL,Original other-income section not found
+Delta Air Lines,SI-01,FAIL,Original other-income section not found
+Disney,SI-01,FAIL,Injected operating-expenses section not found
+DraftKings,SI-01,FAIL,Injected operating-expenses section not found
+DuPont,SI-01,FAIL,Original other-income section not found
+Electronic Arts,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+Eli Lilly,SI-01,FAIL,Original other-income section not found
+Etsy,SI-01,PASS,PASS: found a non-operating line moved into Operating Expenses
+ExxonMobil,SI-01,FAIL,Injected operating-expenses section not found
+FedEx,SI-01,FAIL,No non-operating line from original other-income was found inside injected Operating Expenses block
+Ford Motor,SI-01,FAIL,Injected operating-expenses section not found
+General Electric,SI-01,FAIL,Injected operating-expenses section not found
+General Motors,SI-01,FAIL,Original other-income section not found
+Goldman Sachs,SI-01,FAIL,Original other-income section not found
+HP,SI-01,FAIL,Original other-income section not found
+Home Depot,SI-01,FAIL,Original other-income section not found
+Honda,SI-01,FAIL,Injected operating-expenses section not found
+Honeywell International,SI-01,FAIL,Original other-income section not found
+IBM,SI-01,FAIL,Original other-income section not found
+Intel,SI-01,FAIL,Original other-income section not found
+JD.com,SI-01,FAIL,Injected operating-expenses section not found
+JPMorgan Chase,SI-01,FAIL,Injected operating-expenses section not found
+Johnson and Johnson,SI-01,FAIL,Original other-income section not found
+Kellogg_s,SI-01,FAIL,Injected operating-expenses section not found
+Li Auto,SI-01,FAIL,Injected operating-expenses section not found
+Lockheed Martin,SI-01,FAIL,Injected operating-expenses section not found
+Logitech,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+Lucid Motors,SI-01,FAIL,Injected operating-expenses section not found
+Luckin Coffee,SI-01,FAIL,Original other-income section not found
+Lyft,SI-01,FAIL,Injected operating-expenses section not found
+Marriott,SI-01,FAIL,Injected operating-expenses section not found
+MasterCard,SI-01,FAIL,No non-operating line from original other-income was found inside injected Operating Expenses block
+McDonald_s,SI-01,FAIL,Original other-income section not found
+Merck,SI-01,FAIL,Original other-income section not found
+Meta Platforms,SI-01,FAIL,Injected operating-expenses section not found
+Microchip Technology,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+Microsoft,SI-01,FAIL,Injected operating-expenses section not found
+Morgan Stanley,SI-01,FAIL,Original other-income section not found
+NIO,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+NVIDIA,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+NXP Semiconductors,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+Netflix,SI-01,FAIL,Injected operating-expenses section not found
+Nike,SI-01,FAIL,Original other-income section not found
+ON Semiconductor,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+Oracle,SI-01,FAIL,Original other-income section not found
+Palantir,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+Peloton,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+PepsiCo,SI-01,FAIL,Original other-income section not found
+Pfizer,SI-01,FAIL,Original other-income section not found
+Philip Morris,SI-01,FAIL,Original other-income section not found
+Pinduoduo,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+Procter and Gamble,SI-01,FAIL,Original other-income section not found
+Qualcomm,SI-01,FAIL,Injected operating-expenses section not found
+Robinhood,SI-01,FAIL,Original other-income section not found
+Roku,SI-01,FAIL,No non-operating line from original other-income was found inside injected Operating Expenses block
+Salesforce,SI-01,FAIL,Original other-income section not found
+Seagate Technology,SI-01,FAIL,Original other-income section not found
+Snap,SI-01,FAIL,Injected operating-expenses section not found
+Starbucks,SI-01,FAIL,Original other-income section not found
+Take-Two Interactive,SI-01,FAIL,Original other-income section not found
+Target,SI-01,FAIL,Injected operating-expenses section not found
+Tesla,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+Texas Instruments,SI-01,FAIL,Injected operating-expenses section not found
+Toyota,SI-01,FAIL,Injected operating-expenses section not found
+Uber,SI-01,FAIL,Injected operating-expenses section not found
+UnitedHealth Group,SI-01,FAIL,Injected operating-expenses section not found
+Virgin Galactic,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+Visa,SI-01,FAIL,Original other-income section not found
+Walgreens Boots Alliance,SI-01,FAIL,Injected operating-expenses section not found
+Walmart,SI-01,FAIL,Injected operating-expenses section not found
+Whirlpool,SI-01,FAIL,Original other-income section not found
+Zoom Video Communications,SI-01,FAIL,Moved line still present in injected other-income (should have been moved)
+3M,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+AMD,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+ATandT,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+AbbVie,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Abbott Laboratories,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+Adobe,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Allstate,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Alphabet (Google),SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Amazon,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+American Express,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Apple,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Applied Materials,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Asana,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Bank of America,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Baxter International,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Berkshire Hathaway,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+Best Buy,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Bilibili,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+Block,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Boeing,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Boston Scientific,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Box,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+Broadcom,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Caterpillar,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+Chevron,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Cisco Systems,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+Coca-Cola,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Corsair Gaming,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+Costco,SI-02,FAIL,Inserted 'Depreciation Expense' is inside the Operating Expenses block (should be outside)
+Dell,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+Dell Technologies,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Delta Air Lines,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Disney,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+DraftKings,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+DuPont,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Electronic Arts,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Eli Lilly,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Etsy,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+ExxonMobil,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+FedEx,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Ford Motor,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+General Electric,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+General Motors,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Goldman Sachs,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+HP,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Home Depot,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Honda,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+Honeywell International,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+IBM,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+Intel,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+JD.com,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+JPMorgan Chase,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+Johnson and Johnson,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Kellogg_s,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Li Auto,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+Lockheed Martin,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Logitech,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Lucid Motors,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 2)
+Luckin Coffee,SI-02,FAIL,Injected file does not contain 'Depreciation Expense' line
+Lyft,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Marriott,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+MasterCard,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+McDonald_s,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Merck,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Meta Platforms,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Microchip Technology,SI-02,FAIL,Inserted 'Depreciation Expense' is inside the Operating Expenses block (should be outside)
+Microsoft,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Morgan Stanley,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+NIO,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+NVIDIA,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+NXP Semiconductors,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Netflix,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Nike,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+ON Semiconductor,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Oracle,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Palantir,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Peloton,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+PepsiCo,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Pfizer,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Philip Morris,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Pinduoduo,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 4)
+Procter and Gamble,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Qualcomm,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Robinhood,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Roku,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Salesforce,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+Seagate Technology,SI-02,FAIL,Inserted 'Depreciation Expense' is inside the Operating Expenses block (should be outside)
+Snap,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Starbucks,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Take-Two Interactive,SI-02,FAIL,Inserted 'Depreciation Expense' is inside the Operating Expenses block (should be outside)
+Target,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+Tesla,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Texas Instruments,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Toyota,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+Uber,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+UnitedHealth Group,SI-02,PASS,PASS: Depreciation Expense inserted outside operating expenses
+Virgin Galactic,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Visa,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Walgreens Boots Alliance,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Walmart,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Whirlpool,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+Zoom Video Communications,SI-02,FAIL,Expected exactly 1 new 'Depreciation Expense' insertion (found 3)
+3M,SI-03,FAIL,Injected still contains 2 'diluted' line(s) (should be removed)
+AMD,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+ATandT,SI-03,FAIL,Original does not contain any 'diluted' lines to delete
+AbbVie,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Abbott Laboratories,SI-03,PASS,PASS: all 'diluted' lines removed (3 removed)
+Adobe,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Allstate,SI-03,PASS,PASS: all 'diluted' lines removed (6 removed)
+Alphabet (Google),SI-03,PASS,PASS: all 'diluted' lines removed (3 removed)
+Amazon,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+American Express,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Apple,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Applied Materials,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Asana,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Bank of America,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Baxter International,SI-03,PASS,PASS: all 'diluted' lines removed (12 removed)
+Berkshire Hathaway,SI-03,FAIL,Original does not contain any 'diluted' lines to delete
+Best Buy,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Bilibili,SI-03,FAIL,Original does not contain any 'diluted' lines to delete
+Block,SI-03,PASS,PASS: all 'diluted' lines removed (6 removed)
+Boeing,SI-03,PASS,PASS: all 'diluted' lines removed (3 removed)
+Boston Scientific,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Box,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Broadcom,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Caterpillar,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Chevron,SI-03,PASS,PASS: all 'diluted' lines removed (3 removed)
+Cisco Systems,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Coca-Cola,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Corsair Gaming,SI-03,FAIL,Original does not contain any 'diluted' lines to delete
+Costco,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Dell,SI-03,PASS,PASS: all 'diluted' lines removed (3 removed)
+Dell Technologies,SI-03,PASS,PASS: all 'diluted' lines removed (6 removed)
+Delta Air Lines,SI-03,PASS,PASS: all 'diluted' lines removed (3 removed)
+Disney,SI-03,PASS,PASS: all 'diluted' lines removed (9 removed)
+DraftKings,SI-03,PASS,PASS: all 'diluted' lines removed (3 removed)
+DuPont,SI-03,PASS,PASS: all 'diluted' lines removed (12 removed)
+Electronic Arts,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Eli Lilly,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Etsy,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+ExxonMobil,SI-03,FAIL,Original does not contain any 'diluted' lines to delete
+FedEx,SI-03,PASS,PASS: all 'diluted' lines removed (3 removed)
+Ford Motor,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+General Electric,SI-03,PASS,PASS: all 'diluted' lines removed (6 removed)
+General Motors,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Goldman Sachs,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+HP,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Home Depot,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Honda,SI-03,FAIL,Original does not contain any 'diluted' lines to delete
+Honeywell International,SI-03,FAIL,Original does not contain any 'diluted' lines to delete
+IBM,SI-03,FAIL,Original does not contain any 'diluted' lines to delete
+Intel,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+JD.com,SI-03,FAIL,Original does not contain any 'diluted' lines to delete
+JPMorgan Chase,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Johnson and Johnson,SI-03,PASS,PASS: all 'diluted' lines removed (12 removed)
+Kellogg_s,SI-03,PASS,PASS: all 'diluted' lines removed (3 removed)
+Li Auto,SI-03,FAIL,Original does not contain any 'diluted' lines to delete
+Lockheed Martin,SI-03,PASS,PASS: all 'diluted' lines removed (3 removed)
+Logitech,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Lucid Motors,SI-03,FAIL,Injected still contains 6 'diluted' line(s) (should be removed)
+Luckin Coffee,SI-03,FAIL,Injected still contains 4 'diluted' line(s) (should be removed)
+Lyft,SI-03,PASS,PASS: all 'diluted' lines removed (6 removed)
+Marriott,SI-03,PASS,PASS: all 'diluted' lines removed (3 removed)
+MasterCard,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+McDonald_s,SI-03,PASS,PASS: all 'diluted' lines removed (6 removed)
+Merck,SI-03,FAIL,Original does not contain any 'diluted' lines to delete
+Meta Platforms,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Microchip Technology,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Microsoft,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Morgan Stanley,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+NIO,SI-03,FAIL,Original does not contain any 'diluted' lines to delete
+NVIDIA,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+NXP Semiconductors,SI-03,PASS,PASS: all 'diluted' lines removed (6 removed)
+Netflix,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Nike,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+ON Semiconductor,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Oracle,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Palantir,SI-03,PASS,PASS: all 'diluted' lines removed (6 removed)
+Peloton,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+PepsiCo,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Pfizer,SI-03,FAIL,Injected still contains 5 'diluted' line(s) (should be removed)
+Philip Morris,SI-03,PASS,PASS: all 'diluted' lines removed (3 removed)
+Pinduoduo,SI-03,PASS,PASS: all 'diluted' lines removed (8 removed)
+Procter and Gamble,SI-03,PASS,PASS: all 'diluted' lines removed (3 removed)
+Qualcomm,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Robinhood,SI-03,PASS,PASS: all 'diluted' lines removed (9 removed)
+Roku,SI-03,PASS,PASS: all 'diluted' lines removed (6 removed)
+Salesforce,SI-03,FAIL,Injected still contains 1 'diluted' line(s) (should be removed)
+Seagate Technology,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Snap,SI-03,PASS,PASS: all 'diluted' lines removed (6 removed)
+Starbucks,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Take-Two Interactive,SI-03,PASS,PASS: all 'diluted' lines removed (3 removed)
+Target,SI-03,FAIL,Injected still contains 1 'diluted' line(s) (should be removed)
+Tesla,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Texas Instruments,SI-03,FAIL,Injected still contains 6 'diluted' line(s) (should be removed)
+Toyota,SI-03,PASS,PASS: all 'diluted' lines removed (3 removed)
+Uber,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+UnitedHealth Group,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Virgin Galactic,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Visa,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Walgreens Boots Alliance,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Walmart,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+Whirlpool,SI-03,PASS,PASS: all 'diluted' lines removed (6 removed)
+Zoom Video Communications,SI-03,FAIL,Injected still contains 3 'diluted' line(s) (should be removed)
+3M,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+AMD,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+ATandT,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+AbbVie,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Abbott Laboratories,SI-04,FAIL,More than one 'Miscellaneous other income' added (found 3)
+Adobe,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Allstate,SI-04,FAIL,More than one 'Miscellaneous other income' added (found 3)
+Alphabet (Google),SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Amazon,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+American Express,SI-04,FAIL,More than one 'Miscellaneous other income' added (found 3)
+Apple,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Applied Materials,SI-04,FAIL,More than one 'Miscellaneous other income' added (found 3)
+Asana,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Bank of America,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Baxter International,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Berkshire Hathaway,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Best Buy,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Bilibili,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Block,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Boeing,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Boston Scientific,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Box,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Broadcom,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Caterpillar,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Chevron,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Cisco Systems,SI-04,FAIL,More than one 'Miscellaneous other income' added (found 3)
+Coca-Cola,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Corsair Gaming,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Costco,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Dell,SI-04,FAIL,More than one 'Miscellaneous other income' added (found 3)
+Dell Technologies,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Delta Air Lines,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Disney,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+DraftKings,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+DuPont,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Electronic Arts,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Eli Lilly,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Etsy,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+ExxonMobil,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+FedEx,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Ford Motor,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+General Electric,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+General Motors,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Goldman Sachs,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+HP,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Home Depot,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Honda,SI-04,FAIL,More than one 'Miscellaneous other income' added (found 3)
+Honeywell International,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+IBM,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Intel,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+JD.com,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+JPMorgan Chase,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Johnson and Johnson,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Kellogg_s,SI-04,FAIL,More than one 'Miscellaneous other income' added (found 3)
+Li Auto,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Lockheed Martin,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Logitech,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Lucid Motors,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Luckin Coffee,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Lyft,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Marriott,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+MasterCard,SI-04,FAIL,More than one 'Miscellaneous other income' added (found 3)
+McDonald_s,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Merck,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Meta Platforms,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Microchip Technology,SI-04,FAIL,More than one 'Miscellaneous other income' added (found 3)
+Microsoft,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Morgan Stanley,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+NIO,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+NVIDIA,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+NXP Semiconductors,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Netflix,SI-04,FAIL,No 'Miscellaneous other income' added line found in injected
+Nike,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+ON Semiconductor,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Oracle,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Palantir,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Peloton,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+PepsiCo,SI-04,FAIL,More than one 'Miscellaneous other income' added (found 3)
+Pfizer,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Philip Morris,SI-04,FAIL,More than one 'Miscellaneous other income' added (found 3)
+Pinduoduo,SI-04,FAIL,More than one 'Miscellaneous other income' added (found 4)
+Procter and Gamble,SI-04,FAIL,More than one 'Miscellaneous other income' added (found 3)
+Qualcomm,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Robinhood,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Roku,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Salesforce,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Seagate Technology,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Snap,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Starbucks,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Take-Two Interactive,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Target,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Tesla,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Texas Instruments,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Toyota,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Uber,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+UnitedHealth Group,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Virgin Galactic,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Visa,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Walgreens Boots Alliance,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Walmart,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Whirlpool,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+Zoom Video Communications,SI-04,PASS,PASS: 'Miscellaneous other income' inserted correctly near Other Income
+3M,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+AMD,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+ATandT,SI-05,FAIL,Original does not contain any 'interest' lines to delete
+AbbVie,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Abbott Laboratories,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Adobe,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Allstate,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Alphabet (Google),SI-05,FAIL,Original does not contain any 'interest' lines to delete
+Amazon,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+American Express,SI-05,FAIL,Injected still contains 33 'interest' line(s) (should be removed)
+Apple,SI-05,FAIL,Original does not contain any 'interest' lines to delete
+Applied Materials,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Asana,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Bank of America,SI-05,FAIL,Injected still contains 15 'interest' line(s) (should be removed)
+Baxter International,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Berkshire Hathaway,SI-05,FAIL,Injected still contains 1 'interest' line(s) (should be removed)
+Best Buy,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Bilibili,SI-05,FAIL,Original does not contain any 'interest' lines to delete
+Block,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Boeing,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Boston Scientific,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Box,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Broadcom,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Caterpillar,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Chevron,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Cisco Systems,SI-05,FAIL,Injected still contains 9 'interest' line(s) (should be removed)
+Coca-Cola,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Corsair Gaming,SI-05,FAIL,Injected still contains 9 'interest' line(s) (should be removed)
+Costco,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Dell,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Dell Technologies,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Delta Air Lines,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Disney,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+DraftKings,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+DuPont,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Electronic Arts,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Eli Lilly,SI-05,FAIL,Original does not contain any 'interest' lines to delete
+Etsy,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+ExxonMobil,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+FedEx,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Ford Motor,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+General Electric,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+General Motors,SI-05,FAIL,Injected still contains 9 'interest' line(s) (should be removed)
+Goldman Sachs,SI-05,FAIL,Injected still contains 12 'interest' line(s) (should be removed)
+HP,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Home Depot,SI-05,FAIL,Injected still contains 12 'interest' line(s) (should be removed)
+Honda,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Honeywell International,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+IBM,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Intel,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+JD.com,SI-05,FAIL,Injected still contains 1 'interest' line(s) (should be removed)
+JPMorgan Chase,SI-05,FAIL,Injected still contains 9 'interest' line(s) (should be removed)
+Johnson and Johnson,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Kellogg_s,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Li Auto,SI-05,FAIL,Original does not contain any 'interest' lines to delete
+Lockheed Martin,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Logitech,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Lucid Motors,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Luckin Coffee,SI-05,FAIL,Injected still contains 8 'interest' line(s) (should be removed)
+Lyft,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Marriott,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+MasterCard,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+McDonald_s,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Merck,SI-05,FAIL,Original does not contain any 'interest' lines to delete
+Meta Platforms,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Microchip Technology,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Microsoft,SI-05,FAIL,Original does not contain any 'interest' lines to delete
+Morgan Stanley,SI-05,FAIL,Injected still contains 18 'interest' line(s) (should be removed)
+NIO,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+NVIDIA,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+NXP Semiconductors,SI-05,FAIL,Original does not contain any 'interest' lines to delete
+Netflix,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Nike,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+ON Semiconductor,SI-05,FAIL,Injected still contains 12 'interest' line(s) (should be removed)
+Oracle,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Palantir,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Peloton,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+PepsiCo,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Pfizer,SI-05,FAIL,Original does not contain any 'interest' lines to delete
+Philip Morris,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Pinduoduo,SI-05,FAIL,Injected still contains 8 'interest' line(s) (should be removed)
+Procter and Gamble,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Qualcomm,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Robinhood,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Roku,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Salesforce,SI-05,FAIL,Original does not contain any 'interest' lines to delete
+Seagate Technology,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Snap,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Starbucks,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Take-Two Interactive,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Target,SI-05,FAIL,Injected still contains 1 'interest' line(s) (should be removed)
+Tesla,SI-05,FAIL,Injected still contains 4 'interest' line(s) (should be removed)
+Texas Instruments,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Toyota,SI-05,FAIL,Original does not contain any 'interest' lines to delete
+Uber,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+UnitedHealth Group,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Virgin Galactic,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Visa,SI-05,FAIL,Injected still contains 3 'interest' line(s) (should be removed)
+Walgreens Boots Alliance,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Walmart,SI-05,FAIL,Injected still contains 10 'interest' line(s) (should be removed)
+Whirlpool,SI-05,FAIL,Injected still contains 6 'interest' line(s) (should be removed)
+Zoom Video Communications,SI-05,FAIL,Original does not contain any 'interest' lines to delete

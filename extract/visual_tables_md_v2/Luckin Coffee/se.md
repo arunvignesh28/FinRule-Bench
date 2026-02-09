@@ -1,0 +1,32 @@
+# LUCKIN COFFEE INC. CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY (Amounts in thousands of RMB and US$, except for number of shares)
+
+### December 31, 2020
+
+| Balance as of December 31, 2020 | Class A ordinary shares Share 1,880,396,244 | Class A ordinary shares Amount 20 | Class B ordinary shares Share 144,778,552 | Class B ordinary shares Amount 2 | Additional paid-in capital 14,744,569 | Accumulated other comprehensive income 364,054 | Statutory reserves 603 | Accumulated deficits (12,452,882) | Total Company’s ordinary shareholders’ equity 2,656,366 | Non-controlling interests 68,518 | Total shareholders’ equity 2,724,884 |
+| Net income |  |  |  |  |  |  |  | 578,545 |  | 578,545 |
+| Foreign currency translation difference |  |  |  |  |  | 102,802 |  |  |  | 102,802 |
+| Issuance of Class A ordinary shares (Note 13) | 70,061,136 |  |  |  | (1) |  |  |  |  | (1) |
+| Appropriation to statutory reserves (Note 11) |  |  |  |  |  |  | 2,014 | (2,014) |  |  |
+| Share based compensation (Note 15) |  |  |  |  | 302,734 |  |  |  |  | 302,734 |
+| Purchase of non-controlling interest in a subsidiary |  |  |  |  |  |  |  |  | (9,310) | (9,310) |
+| Balance as of December 31, 2021 | 1,950,457,380 | 21 | 144,778,552 | 2 | 15,037,992 | 466,856 | 2,617 | (11,876,351) | 3,631,137 | (68,626) | 3,631,137 |
+
+### December 31, 2022
+
+| Net income |  |  |  |  |  |  |  | 488,246 |  | 488,246 |
+| Foreign currency translation difference |  |  |  |  |  | (69,552) |  |  |  | (69,552) |
+| Issuance of Class A ordinary shares (Note 13) | 53,123,768 |  |  |  | (1) |  |  |  |  | (1) |
+| Appropriation to statutory reserves (Note 11) |  |  |  |  |  |  | 33,040 | (33,040) |  |  |
+| Share based compensation (Note 15) |  |  |  |  | 398,008 |  |  |  |  | 398,008 |
+| Convertible senior notes restructuring | 76,220,808 | 1 |  |  | 601,407 |  |  |  |  | 601,408 |
+| Balance as of December 31, 2022 | 2,079,801,956 | 23 | 144,778,552 | 2 | 16,037,406 | 397,304 | 35,657 | (11,421,145) | 5,049,247 |  | 5,049,247 |
+
+### December 31, 2023
+
+| Net income |  |  |  |  |  |  |  | 2,847,933 |  | 2,847,933 |
+| Foreign currency translation difference |  |  |  |  |  | (360) |  |  |  | (360) |
+| Issuance of Class A ordinary shares (Note 13) | 13,478,384 |  |  |  | 79 |  |  |  |  | 79 |
+| Appropriation to statutory reserves (Note 11) |  |  |  |  |  |  | 132,547 | (132,547) |  |  |
+| Share based compensation (Note 15) |  |  |  |  | 239,506 |  |  |  |  | 239,506 |
+| Balance as of December 31, 2023 | 2,093,280,340 | 23 | 144,778,552 | 2 | 16,276,991 | 396,944 | 168,204 | (8,705,759) | 8,136,405 |  | 8,136,405 |
+| Balance as of December 31, 2023 (US$) | 2,093,280,340 | 3 | 144,778,552 | 0 | 2,292,566 | 55,908 | 23,691 | (1,226,181) | 1,145,987 |  | 1,145,987 |

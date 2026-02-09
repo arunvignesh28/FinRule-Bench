@@ -1,0 +1,97 @@
+# WALGREENS BOOTS ALLIANCE, INC. AND SUBSIDIARIES CONSOLIDATED STATEMENTS OF CASH FLOWS For the years ended August 31, 2023, 2022 and 2021 (in millions)
+
+### 2023
+
+| Item | Amount |
+|---|---|
+| Net (loss) earnings | (3,528) |
+| Depreciation and amortization | 2,257 |
+| Deferred income taxes | (2,371) |
+| Stock compensation expense | 385 |
+| (Earnings) loss from equity method investments | (286) |
+| Impairment of intangibles and long-lived assets | 1,293 |
+| Loss on early extinguishment of debt |  |
+| Gain on previously held investment interests |  |
+| Gain on sale of equity method investments | (1,855) |
+| Gain on sale-leaseback transactions | (925) |
+| Other | (157) |
+| Accounts receivable, net | 72 |
+| Inventories | 287 |
+| Other current assets | (188) |
+| Trade accounts payable | 1,243 |
+| Accrued expenses and other liabilities | (561) |
+| Income taxes | 441 |
+| Accrued litigation obligations | 6,378 |
+| Other non-current assets and liabilities | (228) |
+| Net cash provided by operating activities | 2,258 |
+| Additions to property, plant and equipment | (2,117) |
+| Proceeds from sale-leaseback transactions | 1,767 |
+| Proceeds from sale of business, net of cash disposed |  |
+| Proceeds from sale of other assets | 4,495 |
+| Business, investment and asset acquisitions, net of cash acquired | (7,313) |
+| Other | 75 |
+| Net cash (used for) provided by investing activities | (3,094) |
+| Net change in short-term debt with maturities of 3 months or less | (1) |
+| Proceeds from debt | 6,276 |
+| Payments of debt | (8,978) |
+| Acquisition of non-controlling interests | (1,316) |
+| Proceeds from issuance of non-controlling interests | 2,725 |
+| Proceeds from variable prepaid forward | 2,568 |
+| Treasury stock purchases | (150) |
+| Proceeds related to employee stock plans, net | 45 |
+| Cash dividends paid | (1,659) |
+| Early debt extinguishment |  |
+| Other | (396) |
+| Net cash used for financing activities | (887) |
+| Effect of exchange rate changes on cash, cash equivalents, marketable securities and restricted cash | 20 |
+| Net (decrease) increase in cash, cash equivalents, marketable securities and restricted cash | (1,702) |
+| Cash, cash equivalents, marketable securities and restricted cash at beginning of period | 2,558 |
+| Cash, cash equivalents, marketable securities and restricted cash at end of period | 856 |
+
+### 2022
+
+| Item | Amount |
+|---|---|
+| Net (loss) earnings | 4,065 |
+| Depreciation and amortization | 1,990 |
+| Deferred income taxes | (366) |
+| Stock compensation expense | 391 |
+| (Earnings) loss from equity method investments | (468) |
+| Impairment of intangibles and long-lived assets | 1,214 |
+| Loss on early extinguishment of debt | 6 |
+| Gain on previously held investment interests | (2,576) |
+| Gain on sale of equity method investments | (559) |
+| Gain on sale-leaseback transactions | (619) |
+| Other | 326 |
+| Accounts receivable, net | 808 |
+| Inventories | (433) |
+| Other current assets | (72) |
+| Trade accounts payable | 244 |
+| Accrued expenses and other liabilities | (138) |
+| Income taxes | (51) |
+| Accrued litigation obligations |  |
+| Other non-current assets and liabilities | 137 |
+| Net cash provided by operating activities | 3,899 |
+| Additions to property, plant and equipment | (1,734) |
+| Proceeds from sale-leaseback transactions | 1,308 |
+| Proceeds from sale of business, net of cash disposed | 5,527 |
+| Proceeds from sale of other assets | 1,334 |
+| Business, investment and asset acquisitions, net of cash acquired | (2,189) |
+| Other | 216 |
+| Net cash (used for) provided by investing activities | (1,064) |
+| Net change in short-term debt with maturities of 3 months or less | (11) |
+| Proceeds from debt | 11,958 |
+| Payments of debt | (8,360) |
+| Acquisition of non-controlling interests | (2,108) |
+| Proceeds from issuance of non-controlling interests |  |
+| Proceeds from variable prepaid forward |  |
+| Treasury stock purchases | (187) |
+| Proceeds related to employee stock plans, net | 27 |
+| Cash dividends paid | (1,659) |
+| Early debt extinguishment | (1,591) |
+| Other | 432 |
+| Net cash used for financing activities | (1,499) |
+| Effect of exchange rate changes on cash, cash equivalents, marketable securities and restricted cash | (47) |
+| Net (decrease) increase in cash, cash equivalents, marketable securities and restricted cash | 1,288 |
+| Cash, cash equivalents, marketable securities and restricted cash at beginning of period | 1,270 |
+| Cash, cash equivalents, marketable securities and restricted cash at end of period | 2,558

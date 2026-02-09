@@ -1,0 +1,356 @@
+BS-01
+
+You are a fault-injection assistant.  
+Your sole mission: introduce **exactly one** numeric error into the Consolidated Balance Sheet below, thereby making the sheet imbalanced.
+
+Hard rules (must all be obeyed):
+1. You may alter **only one** numeric value, and it must belong to **one** of these three items (pick only one item to touch):
+   • “Total Assets”  
+   • “Total Liabilities”  
+   • “Total Equity”  
+2. Do not add, remove, reorder, or edit any other character—including spaces, punctuation, commas, line breaks, JSON keys, brackets, or any other numbers.  
+3. The modification can be any non-trivial change (e.g., increase or decrease by at least 100), but only one numeric literal may differ from the source.  
+4. After editing, return **the full table text** with that single change.  
+5. Output must be “raw text” only—no markdown fences, no commentary, no extra whitespace before/after, no code blocks.
+Source Financial Statements:
+---------------- (begin)
+{table_data_string}
+---------------- (end)
+
+Now output the revised balance sheet with exactly one numeric error as specified.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+BS-02
+
+You are a fault-injection assistant.
+Your sole mission: introduce exactly one classification error into the Consolidated Balance Sheet below by altering a key label.
+
+Hard rules (must all be obeyed):
+1. You may alter only one label (a JSON key), and it must be one of these two specific keys (pick only one item to touch): • “Current Assets” • “Current Liabilities”
+2. In the single key you chose to edit, you must replace the word 'Current' with a different, incorrect adjective (e.g., 'Active', 'Primary', 'Ongoing'). The rest of the key (i.e., ' Assets' or ' Liabilities') must not be changed.
+3. Do not add, remove, reorder, or edit any other character—including spaces, punctuation, commas, line breaks, JSON values, or any other keys.
+4. After editing, return the full table text with that single change.
+5. Output must be “raw text” only—no markdown fences, no commentary, no extra whitespace before/after, no code blocks.
+Source Financial Statements:
+---------------- (begin)
+{table_data_string}
+---------------- (end)
+
+Now output the revised balance sheet with exactly one classification error as specified.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+BS-03
+
+You are a fault-injection assistant. 
+Your sole mission: introduce **exactly one** terminological error into the Consolidated Financial Statements below, thereby violating a standard presentation rule.
+
+Hard rules (must all be obeyed):
+1.  You must alter the descriptive text of **only one** line item. The change must replace a standard, required term (like "Cash and cash equivalents") with a non-standard, ambiguous term.
+2.  **Action**: Find a line item containing the word "Cash" and replace that specific term with one of the following ambiguous words: "Funds", "Resources", or "Capital".
+    *   *Example 1*: Change "Cash and cash equivalents" to "Funds and fund equivalents".
+    *   *Example 2*: Change "Net cash provided by operating activities" to "Net funds provided by operating activities".
+3.  You may alter **only one** line item's text in the entire document.
+4.  Do not add, remove, reorder, or edit any other character—including spaces, punctuation, commas, line breaks, JSON keys, or any numbers.
+5.  After editing, return **the full text of the financial statements** with that single change.
+6.  Output must be “raw text” only—no markdown fences, no commentary, no extra whitespace before/after, no code blocks.
+
+Source Financial Statements:
+---------------- (begin)
+{table_data_string}
+---------------- (end)
+
+Now output the revised financial statements with exactly one terminological error as specified.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+BS-04
+
+You are a fault-injection assistant.
+Your sole mission: introduce exactly one classification error into the Consolidated Financial Statements below, thereby violating a standard shareholders' equity presentation rule.
+
+Hard rules (must all be obeyed):
+
+You must alter the descriptive text of only one line item. The change must replace a standard, required term with a non-standard, misleading term.
+Action: Find the line item labeled "Retained earnings" within the "Stockholders’ Equity" section. Replace its descriptive text "Retained earnings" with one of the following misleading or non-standard terms: Capital Surplus, General Reserve, or Accumulated Capital. Each of these replacements incorrectly obscures the origin of the funds as undistributed profits.
+You may alter only one line item's text in the entire document.
+Do not add, remove, reorder, or edit any other character—including spaces, punctuation, commas, line breaks, JSON keys, or any numbers.
+After editing, return the full text of the financial statements with that single change.
+Output must be “raw text” only—no markdown fences, no commentary, no extra whitespace before/after, no code blocks.
+Source Financial Statements:
+---------------- (begin)
+{table_data_string}
+---------------- (end)
+
+Now, output the revised financial statements with exactly one classification error as specified.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+BS-05
+
+You are a fault-injection assistant.
+Your sole mission: introduce exactly one classification error into the Consolidated Financial Statements below, thereby violating the fundamental accounting principle that Treasury Stock is a contra-equity account, not an asset.
+
+Hard rules (must all be obeyed):
+Action: Relocate the entire line item (both title and figure) labeled "Treasury Stock" from its correct position to the "Assets" section.
+Constraint: You may only move the "Treasury Stock" line and edit the "Total Assets" and "Total Stockholders' Equity" lines. Do not add, remove, reorder, or edit any other character—including descriptive text, spaces, punctuation, commas, line breaks, or JSON keys.
+Output: After editing, return the full text of the financial statements with these changes. The output must be “raw text” only—no markdown fences, no commentary, no extra whitespace before/after, no code blocks.
+Source Financial Statements:
+---------------- (begin)
+{table_data_string}
+---------------- (end)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SI-01
+
+You are an error-injection assistant.
+Your sole mission: introduce exactly one misclassification into the Income Statement below, thereby violating correct financial reporting by relocating a non-operating line item into operating expenses.
+
+Hard rules (must all be obeyed):
+Action: Take a clearly identified non-operating item and incorrectly classify it under Operating expenses.
+For example: move "Other expense (income), net", which normally appears below Operating income (loss), into the Operating expenses section, placing it alongside the other operating expenses.
+Constraints:
+Do not alter the wording, numbers, or punctuation of the misclassified line item itself.
+Do not add, remove, or reorder any other line items except for relocating this one item.
+Output must be the full text of the financial statements after modification.
+The output must be raw text only — no markdown fences, no commentary, no extra whitespace before/after, no code blocks.
+
+Source Financial Statements:
+---------------- (begin)
+{table_data_string}
+---------------- (end)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SI-02
+
+You are an error-injection assistant.
+Your sole mission: introduce exactly one misstatement into the Income Statement below, thereby violating the correct financial reporting by misclassifying depreciation expense.
+
+Hard rules (must all be obeyed):
+Action: Insert a new line labeled "Depreciation Expense" with a monetary amount, placing it outside of operating expenses (as a non-operating expense, near the end of the statement).
+Constraint:
+Do not add, remove, reorder, or edit any other character—including descriptive text, spaces, punctuation, commas, line breaks, or JSON keys.
+Output must be the full text of the financial statements after modification. The output must be “raw text” only—no markdown fences, no commentary, no extra whitespace before/after, no code blocks.
+
+Source Financial Statements:
+---------------- (begin)
+{table_data_string}
+---------------- (end)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SI-03
+
+You are an error-injection assistant.
+Your sole mission: introduce exactly one misstatement into the Income Statement below, thereby violating the correct financial reporting.
+
+Hard rules (must all be obeyed):
+
+Action: Delete the entire line containing the word "diluted" (diluted EPS) from the statement.
+
+Constraint:
+Do not add, reorder, or modify any other character—including descriptive text, spaces, punctuation, commas, line breaks, or JSON keys.
+Output must be the full text of the financial statements after modification.
+The output must be “raw text” only—no markdown fences, no commentary, no extra whitespace before/after, no code blocks.
+
+Source Financial Statements:
+---------------- (begin)
+{table_data_string}
+---------------- (end)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SI-04
+
+You are an error-injection assistant.
+Your sole mission: introduce exactly one misstatement into the Income Statement below, thereby violating the correct financial reporting by inserting an invalid extra line item.
+
+Hard rules (must all be obeyed):
+Action: Insert a new line labeled "Miscellaneous other income" with a monetary amount that is slightly overstated or understated compared to nearby figures.
+Constraint: 
+Do not add, remove, reorder, or edit any other character—including descriptive text, spaces, punctuation, commas, line breaks, or JSON keys.
+Output must be the full text of the financial statements after modification. The output must be “raw text” only—no markdown fences, no commentary, no extra whitespace before/after, no code blocks.
+
+Source Financial Statements:
+---------------- (begin)
+{table_data_string}
+---------------- (end)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SI-05
+
+You are an error-injection assistant.
+Your sole mission: introduce exactly one misstatement into the Income Statement below, thereby violating the correct financial reporting.
+
+Hard rules (must all be obeyed):
+
+Action: Delete the entire line containing the word "interest" (e.g. interest expense) from the statement.
+
+Constraint:
+Do not add, reorder, or modify any other character—including descriptive text, spaces, punctuation, commas, line breaks, or JSON keys.
+Output must be the full text of the financial statements after modification.
+The output must be “raw text” only—no markdown fences, no commentary, no extra whitespace before/after, no code blocks.
+
+Source Financial Statements:
+---------------- (begin)
+{table_data_string}
+---------------- (end)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CF-01
+
+You are an error-injection assistant.
+Your sole mission: introduce exactly one misstatement into the Statement of Cash Flows below, thereby violating the correct financial reporting principle that "All cash receipts and payments shall be classified as operating, investing, or financing activities."
+
+Hard rules (must all be obeyed):
+Action: Choose exactly one of the three options below. Delete the entire line containing the chosen phrase from the statement.
+
+1. "cash flows from operating activities"
+2. "cash flows from investing activities"
+3. "cash flows from financing activities"
+
+Constraint:
+Do not add, reorder, or modify any other character—including descriptive text, spaces, punctuation, commas, line breaks, or JSON keys.
+Output must be the full text of the financial statements after modification.
+The output must be “raw text” only—no markdown fences, no commentary, no extra whitespace before/after, no code blocks.
+
+Source Financial Statements:
+---------------- (begin)
+{table_data_string}
+---------------- (end)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CF-02
+
+You are an error-injection assistant.
+Your sole mission: introduce exactly one misstatement into the financial statement below, thereby violating the accounting principle that prohibits reporting cash flow per share.
+
+Hard rules (must all be obeyed):
+Action: Inject a new line item Cash Flow per Share (non-GAAP): $[a plausible, randomly generated dollar amount] at a random location within the statement.
+
+Constraint:
+Do not add, reorder, or modify any other character—including descriptive text, spaces, punctuation, commas, or line breaks, other than the single line addition specified above.
+Output must be the full text of the financial statements after modification.
+The output must be “raw text” only—no markdown fences, no commentary, no extra whitespace before/after, no code blocks.
+
+Source Financial Statements:
+---------------- (begin)
+{table_data_string}
+---------------- (end)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CF-03
+
+You are an error-injection assistant.
+Your sole mission: introduce exactly one terminological misstatement into the Statement of Cash Flows below by replacing a precise cash-related descriptive term with an imprecise/incorrect term, thereby violating the requirement to clearly show cash, cash equivalents, and restricted cash with precise wording.
+
+Hard rules (must all be obeyed):
+You must alter the descriptive text of only one line item.
+The line you choose must contain one of the exact phrases (case-insensitive):
+"cash", or
+"cash equivalents", or
+"restricted cash", or
+the combined phrase "cash and cash equivalents" (or "cash, cash equivalents, restricted cash and restricted cash equivalents").
+
+In that single chosen line, replace only the word cash or cash equivalents (or both occurrences when they appear together) with exactly one of the following imprecise terms (pick one term and use it consistently in that line):
+Funds, Resources, Working Capital, Capital, Net Capital, Financial Position, Net Assets, Treasury, Treasury Position.
+Example allowed edits:
+"Cash and cash equivalents" → "Funds and fund equivalents"
+"Cash, cash equivalents, restricted cash and restricted cash equivalents - end of period" → "Net Assets, Net Assets equivalents, restricted Net Assets and restricted Net Assets equivalents - end of period"
+Do not add, remove, reorder, or edit any other character — including spaces, punctuation, commas, line breaks, JSON keys, numeric values, or any other words — except for the exact word substitution specified above in that single line.
+
+After editing, return the full text of the statement with that single change.
+
+Output must be raw text only — no markdown fences, no commentary, no extra whitespace before/after, no code blocks.
+
+Rationale (for reference, do not include in output): This injection creates a terminological error by substituting an imprecise term for "cash" or "cash equivalents", which violates the requirement to explain changes in cash, cash equivalents, and restricted cash precisely.
+
+Source Financial Statements:
+---------------- (begin)
+{table_data_string}
+---------------- (end)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SE-01
+
+You are a fault-injection assistant.
+Your sole mission: introduce exactly one numeric error into the Consolidated Statement of Equity below by changing a single numeric literal in the components that compose Total Equity for a single year, thereby breaking the equality:
+Total Equity(year) = Common Stock and Additional Paid-in Capital + Retained Earnings + Accumulated Other Comprehensive Income + Non-controlling Interest + Treasury Stock
+
+Hard rules (must all be obeyed):
+You may alter only one numeric literal in the entire statement, and it must belong to exactly one of these items for a single year (pick one item in one year only):
+“Common Stock and Additional Paid-In Capital”
+“Retained Earnings”
+“Accumulated Other Comprehensive Income (Loss)”
+“Non-controlling Interest”
+“Treasury Stock”
+or the reported “Total Equity” for that same year.
+
+The numeric change must be non-trivial: increase or decrease by at least 100 (in the same units used in the table).
+Do not add, remove, reorder, or edit any other character — including spaces, punctuation, commas, line breaks, JSON keys, brackets, dollar signs, parenthesis, or any other numbers. Only a single numeric literal may differ from the source.
+Pay attention to years: change the numeric literal only for one specific year row (e.g., 2021, 2022, or 2023), and do not touch numbers for other years.
+After editing, return the full table text with that single numeric change.
+
+Output must be raw text only — no markdown fences, no commentary, no extra whitespace before/after, no code blocks.
+
+Source Financial Statements:
+---------------- (begin)
+{table_data_string}
+---------------- (end)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SE-02
+
+You are an error-injection assistant.
+Your sole mission: introduce exactly one misstatement into the Statement of Equity below by removing the net income (or loss) line from the retained earnings reconciliation, thereby violating the required presentation that net income (loss) for the period be shown as an addition (or deduction) to retained earnings.
+
+Hard rules (must all be obeyed):
+Action: Delete the entire line that contains the exact phrase (case-insensitive) "Net income (loss) for the period", or a very close variant such as "Net income (loss) attributable to [the company]" if that exact phrase appears in the retained earnings / statement of changes in equity section. The deletion must remove the whole line (the descriptive text and its numeric amount).
+You may delete only that one line. Do not delete any other line.
+Do not add, remove, reorder, or edit any other character — including spaces, punctuation, commas, line breaks, JSON keys, brackets, or any other numbers or words. The only difference between your output and the source may be the removal of that one line.
+If the statement contains multiple lines that mention the word "net income" for different subcomponents or years, delete only one of those lines — the one that appears in the retained earnings reconciliation (the line that flows into Retained Earnings). If the retained-earnings reconciliation shows net income for more than one year, delete the net income line for a single year only (choose one).
+After editing, return the full table text with that single deletion.
+
+Output must be raw text only — no markdown fences, no commentary, no extra whitespace before/after, no code blocks.
+
+Rationale (for reference — do not include in output): Omitting the net income line from the retained earnings reconciliation hides the period’s addition (or deduction) to retained earnings and violates the disclosure principle that net income (loss) for the period be shown as an element of changes in retained earnings.
+
+Source Financial Statements:
+---------------- (begin)
+{table_data_string}
+---------------- (end)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+SE-03
+
+You are an error-injection assistant.
+Your sole mission: introduce exactly one misstatement into the Statement of Equity below by removing the Other Comprehensive Income (OCI) line from the Accumulated Other Comprehensive Income (AOCI) reconciliation, thereby violating the requirement that OCI items be presented as changes to AOCI.
+
+Hard rules (must all be obeyed):
+Action: Delete the entire line that contains a phrase identifying Other Comprehensive Income for the period (case-insensitive). Acceptable target phrases include (but are not limited to):
+"Other comprehensive income"
+"Total other comprehensive income"
+"Other comprehensive income (loss)"
+"OCI" when it clearly refers to the period amount flowing into AOCI.
+The deletion must remove the whole line (both descriptive text and its numeric amount).
+You may delete only that one line. Do not delete any other line. If the statement contains multiple OCI lines for different years, delete the OCI line for one year only (choose a single year).
+Do not add, remove, reorder, or edit any other character — including spaces, punctuation, commas, line breaks, JSON keys, brackets, or any other numbers or words. The only permitted difference between your output and the source is the removal of that single OCI line.
+The OCI line you remove must be the one that is part of the AOCI / accumulated other comprehensive income reconciliation (i.e., the line that flows into the AOCI balance). Do not remove OCI lines that are outside the AOCI reconciliation (for example, an OCI subtotal appearing elsewhere) unless it is the line used in the AOCI rollforward.
+After editing, return the full table text with that single deletion.
+
+Output must be raw text only — no markdown fences, no commentary, no extra whitespace before/after, no code blocks.
+
+Source Financial Statements:
+---------------- (begin)
+{table_data_string}
+---------------- (end)

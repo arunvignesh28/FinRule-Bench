@@ -1,0 +1,44 @@
+# UBER TECHNOLOGIES, INC. CONSOLIDATED BALANCE SHEETS (In millions, except share amounts which are reflected in thousands, and per share amounts)
+
+### As of December 31, 2022
+
+| Cash and cash equivalents | $ | 4,208 | $ | 4,680 |
+|---|---|---|---|---|
+| Short-term investments | 103 | 727 |
+| Restricted cash and cash equivalents | 680 | 805 |
+| Accounts receivable, net of allowance of $80 and $91, respectively | 2,779 | 3,404 |
+| Prepaid expenses and other current assets | 1,479 | 1,681 |
+| Total current assets | 9,249 | 11,297 |
+| Restricted cash and cash equivalents | 1,789 | 1,519 |
+| Restricted investments | 1,614 | 4,779 |
+| Investments | 4,401 | 6,101 |
+| Equity method investments | 870 | 353 |
+| Property and equipment, net | 2,082 | 2,073 |
+| Operating lease right-of-use assets | 1,449 | 1,241 |
+| Intangible assets, net | 1,874 | 1,425 |
+| Goodwill | 8,263 | 8,151 |
+| Other assets | 518 | 1,760 |
+| Total assets | $ | 32,109 | $ | 38,699 |
+
+### As of December 31, 2023
+
+| Accounts payable | $ | 728 | $ | 790 |
+|---|---|---|---|---|
+| Short-term insurance reserves | 1,692 | 2,016 |
+| Operating lease liabilities, current | 201 | 190 |
+| Accrued and other current liabilities | 6,232 | 6,458 |
+| Total current liabilities | 8,853 | 9,454 |
+| Long-term insurance reserves | 3,028 | 4,722 |
+| Long-term debt, net of current portion | 9,265 | 9,459 |
+| Operating lease liabilities, non-current | 1,673 | 1,550 |
+| Other long-term liabilities | 786 | 832 |
+| Total liabilities | 23,605 | 26,017 |
+| Redeemable non-controlling interests | 430 | 654 |
+| Common stock, $0.00001 par value, 5,000,000 shares authorized for both periods, 2,005,486 and 2,071,144 shares issued and outstanding, respectively | | |
+| Additional paid-in capital | 40,550 | 42,264 |
+| Accumulated other comprehensive loss | (443) | (421) |
+| Accumulated deficit | (32,767) | (30,594) |
+| Total Uber Technologies, Inc. stockholders' equity | 7,340 | 11,249 |
+| Non-redeemable non-controlling interests | 734 | 779 |
+| Total equity | 8,074 | 12,028 |
+| Total liabilities, redeemable non-controlling interests and equity | $ | 32,109 | $ | 38,699 |

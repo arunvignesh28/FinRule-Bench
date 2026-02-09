@@ -1,0 +1,21 @@
+# PDD HOLDINGS INC. - CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY (CONTINUED) (Amounts in thousands of RMB and US$, except for number of shares and per share data)
+
+### 2023 RMB
+
+| Notes | Number of ordinary shares | Ordinary shares RMB | Additional paid-in capital RMB | Statutory reserves RMB | Accumulated other comprehensive income RMB | Retained earnings RMB | Total shareholders’ equity RMB |
+|---|---|---|---|---|---|---|---|
+| Balance as of January 1, 2023 | 5,278,348,396 | 170 | 99,250,468 | 5,000 | 3,322,238 | 15,193,035 | 117,770,911 |
+| Net income |  |  |  |  |  | 60,026,544 | 60,026,544 |
+| Foreign currency translation difference | 13 |  |  |  | 1,332,984 |  | 1,332,984 |
+| Net change in unrealized gains on available-for-sale debt securities | 13 |  |  |  | 68,538 |  | 68,538 |
+| Conversion of the convertible bonds into ordinary shares | 11 | 12,642,752 |  | 955,647 |  |  | 955,647 |
+| Shares issued to depository bank | 18 | 212,500,000 |  |  |  |  |  |
+| Exercise of share-based awards |  | 209,106,852 | 7 | 8,182 |  |  | 8,189 |
+| Settlement of share-based compensation with shares held by depository bank |  | (209,106,852) |  |  |  |  |  |
+| Share-based compensation | 15 |  |  | 7,078,794 |  |  | 7,078,794 |
+| Appropriation to statutory reserves |  |  |  | 100,982 |  | (100,982) |  |
+| Balance as of December 31, 2023 | 5,503,491,148 | 177 | 107,293,091 | 105,982 | 4,723,760 | 75,118,597 | 187,241,607 |
+
+### 2023 US$
+
+| Balance as of December 31, 2023 (US$) |  | 25 | 15,111,916 | 14,927 | 665,328 | 10,580,233 | 26,372,429 |

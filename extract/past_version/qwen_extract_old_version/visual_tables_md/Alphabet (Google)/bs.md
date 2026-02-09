@@ -1,0 +1,73 @@
+# Alphabet Inc. CONSOLIDATED BALANCE SHEETS (in millions, except par value per share amounts) As of December 31,
+
+### 2022
+
+| Cash and cash equivalents | $ 21,879 | $ |
+|---|---|---|
+| Marketable securities | 91,883 |  |
+| Total cash, cash equivalents, and marketable securities | 113,762 |  |
+| Accounts receivable, net | 40,258 |  |
+| Other current assets | 10,775 |  |
+| Total current assets | 164,795 |  |
+| Non-marketable securities | 30,492 |  |
+| Deferred income taxes | 5,261 |  |
+| Property and equipment, net | 112,668 |  |
+| Operating lease assets | 14,381 |  |
+| Goodwill | 28,960 |  |
+| Other non-current assets | 8,707 |  |
+| Total assets | $ 365,264 |  |
+| Accounts payable | $ 5,128 | $ |
+| Accrued compensation and benefits | 14,028 |  |
+| Accrued expenses and other current liabilities | 37,866 |  |
+| Accrued revenue share | 8,370 |  |
+| Deferred revenue | 3,908 |  |
+| Total current liabilities | 69,300 |  |
+| Long-term debt | 14,701 |  |
+| Deferred revenue, non-current | 599 |  |
+| Income taxes payable, non-current | 9,258 |  |
+| Deferred income taxes | 514 |  |
+| Operating lease liabilities | 12,501 |  |
+| Other long-term liabilities | 2,247 |  |
+| Total liabilities | 109,120 |  |
+| Preferred stock, $0.001 par value per share, 100 shares authorized; no shares issued and outstanding | 0 |  |
+| Class A, Class B, and Class C stock and additional paid-in capital, $0.001 par value per share: 300,000 shares authorized (Class A 180,000, Class B 60,000, Class C 60,000); 12,849 (Class A 5,964, Class B 883, Class C 6,002) and 12,460 (Class A 5,899, Class B 870, Class C 5,691) shares issued and outstanding | 68,184 |  |
+| Accumulated other comprehensive income (loss) | (7,603) |  |
+| Retained earnings | 195,563 |  |
+| Total stockholders' equity | 256,144 |  |
+| Total liabilities and stockholders' equity | $ 365,264 |  |
+
+### 2023
+
+| Cash and cash equivalents | $ 24,048 | $ |
+|---|---|---|
+| Marketable securities | 86,868 |  |
+| Total cash, cash equivalents, and marketable securities | 110,916 |  |
+| Accounts receivable, net | 47,964 |  |
+| Other current assets | 12,650 |  |
+| Total current assets | 171,530 |  |
+| Non-marketable securities | 31,008 |  |
+| Deferred income taxes | 12,169 |  |
+| Property and equipment, net | 134,345 |  |
+| Operating lease assets | 14,091 |  |
+| Goodwill | 29,198 |  |
+| Other non-current assets | 10,051 |  |
+| Total assets | $ 402,392 |  |
+| Accounts payable | $ 7,493 | $ |
+| Accrued compensation and benefits | 15,140 |  |
+| Accrued expenses and other current liabilities | 46,168 |  |
+| Accrued revenue share | 8,876 |  |
+| Deferred revenue | 4,137 |  |
+| Total current liabilities | 81,814 |  |
+| Long-term debt | 13,253 |  |
+| Deferred revenue, non-current | 911 |  |
+| Income taxes payable, non-current | 8,474 |  |
+| Deferred income taxes | 485 |  |
+| Operating lease liabilities | 12,460 |  |
+| Other long-term liabilities | 1,616 |  |
+| Total liabilities | 119,013 |  |
+| Preferred stock, $0.001 par value per share, 100 shares authorized; no shares issued and outstanding | 0 |  |
+| Class A, Class B, and Class C stock and additional paid-in capital, $0.001 par value per share: 300,000 shares authorized (Class A 180,000, Class B 60,000, Class C 60,000); 12,849 (Class A 5,964, Class B 883, Class C 6,002) and 12,460 (Class A 5,899, Class B 870, Class C 5,691) shares issued and outstanding | 76,534 |  |
+| Accumulated other comprehensive income (loss) | (4,402) |  |
+| Retained earnings | 211,247 |  |
+| Total stockholders' equity | 283,379 |  |
+| Total liabilities and stockholders' equity | $ 402,392 |  |

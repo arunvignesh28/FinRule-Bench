@@ -1,0 +1,307 @@
+company,rule,result,message
+3M,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+AMD,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+ATandT,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+AbbVie,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Abbott Laboratories,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Adobe,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Allstate,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Alphabet (Google),CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Amazon,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+American Express,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Apple,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Applied Materials,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Asana,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Bank of America,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Baxter International,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Berkshire Hathaway,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Best Buy,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Bilibili,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Block,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Boeing,CF-01,FAIL,"Expected exactly 1 removed line (found 138). Removed examples: ['[row <NUM>]: Cash flows – operating activities: |  |  [SEP]', '[row <NUM>]: Cash flows – operating activities: |  |  [SEP]', '[row <NUM>]: Cash flows – operating activities: |  |  [SEP]']"
+Boston Scientific,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Box,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Broadcom,CF-01,FAIL,Expected no added lines for CF-01 (found 1): ['BROADCOM INC. CONSOLIDATED STATEMENTS OF CASH FLOWS']
+Caterpillar,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Chevron,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Cisco Systems,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Coca-Cola,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Corsair Gaming,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Costco,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Dell,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Dell Technologies,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Delta Air Lines,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Disney,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+DraftKings,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+DuPont,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Electronic Arts,CF-01,FAIL,Expected no added lines for CF-01 (found 1): ['ELECTRONIC ARTS INC. AND SUBSIDIARIES — CONSOLIDATED STATEMENTS OF CASH FLOWS (In millions)']
+Eli Lilly,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Etsy,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+ExxonMobil,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+FedEx,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Ford Motor,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+General Electric,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+General Motors,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Goldman Sachs,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+HP,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Home Depot,CF-01,FAIL,"Expected exactly 1 removed line (found 108). Removed examples: ['[row <NUM>]: Cash Flows from Operating Activities: |  |  [SEP]', '[row <NUM>]: Cash Flows from Operating Activities: |  |  [SEP]', '[row <NUM>]: Cash Flows from Operating Activities: |  |  [SEP]']"
+Honda,CF-01,FAIL,"Expected exactly 1 removed line (found 14). Removed examples: ['[row <NUM>]: Cash flows from operating activities: |  | [SEP]', '[row <NUM>]: Cash flows from operating activities: |  | [SEP]', '[row <NUM>]: Cash flows from operating activities: |  | [SEP]']"
+Honeywell International,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+IBM,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Intel,CF-01,FAIL,"Expected exactly 1 removed line (found 21). Removed examples: ['[row <NUM>]: Cash flows provided by (used for) operating activities: | |  [SEP]', '[row <NUM>]: Cash flows provided by (used for) operating activities: | |  [SEP]', '[row <NUM>]: Cash flows provided by (used for) operating activities: | |  [SEP]']"
+JD.com,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+JPMorgan Chase,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Johnson and Johnson,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Kellogg_s,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Li Auto,CF-01,FAIL,"Expected exactly 1 removed line (found 203). Removed examples: ['', '', '']"
+Lockheed Martin,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Logitech,CF-01,FAIL,"Expected exactly 1 removed line (found 141). Removed examples: ['[row <NUM>]: Cash flows from operating activities: |  |  [SEP]', '[row <NUM>]: Cash flows from operating activities: |  |  [SEP]', '[row <NUM>]: Cash flows from operating activities: |  |  [SEP]']"
+Lucid Motors,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Luckin Coffee,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Lyft,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Marriott,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+MasterCard,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+McDonald_s,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Merck,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Meta Platforms,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Microchip Technology,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Microsoft,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Morgan Stanley,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+NIO,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+NVIDIA,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+NXP Semiconductors,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Netflix,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Nike,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+ON Semiconductor,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Oracle,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Palantir,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Peloton,CF-01,FAIL,"Expected exactly 1 removed line (found 117). Removed examples: ['[row <NUM>]: Net loss | $ <NUM> |  | [SEP]', '[row <NUM>]: Depreciation and amortization expense | <NUM> |  | [SEP]', '[row <NUM>]: Depreciation and amortization expense | <NUM> |  | [SEP]']"
+PepsiCo,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Pfizer,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Philip Morris,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Pinduoduo,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Procter and Gamble,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Qualcomm,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Robinhood,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Roku,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Salesforce,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Seagate Technology,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Snap,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Starbucks,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Take-Two Interactive,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Target,CF-01,FAIL,"Expected exactly 1 removed line (found 16). Removed examples: ['[row <NUM>]: Financing activities | | | [SEP]', '[row <NUM>]: Reductions of long-term debt | <NUM> | | [SEP]', '[row <NUM>]: Dividends paid | <NUM> | | [SEP]']"
+Tesla,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Texas Instruments,CF-01,FAIL,"Expected exactly 1 removed line (found 111). Removed examples: ['[row <NUM>]: Cash flows from operating activities |  |  [SEP]', '[row <NUM>]: Cash flows from operating activities |  |  [SEP]', '[row <NUM>]: Cash flows from operating activities |  |  [SEP]']"
+Toyota,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Uber,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+UnitedHealth Group,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Virgin Galactic,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Visa,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Walgreens Boots Alliance,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Walmart,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Whirlpool,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+Zoom Video Communications,CF-01,FAIL,Expected exactly 1 removed line (found 0). Removed examples: []
+3M,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+AMD,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ <NUM> | [SEP]'
+ATandT,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $ <NUM> | [SEP]'
+AbbVie,CF-02,FAIL,"Expected exactly 1 added line, found 3. Added examples: ['Cash Flow per Share (non-GAAP): | $<NUM> [SEP]', 'Cash Flow per Share (non-GAAP): | $<NUM> [SEP]', 'Cash Flow per Share (non-GAAP): | $<NUM> [SEP]']"
+Abbott Laboratories,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ | <NUM> [SEP]'
+Adobe,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ | <NUM> [SEP]'
+Allstate,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $ <NUM> | [SEP]'
+Alphabet (Google),CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $<NUM> | [SEP]'
+Amazon,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+American Express,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+Apple,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $<NUM> |  [SEP]'
+Applied Materials,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+Asana,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+Bank of America,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $ <NUM> | [SEP]'
+Baxter International,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ <NUM> | [SEP]'
+Berkshire Hathaway,CF-02,FAIL,"Expected exactly 1 added line, found 65. Added examples: ['BERKSHIRE HATHAWAY INC. and Subsidiaries - CONSOLIDATED STATEMENTS OF CASH FLOWS (dollars in millions)', 'Year Ended December <NUM> <NUM>', 'Year Ended December <NUM> <NUM>', 'Cash flows from operating activities: | |', 'Net earnings (loss) | $ <NUM> |']"
+Best Buy,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ | <NUM> [SEP]'
+Bilibili,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+Block,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ <NUM> | [SEP]'
+Boeing,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | <NUM> | [SEP]'
+Boston Scientific,CF-02,FAIL,"Expected exactly 1 added line, found 2. Added examples: ['Cash Flow per Share (non-GAAP) | $ <NUM> | [SEP]', '[row <NUM>]: Purchases of property<NUM> plant and equipment and internal']"
+Box,CF-02,FAIL,"Expected exactly 1 added line, found 137. Added examples: ['CONSOLIDATED STATEMENTS OF CASH FLOWS (In thousands)', 'Year Ended January <NUM> <NUM>', 'Year Ended January <NUM> <NUM>', 'Year Ended January <NUM> <NUM>', 'CASH FLOWS FROM OPERATING ACTIVITIES: | |']"
+Broadcom,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ | <NUM> | | [SEP]'
+Caterpillar,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ | <NUM> | [SEP]'
+Chevron,CF-02,FAIL,"Expected exactly 1 added line, found 107. Added examples: ['Consolidated Statement of Cash Flows', 'Year ended December <NUM> <NUM>', 'Year ended December <NUM> <NUM>', 'Year ended December <NUM> <NUM>', 'Operating Activities | |']"
+Cisco Systems,CF-02,FAIL,"Expected exactly 1 added line, found 2. Added examples: ['CISCO SYSTEMS<NUM> INC. - Consolidated Statements of Cash Flows (in millions)', 'Cash Flow per Share (non-GAAP): | $ <NUM> | [SEP]']"
+Coca-Cola,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $ <NUM> | [SEP]'
+Corsair Gaming,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | <NUM> | [SEP]'
+Costco,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+Dell,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+Dell Technologies,CF-02,FAIL,"Expected exactly 1 added line, found 140. Added examples: ['DELL TECHNOLOGIES INC. - CONSOLIDATED STATEMENTS OF CASH FLOWS (in millions; continued on next page)', 'February <NUM> <NUM>', 'February <NUM> <NUM>', 'Cash flows from operating activities: | |', 'Cash flows from operating activities: | |']"
+Delta Air Lines,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ <NUM> | [SEP]'
+Disney,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $ <NUM> | [SEP]'
+DraftKings,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ <NUM> [SEP]'
+DuPont,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $ | <NUM> | [SEP]'
+Electronic Arts,CF-02,FAIL,"Expected exactly 1 added line, found 113. Added examples: ['ELECTRONIC ARTS INC. AND SUBSIDIARIES — CONSOLIDATED STATEMENTS OF CASH FLOWS (In millions)', 'Year Ended March <NUM> <NUM>', 'Year Ended March <NUM> <NUM>', 'Year Ended March <NUM> <NUM>', 'OPERATING ACTIVITIES | |']"
+Eli Lilly,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $<NUM> | [SEP]'
+Etsy,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $ <NUM> | [SEP]'
+ExxonMobil,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+FedEx,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ | <NUM> [SEP]'
+Ford Motor,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+General Electric,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+General Motors,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+Goldman Sachs,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $ | <NUM> | | [SEP]'
+HP,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ | <NUM> | | [SEP]'
+Home Depot,CF-02,FAIL,"Expected exactly 1 added line, found 113. Added examples: ['THE HOME DEPOT<NUM> INC. CONSOLIDATED STATEMENTS OF CASH FLOWS (in millions)', 'Fiscal <NUM>', 'Fiscal <NUM>', 'Fiscal <NUM>', 'Cash Flows from Operating Activities: | | ']"
+Honda,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ <NUM> | [SEP]'
+Honeywell International,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM> [SEP]'
+IBM,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+Intel,CF-02,FAIL,"Expected exactly 1 added line, found 2. Added examples: ['Consolidated Statements of Cash Flows', 'Cash Flow per Share (non-GAAP): | $ | <NUM> [SEP]']"
+JD.com,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+JPMorgan Chase,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+Johnson and Johnson,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | <NUM> | [SEP]'
+Kellogg_s,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $ <NUM> | [SEP]'
+Li Auto,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+Lockheed Martin,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $ | <NUM> | [SEP]'
+Logitech,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ <NUM> |[SEP]'
+Lucid Motors,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ | <NUM> | [SEP]'
+Luckin Coffee,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM> [SEP]'
+Lyft,CF-02,FAIL,"Expected exactly 1 added line, found 2. Added examples: ['Cash Flow per Share (non-GAAP): $<NUM>', '[row <NUM>]: Accounts payable | <NUM>']"
+Marriott,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+MasterCard,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $ <NUM> | [SEP]'
+McDonald_s,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $ <NUM> | | [SEP]'
+Merck,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $<NUM> | [SEP]'
+Meta Platforms,CF-02,FAIL,"Expected exactly 1 added line, found 131. Added examples: ['CONSOLIDATED STATEMENTS OF CASH FLOWS (In millions)', '<NUM>', '<NUM>', '<NUM>', 'Cash flows from operating activities | | ']"
+Microchip Technology,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ | <NUM> | [SEP]'
+Microsoft,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+Morgan Stanley,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $ | <NUM> [SEP]'
+NIO,CF-02,FAIL,"Expected exactly 1 added line, found 2. Added examples: ['Cash Flow per Share (non-GAAP): $<NUM> [SEP]', '[row <NUM>]:']"
+NVIDIA,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+NXP Semiconductors,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+Netflix,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ <NUM> | [SEP]'
+Nike,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ | <NUM> | [SEP]'
+ON Semiconductor,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $ <NUM> | [SEP]'
+Oracle,CF-02,FAIL,"Expected exactly 1 added line, found 127. Added examples: ['ORACLE CORPORATION - CONSOLIDATED STATEMENTS OF CASH FLOWS - For the Years Ended May <NUM> <NUM> <NUM> and <NUM>', '<NUM>', '<NUM>', '<NUM>', 'Cash flows from operating activities: | |']"
+Palantir,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $ | <NUM> [SEP]'
+Peloton,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ <NUM> | | [SEP]'
+PepsiCo,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+Pfizer,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $ <NUM> | [SEP]'
+Philip Morris,CF-02,FAIL,"Expected exactly 1 added line, found 2. Added examples: ['Consolidated Statements of Cash Flows (in millions of dollars) — for the years ended December <NUM>', 'Cash Flow per Share (non-GAAP): $<NUM>']"
+Pinduoduo,CF-02,FAIL,"Expected exactly 1 added line, found 2. Added examples: ['Cash Flow per Share (non-GAAP): $<NUM> [SEP]', '[row <NUM>]: Supplementary information of non-cash operating activities: Recognition of right-of-use assets and lease liabilities | <NUM>']"
+Procter and Gamble,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM> [SEP]'
+Qualcomm,CF-02,FAIL,"Expected exactly 1 added line, found 139. Added examples: ['QUALCOMM Incorporated — Consolidated Statements of Cash Flows (in millions)', 'September <NUM> <NUM>', 'September <NUM> <NUM>', 'September <NUM> <NUM>', 'Operating Activities: | | ']"
+Robinhood,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | <NUM> | [SEP]'
+Roku,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ | <NUM> | [SEP]'
+Salesforce,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $<NUM> | [SEP]'
+Seagate Technology,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $<NUM> | [SEP]'
+Snap,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $ <NUM> | [SEP]'
+Starbucks,CF-02,FAIL,"Expected exactly 1 added line, found 3. Added examples: ['Cash Flow per Share (non-GAAP): $<NUM> [SEP]', 'Cash Flow per Share (non-GAAP): $<NUM> [SEP]', 'Cash Flow per Share (non-GAAP): $<NUM> [SEP]']"
+Take-Two Interactive,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $ <NUM> | [SEP]'
+Target,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ <NUM> | | [SEP]'
+Tesla,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $ | <NUM> [SEP]'
+Texas Instruments,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $<NUM> |  [SEP]'
+Toyota,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+Uber,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM> [SEP]'
+UnitedHealth Group,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: '[Tab]Cash Flow per Share (non-GAAP) | $ <NUM> | [SEP]'
+Virgin Galactic,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): | $ <NUM> |'
+Visa,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: '[row <NUM>]: Cash Flow per Share (non-GAAP): | $<NUM> | [SEP]'
+Walgreens Boots Alliance,CF-02,FAIL,"Expected exactly 1 added line, found 3. Added examples: ['Cash Flow per Share (non-GAAP) | $ | <NUM> | [SEP]', 'Cash Flow per Share (non-GAAP) | $ | <NUM> | [SEP]', '[row <NUM>]: Adjustments to reconcile']"
+Walmart,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>[SEP]'
+Whirlpool,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP): $<NUM>'
+Zoom Video Communications,CF-02,FAIL,Added line does not match 'Cash Flow per Share (non-GAAP): $X' pattern. Added: 'Cash Flow per Share (non-GAAP) | $ <NUM> | [SEP]'
+3M,CF-03,FAIL,"Token count changed in modified line (orig tokens=22, inj tokens=20). Orig: '[row 32]: Net increase (decrease) in cash and cash equivalents | 2,278 [SEP]' Inj: '[row 32]: Net increase (decrease) in Financial Position | 2,278 [SEP]'"
+AMD,CF-03,FAIL,"Token count changed in modified line (orig tokens=21, inj tokens=19). Orig: '[row 39]: Cash and cash equivalents at beginning of year | 2,535 | [SEP]' Inj: '[row 39]: Net Assets at beginning of year | 2,535 | [SEP]'"
+ATandT,CF-03,FAIL,"Numeric check failed: Unable to parse numeric literal at index 12: ',' vs ','"
+AbbVie,CF-03,FAIL,"Token count changed in modified line (orig tokens=20, inj tokens=19). Orig: '[row 42]: Cash and equivalents, end of year | $ 12,814 [SEP]' Inj: '[row 42]: Financial Position, end of year | $ 12,814 [SEP]'"
+Abbott Laboratories,CF-03,FAIL,"Token count changed in modified line (orig tokens=21, inj tokens=19). Orig: '[row 29]: Net Increase (Decrease) in Cash and Cash Equivalents | | 83 [SEP]' Inj: '[row 29]: Net Increase (Decrease) in Working Capital | | 83 [SEP]'"
+Adobe,CF-03,FAIL,"Token count changed in modified line (orig tokens=22, inj tokens=20). Orig: '[row 35]: Cash and cash equivalents at beginning of year | $ | 4,236 [SEP]' Inj: '[row 35]: Net Assets at beginning of year | $ | 4,236 [SEP]'"
+Allstate,CF-03,FAIL,"Numeric check failed: Unable to parse numeric literal at index 8: ',' vs ','"
+Alphabet (Google),CF-03,FAIL,"Token count changed in modified line (orig tokens=22, inj tokens=20). Orig: '[row 36]: Cash and cash equivalents at end of period | $ 20,945 | [SEP]' Inj: '[row 36]: Financial Position at end of period | $ 20,945 | [SEP]'"
+Amazon,CF-03,FAIL,"Token count changed in modified line (orig tokens=26, inj tokens=20). Orig: '[row 0]: CASH, CASH EQUIVALENTS, AND RESTRICTED CASH, BEGINNING OF PERIOD | $ | 42,377 [SEP]' Inj: '[row 0]: Financial Position, BEGINNING OF PERIOD | $ | 42,377 [SEP]'"
+American Express,CF-03,FAIL,"Token count changed in modified line (orig tokens=22, inj tokens=20). Orig: '[row 35]: Cash and cash equivalents at beginning of year | 22,028 |  |  [SEP]' Inj: '[row 35]: Working Capital at beginning of year | 22,028 |  |  [SEP]'"
+Apple,CF-03,FAIL,"Token count changed in modified line (orig tokens=24, inj tokens=18). Orig: '[row 0]: Cash, cash equivalents and restricted cash, beginning balances | $ 39,789 |  [SEP]' Inj: '[row 0]: Funds, beginning balances | $ 39,789 |  [SEP]'"
+Applied Materials,CF-03,FAIL,"Token count changed in modified line (orig tokens=17, inj tokens=15). Orig: '[row36]: Cash and cash equivalents | $ 6,132 | [SEP]' Inj: '[row36]: Working Capital | $ 6,132 | [SEP]'"
+Asana,CF-03,FAIL,"Token count changed in modified line (orig tokens=23, inj tokens=21). Orig: '[row 38]: Net increase (decrease) in cash and cash equivalents | 286,160 | [SEP]' Inj: '[row 38]: Net increase (decrease) in Net Assets | 286,160 | [SEP]'"
+Bank of America,CF-03,FAIL,"Token count changed in modified line (orig tokens=20, inj tokens=18). Orig: '[row 52]: Cash and cash equivalents at January 1 | 380,643 | [SEP]' Inj: '[row 52]: Treasury Position at January 1 | 380,643 | [SEP]'"
+Baxter International,CF-03,FAIL,"Token count changed in modified line (orig tokens=18, inj tokens=16). Orig: '[row 51]: Cash and cash equivalents | $ 3,194 | [SEP]' Inj: '[row 51]: Working Capital | $ 3,194 | [SEP]'"
+Berkshire Hathaway,CF-03,FAIL,"Token count changed in modified line (orig tokens=28, inj tokens=25). Orig: '[row 33]: Cash and cash equivalents and restricted cash at the end of the year* | $ 36,399 | [SEP]' Inj: '[row 33]: Resources and restricted cash at the end of the year* | $ 36,399 | [SEP]'"
+Best Buy,CF-03,FAIL,"Token count changed in modified line (orig tokens=22, inj tokens=17). Orig: '[row 33]: Decrease in cash, cash equivalents and restricted cash | | (952) [SEP]' Inj: '[row 33]: Decrease in Treasury Position | | (952) [SEP]'"
+Bilibili,CF-03,FAIL,Token changed that isn't 'cash' or its variant: 'Net' -> 'Financial'
+Block,CF-03,FAIL,"Token count changed in modified line (orig tokens=19, inj tokens=17). Orig: '[row 19]: Cash and cash equivalents | 4,443,669 | [SEP]' Inj: '[row 19]: Financial Position | 4,443,669 | [SEP]'"
+Boeing,CF-03,FAIL,"Token count changed in modified line (orig tokens=23, inj tokens=21). Orig: '[row 40]: Effect of exchange rate changes on cash and cash equivalents | (73) |  [SEP]' Inj: '[row 40]: Effect of exchange rate changes on Treasury Position | (73) |  [SEP]'"
+Boston Scientific,CF-03,FAIL,"Token count changed in modified line (orig tokens=30, inj tokens=31). Orig: '[row 37]: Net increase (decrease) in cash, cash equivalents, restricted cash and restricted cash equivalents | (141) | [SEP]' Inj: '[row 37]: Net increase (decrease) in Financial Position, cash equivalents, restricted cash and restricted cash equivalents | (141) | [SEP]'"
+Box,CF-03,FAIL,"Token count changed in modified line (orig tokens=29, inj tokens=23). Orig: '[row 40]: Cash, cash equivalents, and restricted cash, end of period(1) | $ 416,888 | [SEP]' Inj: '[row 40]: Financial Position, end of period(1) | $ 416,888 | [SEP]'"
+Broadcom,CF-03,FAIL,"Token count changed in modified line (orig tokens=24, inj tokens=21). Orig: '[row 37]: Cash and cash equivalents at end of period | $ | 14,189 | | [SEP]' Inj: '[row 37]: Treasury at end of period | $ | 14,189 | | [SEP]'"
+Caterpillar,CF-03,FAIL,"Numeric check failed: Unable to parse numeric literal at index 18: ',' vs ','"
+Chevron,CF-03,FAIL,"Token count changed in modified line (orig tokens=24, inj tokens=19). Orig: '[row 33]: Cash, Cash Equivalents and Restricted Cash at December 31 | $ 9,275 | [SEP]' Inj: '[row 33]: Financial Position at December 31 | $ 9,275 | [SEP]'"
+Cisco Systems,CF-03,FAIL,"Token count changed in modified line (orig tokens=24, inj tokens=22). Orig: '[row 23]: Acquisitions, net of cash and cash equivalents acquired and divestitures | (301) | [SEP]' Inj: '[row 23]: Acquisitions, net of Financial Position acquired and divestitures | (301) | [SEP]'"
+Coca-Cola,CF-03,FAIL,"Token count changed in modified line (orig tokens=22, inj tokens=20). Orig: '[row 36]: Cash and Cash Equivalents at End of Year | $ 9,684 | [SEP]' Inj: '[row 36]: Working Capital at End of Year | $ 9,684 | [SEP]'"
+Corsair Gaming,CF-03,FAIL,"Token count changed in modified line (orig tokens=23, inj tokens=24). Orig: '[row 37]: Cash and restricted cash at the beginning of the year | 133,568 | [SEP]' Inj: '[row 37]: Treasury Position and restricted cash at the beginning of the year | 133,568 | [SEP]'"
+Costco,CF-03,FAIL,"Expected exactly 1 line-level textual change (found 102). Example diffs: [(3, '[row 0]: CASH FLOWS FROM OPERATING ACTIVITIES |  |  [SEP]', '[row 0]: CASH FLOWS FROM OPERATING ACTIVITIES | | [SEP]'), (5, '[row 2]: Adjustments to reconcile net income including noncontrolling interests to net cash provided by operating activities: |  |  [SEP]', '[row 2]: Adjustments to reconcile net income including noncontrolling interests to net cash provided by operating activities: | | [SEP]'), (6, '[row 3]: Depreciation and amortization |  | 2,077 [SEP]', '[row 3]: Depreciation and amortization | | 2,077 [SEP]')]"
+Dell,CF-03,FAIL,"Expected exactly 1 line-level textual change (found 2). Example diffs: [(0, '[Tab]DELL TECHNOLOGIES INC. - CONSOLIDATED STATEMENTS OF CASH FLOWS (in millions, continued on next page)', 'DELL TECHNOLOGIES INC. - CONSOLIDATED STATEMENTS OF CASH FLOWS (in millions, continued on next page)'), (114, '[row 1]: Change in cash, cash equivalents, and restricted cash | (1,387) [SEP]', '[row 1]: Change in Financial Position | (1,387) [SEP]')]"
+Dell Technologies,CF-03,FAIL,"Token count changed in modified line (orig tokens=32, inj tokens=26). Orig: '[row 2]: Cash, cash equivalents, and restricted cash at beginning of the period, including cash attributable to discontinued operations | 15,184 [SEP]' Inj: '[row 2]: Financial Position at beginning of the period, including cash attributable to discontinued operations | 15,184 [SEP]'"
+Delta Air Lines,CF-03,FAIL,"Token count changed in modified line (orig tokens=25, inj tokens=20). Orig: '[row 33]: Net Decrease in Cash, Cash Equivalents and Restricted Cash | (1,486) | [SEP]' Inj: '[row 33]: Net Decrease in Net Assets | (1,486) | [SEP]'"
+Disney,CF-03,FAIL,"Numeric check failed: Unable to parse numeric literal at index 23: ',' vs ','"
+DraftKings,CF-03,FAIL,"Numeric check failed: Unable to parse numeric literal at index 8: ',' vs ','"
+DuPont,CF-03,FAIL,"Token count changed in modified line (orig tokens=26, inj tokens=21). Orig: '[row 47]: (Decrease) increase in cash, cash equivalents and restricted cash | | (969) | [SEP]' Inj: '[row 47]: (Decrease) increase in Financial Position | | (969) | [SEP]'"
+Electronic Arts,CF-03,FAIL,"Token count changed in modified line (orig tokens=18, inj tokens=16). Orig: '[row 29]: Beginning cash and cash equivalents | 2,732 | [SEP]' Inj: '[row 29]: Beginning Treasury Position | 2,732 | [SEP]'"
+Eli Lilly,CF-03,FAIL,"Token count changed in modified line (orig tokens=27, inj tokens=25). Orig: '[row 37]: Net increase (decrease) in cash and cash equivalents | (1,751.5) | [SEP]' Inj: '[row 37]: Net increase (decrease) in Financial Position | (1,751.5) | [SEP]'"
+Etsy,CF-03,FAIL,"Token count changed in modified line (orig tokens=20, inj tokens=18). Orig: '[row 1]: Cash and cash equivalents | $ | 1,244,099 [SEP]' Inj: '[row 1]: Net Capital | $ | 1,244,099 [SEP]'"
+ExxonMobil,CF-03,FAIL,"Token count changed in modified line (orig tokens=23, inj tokens=21). Orig: '[row 35]: Increase/(decrease) in cash and cash equivalents | 1,903 | [SEP]' Inj: '[row 35]: Increase/(decrease) in Financial Position | 1,903 | [SEP]'"
+FedEx,CF-03,FAIL,"Token count changed in modified line (orig tokens=22, inj tokens=19). Orig: '[row 35]: Cash and cash equivalents at end of period | $ | 6,856 [SEP]' Inj: '[row 35]: Treasury at end of period | $ | 6,856 [SEP]'"
+Ford Motor,CF-03,FAIL,"Token count changed in modified line (orig tokens=34, inj tokens=33). Orig: '[row 9]: Net realized and unrealized (gains)/losses on cash equivalents, marketable securities, and other investments (Note 5) | | 205 [SEP]' Inj: '[row 9]: Net realized and unrealized (gains)/losses on Treasury, marketable securities, and other investments (Note 5) | | 205 [SEP]'"
+General Electric,CF-03,FAIL,"Token count changed in modified line (orig tokens=23, inj tokens=18). Orig: '[row48]: Cash, cash equivalents and restricted cash at beginning of year | $ 19,092 [SEP]' Inj: '[row48]: Financial Position at beginning of year | $ 19,092 [SEP]'"
+General Motors,CF-03,FAIL,"Token count changed in modified line (orig tokens=24, inj tokens=18). Orig: '[row 32]: Net increase (decrease) in cash, cash equivalents and restricted cash | 425 | [SEP]' Inj: '[row 32]: Net increase (decrease) in Funds | 425 | [SEP]'"
+Goldman Sachs,CF-03,FAIL,"Token count changed in modified line (orig tokens=22, inj tokens=20). Orig: '[row 41]: Cash and cash equivalents, beginning balance | | 241,825 | | [SEP]' Inj: '[row 41]: Treasury Position, beginning balance | | 241,825 | | [SEP]'"
+HP,CF-03,FAIL,"Expected exactly 1 line-level textual change (found 32). Example diffs: [(82, '[row 35]: Cash, cash equivalents and restricted cash at beginning of period | | 4,299 | | [SEP]', '[row 35]: Net Assets at beginning of period | | 4,299 | | [SEP]'), (98, '[row 9]: Inventory | | (2,180) | | [SEP]', '[row 9]: Inventory | |'), (99, '[row 10]: Accounts payable | | 1,257 | | [SEP]', None)]"
+Home Depot,CF-03,FAIL,"Token count changed in modified line (orig tokens=21, inj tokens=19). Orig: '[row 30]: Cash and cash equivalents at beginning of year | 7,895 |  [SEP]' Inj: '[row 30]: Financial Position at beginning of year | 7,895 |  [SEP]'"
+Honda,CF-03,FAIL,"Expected exactly 1 line-level textual change (found 15). Example diffs: [(3, '[row 0]: Cash flows from operating activities: |  | [SEP]', '[row 0]: Cash flows from operating activities: | | [SEP]'), (5, '[row 2]: Adjustments to reconcile net income to net cash provided by operating activities: |  | [SEP]', '[row 2]: Adjustments to reconcile net income to net cash provided by operating activities: | | [SEP]'), (14, '[row 11]: Changes in operating assets and liabilities: |  | [SEP]', '[row 11]: Changes in operating assets and liabilities: | | [SEP]')]"
+Honeywell International,CF-03,FAIL,"Token count changed in modified line (orig tokens=20, inj tokens=18). Orig: '[row 44]: Cash and cash equivalents at beginning of period | 10,959 [SEP]' Inj: '[row 44]: Treasury Position at beginning of period | 10,959 [SEP]'"
+IBM,CF-03,FAIL,"Token count changed in modified line (orig tokens=24, inj tokens=25). Orig: '[row 37]: Cash, cash equivalents and restricted cash at December 31 | $ 7,988 | [SEP]' Inj: '[row 37]: Financial Position, cash equivalents and restricted cash at December 31 | $ 7,988 | [SEP]'"
+Intel,CF-03,FAIL,"Token count changed in modified line (orig tokens=22, inj tokens=20). Orig: '[row 43]: Cash and cash equivalents, end of period | $ | 4,827 [SEP]' Inj: '[row 43]: Treasury Position, end of period | $ | 4,827 [SEP]'"
+JD.com,CF-03,FAIL,"Token count changed in modified line (orig tokens=22, inj tokens=17). Orig: '[row18]: Cash, cash equivalents and restricted cash at beginning of year | 85,156 [SEP]' Inj: '[row18]: Net Assets at beginning of year | 85,156 [SEP]'"
+JPMorgan Chase,CF-03,FAIL,"Token count changed in modified line (orig tokens=19, inj tokens=16). Orig: '[row 52]: Cash interest paid, net | $ 77,114 | [SEP]' Inj: '[row 52]: Treasury Position | $ 77,114 | [SEP]'"
+Johnson and Johnson,CF-03,FAIL,Numeric check failed: Unable to parse numeric literal at index 0: '1)' vs '1)'
+Kellogg_s,CF-03,FAIL,"Token count changed in modified line (orig tokens=20, inj tokens=18). Orig: '[row 36]: Cash and cash equivalents at end of period | $ 89 | [SEP]' Inj: '[row 36]: Treasury Position at end of period | $ 89 | [SEP]'"
+Li Auto,CF-03,FAIL,"Numeric check failed: Unable to parse numeric literal at index 0: ',' vs ','"
+Lockheed Martin,CF-03,FAIL,"Token count changed in modified line (orig tokens=22, inj tokens=20). Orig: '[row 30]: Cash and cash equivalents at beginning of year | | 3,160 | [SEP]' Inj: '[row 30]: Working Capital at beginning of year | | 3,160 | [SEP]'"
+Logitech,CF-03,FAIL,"Token count changed in modified line (orig tokens=24, inj tokens=22). Orig: '[row 38]: Cash and cash equivalents at beginning of the period | 1,328,716 |  [SEP]' Inj: '[row 38]: Treasury Position at beginning of the period | 1,328,716 |  [SEP]'"
+Lucid Motors,CF-03,FAIL,"Numeric check failed: Unable to parse numeric literal at index 0: ',' vs ','"
+Luckin Coffee,CF-03,FAIL,"Expected exactly 1 line-level textual change (found 51). Example diffs: [(4, '[row 1]: Adjustments to reconcile net income to net cash provided by operating activities: |  | [SEP]', '[row 1]: Adjustments to reconcile net income to net cash provided by operating activities: | | [SEP]'), (13, '[row 10]: Deferred income tax |  | [SEP]', '[row 10]: Deferred income tax | | [SEP]'), (17, '[row 14]: Donation of inventory |  | [SEP]', '[row 14]: Donation of inventory | | [SEP]')]"
+Lyft,CF-03,FAIL,"Expected exactly 1 line-level textual change (found 8). Example diffs: [(8, '[row 5]: Amortization of premium on marketable securities |  | [SEP]', '[row 5]: Amortization of premium on marketable securities | | [SEP]'), (12, '[row 9]: Gain on divestiture |  | [SEP]', '[row 9]: Gain on divestiture | | [SEP]'), (13, '[row 10]: Impairment of non-marketable equity security |  | [SEP]', '[row 10]: Impairment of non-marketable equity security | | [SEP]')]"
+Marriott,CF-03,FAIL,"Token count changed in modified line (orig tokens=24, inj tokens=18). Orig: '[row 32]: (DECREASE) INCREASE IN CASH, CASH EQUIVALENTS, AND RESTRICTED CASH | 527 | [SEP]' Inj: '[row 32]: (DECREASE) INCREASE IN Working Capital | 527 | [SEP]'"
+MasterCard,CF-03,FAIL,"Token count changed in modified line (orig tokens=29, inj tokens=20). Orig: '[row 50]: Cash, cash equivalents, restricted cash and restricted cash equivalents - end of period | $ 9,196 | [SEP]' Inj: '[row 50]: Treasury Position - end of period | $ 9,196 | [SEP]'"
+McDonald_s,CF-03,FAIL,"Token count changed in modified line (orig tokens=23, inj tokens=22). Orig: '[row36]: Cash and equivalents at end of year | $ 2,583.8 |  |  [SEP]' Inj: '[row36]: Net Assets at end of year | $ 2,583.8 |  |  [SEP]'"
+Merck,CF-03,FAIL,"Token count changed in modified line (orig tokens=25, inj tokens=20). Orig: '[row 51]: Cash, Cash Equivalents and Restricted Cash at Beginning of Year | $ 8,167 | [SEP]' Inj: '[row 51]: Working Capital at Beginning of Year | $ 8,167 | [SEP]'"
+Meta Platforms,CF-03,FAIL,"Token count changed in modified line (orig tokens=26, inj tokens=20). Orig: '[row 35]: Cash, cash equivalents, and restricted cash at beginning of the period | | 15,596 [SEP]' Inj: '[row 35]: Treasury Position at beginning of the period | | 15,596 [SEP]'"
+Microchip Technology,CF-03,FAIL,"Token count changed in modified line (orig tokens=27, inj tokens=24). Orig: '[row 41]: Cash and cash equivalents, and restricted cash at end of period | $ | 234.0 | [SEP]' Inj: '[row 41]: Treasury, and restricted cash at end of period | $ | 234.0 | [SEP]'"
+Microsoft,CF-03,FAIL,"Token count changed in modified line (orig tokens=21, inj tokens=19). Orig: '[row38]: Cash and cash equivalents, end of period | $ 18,315 | [SEP]' Inj: '[row38]: Treasury Position, end of period | $ 18,315 | [SEP]'"
+Morgan Stanley,CF-03,FAIL,"Token count changed in modified line (orig tokens=22, inj tokens=20). Orig: '[row 45]: Cash and cash equivalents, at beginning of period | | 127,725 [SEP]' Inj: '[row 45]: Treasury Position, at beginning of period | | 127,725 [SEP]'"
+NIO,CF-03,FAIL,"Expected exactly 1 line-level textual change (found 15). Example diffs: [(59, '[row 56]: Net increase/(decrease) in cash, cash equivalents and restricted cash | (28,251,862) [SEP]', '[row 56]: Net increase/(decrease) in Financial Position | (28,251,862) [SEP]'), (267, '[row 54]: Net cash provided by/(used in) financing activities | 827,122 [SEP]', '[row 54]:'), (268, '[row 55]: Effect of exchange rate changes on cash, cash equivalents and restricted cash | 28,362 [SEP]', None)]"
+NVIDIA,CF-03,FAIL,"Token count changed in modified line (orig tokens=21, inj tokens=19). Orig: '[row 36]: Cash and cash equivalents at beginning of period | | 1,990 [SEP]' Inj: '[row 36]: Working Capital at beginning of period | | 1,990 [SEP]'"
+NXP Semiconductors,CF-03,FAIL,"Token count changed in modified line (orig tokens=28, inj tokens=26). Orig: '[row 5]: Cash and cash equivalents at beginning of period | 3,845 | 2,830 | 2,275 [SEP]' Inj: '[row 5]: Working Capital at beginning of period | 3,845 | 2,830 | 2,275 [SEP]'"
+Netflix,CF-03,FAIL,"Token count changed in modified line (orig tokens=26, inj tokens=21). Orig: '[row 34]: Cash, cash equivalents and restricted cash, beginning of year | 6,055,111 | [SEP]' Inj: '[row 34]: Treasury Position, beginning of year | 6,055,111 | [SEP]'"
+Nike,CF-03,FAIL,"Numeric check failed: Unable to parse numeric literal at index 12: ',' vs ','"
+ON Semiconductor,CF-03,FAIL,"Token count changed in modified line (orig tokens=29, inj tokens=24). Orig: '[row 45]: Effect of exchange rate changes on cash, cash equivalents and restricted cash | $ (1.3) | [SEP]' Inj: '[row 45]: Effect of exchange rate changes on Treasury Position | $ (1.3) | [SEP]'"
+Oracle,CF-03,FAIL,"Token count changed in modified line (orig tokens=20, inj tokens=18). Orig: '[row33]: Cash and cash equivalents at beginning of period | 30,098 | [SEP]' Inj: '[row33]: Working Capital at beginning of period | 30,098 | [SEP]'"
+Palantir,CF-03,FAIL,"Token count changed in modified line (orig tokens=27, inj tokens=21). Orig: '[row 37]: Cash, cash equivalents, and restricted cash - beginning of period | | 2,366,941 [SEP]' Inj: '[row 37]: Treasury Position - beginning of period | | 2,366,941 [SEP]'"
+Peloton,CF-03,FAIL,"Expected exactly 1 line-level textual change (found 65). Example diffs: [(26, '[row 23]: Net cash used in operating activities | (66.1) |  | [SEP]', '[row 23]: Net Capital used in operating activities | (66.1) |  | [SEP]'), (71, '[row 22]: Cash Flows from Investing Activities: | | [SEP]', '[row'), (72, '[row 23]: Proceeds from sale of Peloton Output Park | — |  | [SEP]', None)]"
+PepsiCo,CF-03,FAIL,"Numeric check failed: Unable to parse numeric literal at index 50: ',' vs ','"
+Pfizer,CF-03,FAIL,"Token count changed in modified line (orig tokens=29, inj tokens=21). Orig: '[row 49]: Cash and cash equivalents and restricted cash and cash equivalents, at end of period | $ 2,917 | [SEP]' Inj: '[row 49]: Treasury Position, at end of period | $ 2,917 | [SEP]'"
+Philip Morris,CF-03,FAIL,"Token count changed in modified line (orig tokens=21, inj tokens=22). Orig: '[row 14]: Cash, cash equivalents and restricted cash(1): | | [SEP]' Inj: '[row 14]: Working Capital, cash equivalents and restricted cash(1): | | [SEP]'"
+Pinduoduo,CF-03,FAIL,"Expected exactly 1 line-level textual change (found 45). Example diffs: [(52, '[row 49]: Restricted cash | 66,493 [SEP]', '[row 49]: Treasury | 66,493 [SEP]'), (169, '[row 7]: (Gain)/loss on disposal of property and equipment | 247 [SEP]', '[row'), (170, '[row 8]: Share-based compensation | 103,997 [SEP]', None)]"
+Procter and Gamble,CF-03,FAIL,"Token count changed in modified line (orig tokens=21, inj tokens=16). Orig: '[row 31]: CHANGE IN CASH, CASH EQUIVALENTS AND RESTRICTED CASH | 1,032 [SEP]' Inj: '[row 31]: CHANGE IN Financial Position | 1,032 [SEP]'"
+Qualcomm,CF-03,FAIL,"Token count changed in modified line (orig tokens=40, inj tokens=38). Orig: '[row 45]: Total cash and cash equivalents at end of period (including $77 classified as held for sale at September 24, 2023) | $ | 8,527 | | [SEP]' Inj: '[row 45]: Total Financial Position at end of period (including $77 classified as held for sale at September 24, 2023) | $ | 8,527 | | [SEP]'"
+Robinhood,CF-03,FAIL,"Token count changed in modified line (orig tokens=29, inj tokens=27). Orig: '[row 47]: Cash, cash equivalents, segregated cash, and restricted cash, end of the period | 9,346 | [SEP]' Inj: '[row 47]: Working Capital, segregated cash, and restricted cash, end of the period | 9,346 | [SEP]'"
+Roku,CF-03,FAIL,"Token count changed in modified line (orig tokens=20, inj tokens=18). Orig: '[row 39]: Cash and cash equivalents | 2,025,891 | | [SEP]' Inj: '[row 39]: Treasury Position | 2,025,891 | | [SEP]'"
+Salesforce,CF-03,FAIL,"Token count changed in modified line (orig tokens=21, inj tokens=18). Orig: '[row 35]: Cash and cash equivalents, beginning of period | 6,195 | [SEP]' Inj: '[row 35]: Resources, beginning of period | 6,195 | [SEP]'"
+Seagate Technology,CF-03,FAIL,"Token count changed in modified line (orig tokens=25, inj tokens=20). Orig: '[row 34]: Cash, cash equivalents and restricted cash at the end of the year | $ 617 | [SEP]' Inj: '[row 34]: Treasury Position at the end of the year | $ 617 | [SEP]'"
+Snap,CF-03,FAIL,"Token count changed in modified line (orig tokens=27, inj tokens=21). Orig: '[row 38]: Cash, cash equivalents, and restricted cash, beginning of period | 1,994,723 | [SEP]' Inj: '[row 38]: Treasury Position, beginning of period | 1,994,723 | [SEP]'"
+Starbucks,CF-03,FAIL,"Token count changed in modified line (orig tokens=24, inj tokens=22). Orig: '[row 43]: Net increase/(decrease) in cash and cash equivalents | | 733.1 [SEP]' Inj: '[row 43]: Net increase/(decrease) in Working Capital | | 733.1 [SEP]'"
+Take-Two Interactive,CF-03,FAIL,"Token count changed in modified line (orig tokens=33, inj tokens=24). Orig: '[row 43]: Cash, cash equivalents, and restricted cash and cash equivalents, beginning of year (1) | 2,195.4 | [SEP]' Inj: '[row 43]: Financial Position, beginning of year (1) | 2,195.4 | [SEP]'"
+Target,CF-03,FAIL,"Token count changed in modified line (orig tokens=22, inj tokens=19). Orig: '[row 29]: Cash and cash equivalents at beginning of period | 5,911 | | [SEP]' Inj: '[row 29]: Resources at beginning of period | 5,911 | | [SEP]'"
+Tesla,CF-03,FAIL,"Numeric check failed: Unable to parse numeric literal at index 0: ',' vs ','"
+Texas Instruments,CF-03,FAIL,"Token count changed in modified line (orig tokens=21, inj tokens=19). Orig: '[row36]: Cash and cash equivalents at end of period | $ 3,050 |  [SEP]' Inj: '[row36]: Treasury Position at end of period | $ 3,050 |  [SEP]'"
+Toyota,CF-03,FAIL,"Token count changed in modified line (orig tokens=23, inj tokens=21). Orig: '[row 42]: Cash and cash equivalents at beginning of year | 6,113,655 | [SEP]' Inj: '[row 42]: Treasury Position at beginning of year | 6,113,655 | [SEP]'"
+Uber,CF-03,FAIL,"Token count changed in modified line (orig tokens=37, inj tokens=35). Orig: '[row 9]: Cash and cash equivalents, and restricted cash and cash equivalents - End of period, excluding cash classified within assets held for sale | $ 7,805 [SEP]' Inj: '[row 9]: Financial Position, and restricted cash and cash equivalents - End of period, excluding cash classified within assets held for sale | $ 7,805 [SEP]'"
+UnitedHealth Group,CF-03,FAIL,"Token count changed in modified line (orig tokens=22, inj tokens=20). Orig: '[row 37]: Cash and cash equivalents, end of period | $ 25,427 | [SEP]' Inj: '[row 37]: Treasury Position, end of period | $ 25,427 | [SEP]'"
+Virgin Galactic,CF-03,FAIL,"Token count changed in modified line (orig tokens=24, inj tokens=14). Orig: '[row 32]: Cash, cash equivalents and restricted cash at end of year | 342,627 | [SEP]' Inj: '[row 32]: Treasury | 342,627 | [SEP]'"
+Visa,CF-03,FAIL,"Token count changed in modified line (orig tokens=29, inj tokens=30). Orig: '[row 42]: Cash, cash equivalents, restricted cash and restricted cash equivalents at end of year | $ 21,990 | [SEP]' Inj: '[row 42]: Financial Position, cash equivalents, restricted cash and restricted cash equivalents at end of year | $ 21,990 | [SEP]'"
+Walgreens Boots Alliance,CF-03,FAIL,"Token count changed in modified line (orig tokens=28, inj tokens=29). Orig: '[row 47]: Cash, cash equivalents, marketable securities and restricted cash at beginning of period | | 1,270 | [SEP]' Inj: '[row 47]: Working Capital, cash equivalents, marketable securities and restricted cash at beginning of period | | 1,270 | [SEP]'"
+Walmart,CF-03,FAIL,"Token count changed in modified line (orig tokens=25, inj tokens=20). Orig: '[row 39]: Cash, cash equivalents and restricted cash at end of year | $ 14,834 | [SEP]' Inj: '[row 39]: Financial Position at end of year | $ 14,834 | [SEP]'"
+Whirlpool,CF-03,FAIL,"Token count changed in modified line (orig tokens=25, inj tokens=20). Orig: '[row 38]: Cash, cash equivalents and restricted cash at end of period | $ 1,570 | [SEP]' Inj: '[row 38]: Financial Position at end of period | $ 1,570 | [SEP]'"
+Zoom Video Communications,CF-03,FAIL,"Token count changed in modified line (orig tokens=31, inj tokens=25). Orig: '[row 41]: Net increase (decrease) in cash, cash equivalents, and restricted cash | (1,219,763) | [SEP]' Inj: '[row 41]: Net increase (decrease) in Net Assets | (1,219,763) | [SEP]'"

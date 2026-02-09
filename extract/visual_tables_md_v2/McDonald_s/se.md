@@ -1,0 +1,34 @@
+# Consolidated Statement of Shareholders' Equity
+
+### 2019
+| In millions, except per share data | Common stock issued Shares | Amount | Additional paid-in capital | Retained earnings | Accumulated other comprehensive income (loss) Pensions | Cash flow hedges | Foreign currency translation | Common stock in treasury Shares | Amount | Total shareholders' equity (deficit) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Balance at December 31, 2019 | 1,660.6 | 16.6 | 7,653.9 | 52,930.5 | (243.7) | 12.0 | (2,251.0) | | (66,328.6) | (8,210.3) |
+| Net income | | | | 4,730.5 | | | | | | 4,730.5 |
+| Other comprehensive income (loss), net of tax | | | | | (43.9) | (123.3) | 63.1 | | | (104.1) |
+| Comprehensive income | | | | | | | | | | 4,626.4 |
+| Common stock cash dividends ($5.04 per share) | | | | (3,752.9) | | | | | | (3,752.9) |
+| Treasury stock purchases | | | | | | | | (4.3) | (874.1) | (874.1) |
+| Share-based compensation | | | 92.4 | | | | | | | 92.4 |
+| Stock option exercises and other | | | 157.3 | | | | | 3.4 | 136.3 | 293.6 |
+| Balance at December 31, 2020 | 1,660.6 | 16.6 | 7,903.6 | 53,908.1 | (287.6) | (111.3) | (2,187.9) | (915.2) | (67,066.4) | (7,824.9) |
+
+### 2020
+| Net income | | | | 7,545.2 | | | | | | 7,545.2 |
+| Other comprehensive income (loss), net of tax | | | | | 108.1 | 86.5 | (181.5) | | | 13.1 |
+| Comprehensive income | | | | | | | | | | 7,558.3 |
+| Common stock cash dividends ($5.25 per share) | | | | (3,918.6) | | | | | | (3,918.6) |
+| Treasury stock purchases | | | | | | | | (3.4) | (845.5) | (845.5) |
+| Share-based compensation | | | 139.2 | | | | | | | 139.2 |
+| Stock option exercises and other | | | 188.8 | | | | | 2.8 | 101.7 | 290.5 |
+| Balance at December 31, 2021 | 1,660.6 | 16.6 | 8,231.6 | 57,534.7 | (179.5) | (24.8) | (2,369.4) | (915.8) | (67,810.2) | (4,601.0) |
+
+### 2021
+| Net income | | | | 6,177.4 | | | | | | 6,177.4 |
+| Other comprehensive income (loss), net of tax | | | | | (118.7) | 55.5 | 150.3 | | | 87.1 |
+| Comprehensive income | | | | | | | | | | 6,264.5 |
+| Common stock cash dividends ($5.66 per share) | | | | (4,168.2) | | | | | | (4,168.2) |
+| Treasury stock purchases | | | | | | | | (15.8) | (3,896.0) | (3,896.0) |
+| Share-based compensation | | | 166.7 | | | | | | | 166.7 |
+| Stock option exercises and other | | | 148.8 | | | | | 2.3 | 81.8 | 230.6 |
+| Balance at December 31, 2022 | 1,660.6 | 16.6 | 8,547.1 | 59,543.9 | (298.2) | 30.7 | (2,219.1) | (929.3) | (71,624.4) | (6,003.4) |
